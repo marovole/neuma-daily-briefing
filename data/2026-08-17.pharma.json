@@ -1,0 +1,217 @@
+{
+  "id": "pharma",
+  "title": "健康医药产业",
+  "summary": "周末不闲：康希诺成人百白破加强苗报产、博安CD228 ADC见缓解；康宁杰瑞双抗ADC出海首付1.25亿美元，礼来一天告14家替尔泊肽仿制，第12批集采65个品种全中。",
+  "items": [
+    {
+      "title": "康希诺青少年及成人百白破加强苗Td5cp报产获受理，优先审评填国内空白",
+      "summary": "8月16日晚康希诺公告，吸附无细胞百（五组分）白破联合疫苗（6岁及以上用，Td5cp）上市申请获NMPA受理，受理号CXSS2600123，5月已进CDE优先审评。这是青少年及成人百白破加强针，发达国家已纳入常规接种，国内尚无获批产品。公司婴幼儿三组分DT3cP（盼康欣）4月刚获批，Td5cp多了FIM2/FIM3两种百日咳抗原、各组分单独纯化配比，想跟婴幼儿苗拼出全年龄带。受理不等于过审，但空白赛道先占坑。",
+      "date": "2026-08-16",
+      "sources": [
+        {
+          "label": "北京商报/新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-16/doc-ininprze0731570.shtml"
+        },
+        {
+          "label": "智通财经",
+          "url": "https://finance.jrj.com.cn/2026/08/16181158133106.shtml"
+        }
+      ]
+    },
+    {
+      "title": "博安CD228 ADC BA1302完成中国Ia期，36例里四个瘤种见到PR",
+      "summary": "8月14日博安生物公告，全球目前唯一进临床的CD228 ADC BA1302完成中国Ia剂量递增：0.2–3.6 mg/kg共7档，入组36例晚期实体瘤，≥2.0 mg/kg有31例；83.3%至少两处转移、66.7%至少二线失败。三阴性乳腺癌2例里1例PR、CD228阳性食管癌3例里1例PR、≥2.0 mg/kg黑色素瘤12例里1例PR、唯一1例宫颈癌也PR。毒性以血液学和肝酶为主、多为1–2级。下一步开Ib剂量扩展，美国IND已批、鳞状NSCLC和胰腺癌拿了孤儿药。早期信号有了，PFS/OS还没熟。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "格隆汇/新浪财经",
+          "url": "https://finance.sina.com.cn/stock/bxjj/2026-08-14/doc-ininicva3982395.shtml"
+        },
+        {
+          "label": "星岛环球",
+          "url": "https://www.stnn.cc/detail/6a7fc5c946fa8110e50e15bc.html"
+        }
+      ]
+    },
+    {
+      "title": "康宁杰瑞把TROP2/HER3双抗ADC授权Pathos AI，首付1.25亿美元、里程碑最高20.93亿",
+      "summary": "8月3日签约、4日港交所公告：康宁杰瑞把JSKN016大中华以外独家研发生产和商业化给美国Pathos AI，不可退还首付1.25亿美元，开发及销售里程碑合计最高20.93亿美元，外加高个位数到低双位数分成；还拿一份6250万美元认购Pathos优先股的权证。康宁杰瑞留大中华。JSKN016是糖基定点偶联的TROP2/HER3双抗ADC，三阴性乳腺癌III期进行中，肺癌、乳腺癌联合和皮下制剂也在做。AI公司下场买双抗ADC，首付不算小，后面里程碑要看全球开发能不能跑起来。",
+      "date": "2026-08-03",
+      "sources": [
+        {
+          "label": "港交所公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080400074_c.pdf"
+        },
+        {
+          "label": "Pathos AI",
+          "url": "https://www.pathos.com/pathos-ai-enters-global-licensing-agreement-with-alphamab-oncology-on-jskn016-a-first-in-class-trop2-her3-bispecific-adc"
+        }
+      ]
+    },
+    {
+      "title": "信立泰GPC3 ADC SAL012临床试验申请获受理，受理号CXSL2600858",
+      "summary": "8月14日信立泰公告，1类治疗用生物制品注射用SAL012用于晚期实体瘤的IND获NMPA受理，受理号CXSL2600858，自受理起60日无否定意见即可按方案开临床。公司年报把SAL012标成GPC3 ADC，临床前显示剂量依赖性抑瘤、安全耐受可过关。GPC3肝癌赛道并不空，这还只是敲门，默示许可拿到才算进临床。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "界面新闻",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-14/doc-ininhtfn2537181.shtml"
+        },
+        {
+          "label": "公司公告/新浪财经",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-15/doc-ininiusu3763869.shtml"
+        }
+      ]
+    },
+    {
+      "title": "礼邦口服含铁磷结合剂AP301报产获受理，III期474例非劣于司维拉姆",
+      "summary": "8月7日礼邦医药宣布，透析CKD高磷血症口服药AP301胶囊NDA获NMPA受理。依据中国50中心关键III期RESPOND-1：474例3:1随机，AP301 355人、碳酸司维拉姆119人，治疗52周。第12周血清磷较基线降0.72 vs 0.70 mmol/L，差值95%CI上限0.06低于非劣界值0.19；第52周应答率66.7%对58.6%，日均剂量6.52克对7.56克。铁基磷结合剂想打依从性牌，审评过了才算进透析药房。",
+      "date": "2026-08-07",
+      "sources": [
+        {
+          "label": "美通社",
+          "url": "https://www.prnasia.com/story/543325-1.shtml"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/apac/zh/news-releases/ap301-302846026.html"
+        }
+      ]
+    },
+    {
+      "title": "礼来镥-177标记GRPR核药LY-4257496获中国临床默示许可",
+      "summary": "8月6日CDE公示，礼来LY-4257496注射液获默示许可，单药打GRPR阳性实体瘤。这是镥-177标记的胃泌素释放肽受体拮抗剂，属靶向放射配体疗法，GRPR在HR+乳腺癌等实体瘤高表达、正常组织低。全球I期OMNIRAY（NCT07114601）已在招，覆盖乳腺、结直肠、前列腺癌、内膜癌、胃食管等。礼来核药管线连着往中国报，国产核药赛道对面来了个大个子。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "摩熵医药",
+          "url": "https://www.pharnexcloud.com/zixun/bg_364492"
+        },
+        {
+          "label": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/study/NCT07114601"
+        }
+      ]
+    },
+    {
+      "title": "第12批国采开标：65个品种全中、327家521个产品，10个原研跟着降价",
+      "summary": "7月31日上海开标，第12批国家集采65种药全部采购成功，覆盖抗感染、抗肿瘤、抗血栓、降糖降压降脂等，全国4.5万家机构报量。现场495家859个产品投标，最终327家521个产品拟中选；齐鲁、科伦、石家庄四药、倍特都有十余个产品。诺华沙库巴曲缬沙坦、拜耳碘普罗胺、卫材倍他司汀、雅培地屈孕酮等10个参比制剂中选，创原研中选数新高。规则继续按厂牌报量、卡住极端低价。12批累计覆盖555种，官方说年内患者能用上降价药。",
+      "date": "2026-07-31",
+      "sources": [
+        {
+          "label": "国家医保局",
+          "url": "http://www.nhsa.gov.cn/art/2026/7/31/art_14_21646.html"
+        },
+        {
+          "label": "中国医药报",
+          "url": "http://bk.cnpharm.com/zgyyb/2026/08/04/325649.html"
+        }
+      ]
+    },
+    {
+      "title": "Skye反向并购英国Redx改名Fibrx，同步融资1.25亿美元押纤维化",
+      "summary": "8月14日Skye Bioscience宣布以英国法院协议安排收购Redx Pharma，合并后改名Fibrx Therapeutics、继续在纳斯达克交易，总部放回英国Alderley Park，由Redx管理层掌舵。同步融资约1.25亿美元：PIPE约6800万、Redx A轮3600万、股权额度最高2200万，投资方包括Abingworth、5AM、NEXTBio、Redmile。交割后Redx老股东约46%、新投资人约48%、Skye老股东只剩约5.4%。主资产RXC008是胃肠限制性pan-ROCK抑制剂，打纤维狭窄克罗恩，美国IND已开、1月拿Fast Track，II期顶线看2028下半年。Skye把减重抗体nimacimab停掉，肥胖赛道退出得挺干脆。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "GlobeNewswire/Markets Insider",
+          "url": "https://markets.businessinsider.com/news/stocks/skye-bioscience-and-redx-pharma-announce-transaction-agreement-and-125-million-in-financings-1036459571"
+        },
+        {
+          "label": "FirstWord Pharma",
+          "url": "https://firstwordpharma.com/story/7849121"
+        }
+      ]
+    },
+    {
+      "title": "Capricor杜氏肌营养不良细胞疗法拟改适应症补数据，8月22日PDUFA或延期",
+      "summary": "顾问委员会上月9:3投票认为deramiocel对杜氏心肌病证据不足后，CEO Linda Marbán 8月13日财报会上说：公司和FDA沟通后，计划向BLA补交HOPE-3的24个月开放延长期数据，把适应症收窄到上肢骨骼肌功能这一主要终点。FDA表示愿意审这份补充并相应延长审评，当前目标日是8月22日。Q2净亏4070万美元，账上现金约2.38亿美元。顾问委否了心肌病、对上肢功能更友善，这是在赌一条更窄的路，延期几乎板上钉钉。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Endpoints News",
+          "url": "https://endpoints.news/capricor-seeking-lifeline-for-duchenne-therapy-says-it-will-ask-fda-to-review-additional-data/"
+        },
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/drug-development/capricor-soars-on-potential-fda-review-extension-filing-amendments"
+        }
+      ]
+    },
+    {
+      "title": "礼来一天告14家替尔泊肽仿制药企，替尔泊肽去年全球卖超360亿美元",
+      "summary": "Law.com 8月14日报道：礼来8月6日在特拉华联邦法院对14家公司分别提起Hatch-Waxman诉讼，挡Mounjaro/Zepbound仿制，被告包括山德士、Hikma、Amneal、Dr. Reddy's、Biocon，以及中国的Hybio（海普）。替尔泊肽2025年全球销售超360亿美元，占礼来总营收56%。化合物专利US 9,474,780到2036年5月才到期，礼来7月收到ANDA通知后45天内起诉，自动触发30个月批准冻结。仿制药企赶在数据独占2027年到期前一年就递ANDAs，专利战开打得比产品生命周期早得多。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "Law.com",
+          "url": "https://www.law.com/delbizcourt/2026/08/14/eli-lilly-sues-mounjaro-zepbound-generics-as-glp-1-disputes-multiply/"
+        },
+        {
+          "label": "IAM",
+          "url": "https://www.iam-media.com/article/eli-lilly-sues-mounjarozepbound-generics-glp-1-disputes-multiply"
+        }
+      ]
+    },
+    {
+      "title": "Cytokinetics起诉BMS：要法院确认Myqorzo不侵犯Camzyos新专利",
+      "summary": "8月13日Cytokinetics在特拉华起诉BMS及其子公司MyoKardia，请求确认心肌肌球蛋白抑制剂Myqorzo（aficamten）不侵犯美国专利12,616,697，并宣告该专利无效。专利5月5日刚授权，覆盖用肌球蛋白调节剂治疗肥厚型心肌病、包括换掉β阻滞剂的方法。Myqorzo去年12月获批打梗阻性HCM，直接对标BMS的Camzyos。Cytokinetics称BMS“零参与”aficamten研发却拿方法专利当武器，要求禁令禁止对方威胁诉讼。心肌病双雄从货架打到法庭。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "SEC 8-K/StockTitan",
+          "url": "https://www.stocktitan.net/sec-filings/CYTK/8-k-cytokinetics-inc-reports-material-event-b83e8bf93b61.html"
+        },
+        {
+          "label": "FirstWord Pharma",
+          "url": "https://firstwordpharma.com/story/7849529"
+        }
+      ]
+    },
+    {
+      "title": "Xilio PD-1/掩蔽IL-2双抗XTX501获FDA IND，下半年开NSCLC I期",
+      "summary": "8月12日Xilio随Q2披露：XTX501的IND获FDA放行，将开I/II期（NCT07688577），先在转移性NSCLC和部分晚期实体瘤做单药剂量爬坡，2026下半年给药、2027下半年看NSCLC初步数据。这是PD-1/掩蔽IL-2双抗，想只刺激PD-1阳性、抗原经历过的T细胞，躲开传统IL-2的外周毒性和受体介导清除。掩蔽IL-2赛道拥挤，IND只是门票，I期安全窗才是故事能不能讲下去的关键。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Yahoo Finance/公司稿",
+          "url": "https://finance.yahoo.com/healthcare/articles/xilio-therapeutics-reports-second-quarter-113000141.html"
+        },
+        {
+          "label": "StockTitan",
+          "url": "https://www.stocktitan.net/news/XLO/xilio-therapeutics-reports-second-quarter-2026-financial-results-and-mobxppgqdcbt.html"
+        }
+      ]
+    },
+    {
+      "title": "Regeneron FOP抗体garetosmab本月PDUFA，III期新骨病灶减少90%–94%",
+      "summary": "再生元抗Activin A单抗garetosmab治疗进行性骨化性纤维发育不良（FOP）的BLA走优先审评，FDA目标决定日就在2026年8月。依据III期OPTIMA：63例成人每4周静脉给药56周，3 mg/kg组新异位骨化病灶数比安慰剂少94%（1对19，p=0.0274），10 mg/kg少90%（2对19，p=0.0260），病灶体积事后分析降幅超99%。全球已知患者大约八百到九百人，若过审将是首个能实质性减少新骨形成的对因疗法。确切日历日官方没钉死，本周是窗口。",
+      "date": "2026-08-17",
+      "sources": [
+        {
+          "label": "Regeneron IR",
+          "url": "https://investor.regeneron.com/news-releases/news-release-details/garetosmab-biologics-license-application-accepted-fda-priority"
+        },
+        {
+          "label": "Drugs.com",
+          "url": "https://www.drugs.com/history/garetosmab.html"
+        }
+      ]
+    },
+    {
+      "title": "Kiniksa心包炎后继分子KPL-387开III期，ARCALYST全年指引上调到9.80亿–9.95亿美元",
+      "summary": "周末行情还在消化Kiniksa组合拳：已上市周制剂ARCALYST（rilonacept）Q2净销售2.436亿美元同比增约55%，全年指引从9.30亿–9.45亿上调到9.80亿–9.95亿；约21%的1.4万名多次复发患者在用药。后继单抗KPL-387 II期间隔分析：300 mg每月皮下，中位4天达治疗应答、8天CRP正常，已选进关键III期PASTORALE，约85人随机撤药，主看首次复发时间，目标2028/2029上市。IL-1这条心包炎赛道，月制剂要来分周制剂的蛋糕。",
+      "date": "2026-08-16",
+      "sources": [
+        {
+          "label": "BioSpace/公司稿",
+          "url": "https://www.biospace.com/press-releases/kiniksa-pharmaceuticals-reports-second-quarter-2026-financial-results-and-recent-portfolio-execution"
+        },
+        {
+          "label": "Transcript Daily",
+          "url": "https://transcriptdaily.com/2026/08/16/kiniksa-highlights-arcalyst-growth-as-kpl-387-advances-into-phase-3.html"
+        }
+      ]
+    }
+  ]
+}

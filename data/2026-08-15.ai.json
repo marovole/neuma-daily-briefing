@@ -1,0 +1,228 @@
+{
+  "id": "ai",
+  "title": "AI / LLM 热点",
+  "summary": "本周主线从「谁更聪明」切到「谁更快、更合规、更能落地」：评测与可观测性融资、Anthropic 水印/买加速创业公司、智谱 GLM-5.3 与 Meta 本地开源 Agent、Nvidia 拉华尔街 5000 亿美元基建、苹果在华自训模型；本机档补上 Qwen3.8-27B，Apache 2.0 开源。",
+  "items": [
+    {
+      "title": "Anthropic 给 Claude 加水印：检测 API 很快来",
+      "summary": "8 月 14 日 Anthropic 发技术说明：未来 Claude 会用 DeepMind SynthID-Text 变体给文本打不可见水印，为了跟上 8 月 2 日起生效的欧盟 AI 法案，并和约 190 家机构一起签了透明度守则。因为暂时没法按地区开关，水印全球一起上；文件走开放标准 C2PA。第三方检测 API 正在敲细节，短期内还查不了。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-text-watermark"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/"
+        }
+      ]
+    },
+    {
+      "title": "阿里 Qwen3.8-27B 开源：Apache 2.0，官方称编程办公超过 3.7-Plus",
+      "summary": "昨天写了 2.4T 那档，漏了更能本机跑的 27B。Qwen 14 日把 Qwen3.8-27B 权重放到 Hugging Face / ModelScope，Apache 2.0，原生多模态（图+视频），上下文 262K、YaRN 可拉到 1M。官方自评 SWE-bench Pro 61.7（3.7-Plus 57.6）、Terminal Bench 2.1 为 73.0（3.7-Plus 64.0）、办公 CoWorkBench 70.7（3.7-Plus 65.1）。思考模式默认开，Qwen Cloud 托管 1M 版还在路上。2.4T 走定制商用许可，27B 才是真开源。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Hugging Face Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/"
+        }
+      ]
+    },
+    {
+      "title": "智谱 GLM-5.3 上线：基座没换，编程涨 50%",
+      "summary": "8 月 14 日 Z.ai 发布 GLM-5.3，7430 亿参数基座和 5.2 一样，全靠后训练硬拉智能。官方称自建 Code Bench 比 5.2 提升 50%，Terminal Bench 3.0 等公开编程基准拿下开源第一；网安能力意外涌现，称在真实代码库挖出 2436 个漏洞。现已进 ZCode 和 GLM Coding Plan，完整权重约两周后开源，先做安全加固。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Z.ai",
+          "url": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/"
+        }
+      ]
+    },
+    {
+      "title": "苹果在华自训大模型：阿里帮忙，Intelligence 要落地",
+      "summary": "路透 8 月 14 日独家：三位知情人士称，苹果已在阿里支持下训练一款专供中国市场的大模型，不再只靠第三方底座。这是监管备案之后的新动作——7 月网信办已登记 Apple Intelligence，预计未来几个月随系统更新上线。Qwen 仍会嵌进中国版 iPhone/iPad/Mac/Vision Pro，百度技术也会掺一把。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/"
+        },
+        {
+          "label": "Hindu Business Line",
+          "url": "https://www.thehindubusinessline.com/info-tech/apple-trains-its-own-ai-model-for-china-market-with-alibabas-support/article71344084.ece"
+        }
+      ]
+    },
+    {
+      "title": "Dynatrace 9.15 亿美元买 Arize：把 Agent 盯到生产",
+      "summary": "8 月 13 日纽交所上市公司 Dynatrace 宣布以约 9.15 亿美元现金加股票收购 AI 可观测创业公司 Arize，其中现金约 8.15 亿美元。交易预计本季末或下季初交割；两位创始人都会留下，Arize CEO 直接向 Dynatrace CEO 汇报。官方把 AI Observability 市场押到 2030 年超 100 亿美元，要打通评测、幻觉监测和线上 GPU/应用排障。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Dynatrace",
+          "url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 传 60 亿美元谈买 Decart：给 Claude 加速",
+      "summary": "彭博先报、路透 8 月 13 日跟进：Anthropic 在谈收购英伟达入股的以色列创业公司 Decart，对价约 60 亿美元，会是其已知最大收购。Decart 做跨 GPU/TPU/Trainium 的训练推理优化；若成交，团队预计并入 Anthropic 推理与性能部门。双方都未评论，消息称谈判仍早、随时可能黄。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropic-talks-buy-decart-ai-source-says-2026-08-13/"
+        },
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/"
+        }
+      ]
+    },
+    {
+      "title": "a16z 领投 Vals：4000 万美元，估值 4 亿",
+      "summary": "8 月 13–14 日，评测公司 Vals AI 完成 4000 万美元 A 轮、估值 4 亿美元，a16z 领投，8VC、Pear、Bloomberg Beta 跟投。它不考榜单题，而是把法律检索、财报分析、写能跑的应用变成专家级打分，私有题集限次防刷榜。同期上线 Vals Smith（用自家 GitHub 仓库做编码基准）和覆盖网安、心理健康的前沿风险评测。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Andreessen Horowitz",
+          "url": "https://a16z.com/announcement/investing-in-vals/"
+        },
+        {
+          "label": "Tech Funding News",
+          "url": "https://techfundingnews.com/a16z-leads-40m-vals-ai-round-at-400m-valuation-to-test-ai-on-real-world-tasks/"
+        }
+      ]
+    },
+    {
+      "title": "Thrive Holdings 再融 20 亿美元、估值 120 亿",
+      "summary": "OpenAI 入股的 Thrive Holdings 8 月 12 日宣布新募资超 20 亿美元、估值 120 亿美元，D1、Altimeter、软银首次作为外部投资人进场，累计融资超 30 亿美元。它按私募股权逻辑收购会计、IT 等传统公司，再把 OpenAI 团队嵌进去改流程，已运营 70 多家企业。新钱要扩现有平台，并开一条做美国实体基建审批与运维的新线。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Thrive Holdings",
+          "url": "https://www.thriveholdings.com/thrive-holdings-fundraise"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+        }
+      ]
+    },
+    {
+      "title": "谷歌 DeepMind 换帅后续：旗舰再拖两个月",
+      "summary": "路透 8 月 12 日独家回访：Hassabis 8 月 5 日改任主席、Koray Kavukcuoglu 接管日常后，Gemini 两位技术联席负责人离职创业。知情人士称内部测试显示新旗舰在编程等项仍落后，发布时间再延两个月；Sergey Brin 虽无行政职务，却在督战「追上前沿」。同日全员会确认部分非技术团队划出 DeepMind、并入谷歌总部汇报。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12/"
+        },
+        {
+          "label": "Google",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"
+        }
+      ]
+    },
+    {
+      "title": "微软 MAI-Code-1.1-Flash 进 Copilot：价砍七成还加视觉",
+      "summary": "GitHub 8 月 11 日 changelog：自家小杯编码模型 MAI-Code-1.1-Flash 开始在 Copilot 全端铺开，新增原生看图，列表价比一代 Flash 低 73%，年订用户按 0.25 倍溢价请求计。Free/学生走自动选模，付费档可手选；企业管理员默认关掉，要手动开策略。旧版 MAI-Code-1-Flash 将于 9 月 10 日退役。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "GitHub Changelog",
+          "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/"
+        },
+        {
+          "label": "Neowin",
+          "url": "https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 拿下 Riot 德州机房：20 年 91 亿美元",
+      "summary": "Riot Platforms 8 月 10 日公告：与「一家前沿 AI 实验室」签 20 年、191 兆瓦包租，首期合同收入约 91 亿美元，两段五年续约可到 161 亿美元；首批 96 兆瓦目标 2027 年 12 月，满配 2028 年 6 月。CNBC 随后确认租户是 Anthropic。加上 AMD 那单，Riot 德州校园已签下 241 兆瓦、约 98 亿美元长期收入。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "Riot Platforms",
+          "url": "https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html"
+        }
+      ]
+    },
+    {
+      "title": "英伟达拉华尔街 5000 亿美元：把算力做成资产",
+      "summary": "8 月 10 日 Nvidia 宣布与 Apollo、贝莱德、黑石、Brookfield、高盛、KKR 签谅解备忘录，要搭独立算力融资平台，目标动员超 5000 亿美元第三方资金。这是意向框架不是已到位现金，最终协议还没签。黄仁勋把「AI 工厂」说成新一类可投资基础设施，想让实验室和云厂商少掏自家资产负债表去买 GPU。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html"
+        }
+      ]
+    },
+    {
+      "title": "Meta 开源 Muse Glimmer：30B，一张消费级卡跑 Agent",
+      "summary": "Meta Superintelligence Labs 本周放出 300 亿参数开源权重模型 Muse Glimmer，许可证是公司迄今最宽松的 Apache 2.0。它专为本地常驻 Agent 调过：连续工具调用、失败重试、图文交错，量化后能塞进单张 24–32GB 消费级 GPU 或 Mac，没有 API Key、也没有按 token 账单。权重已上 Hugging Face，Ollama、vLLM、llama.cpp 等路径本周铺开。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Meta",
+          "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-glimmer/"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now"
+        }
+      ]
+    },
+    {
+      "title": "Claude Fable 5 生物安全阀松绑：误拦砍 85%",
+      "summary": "Anthropic 8 月 7 日更新 Fable 5 生物分类器：测试中生物相关「回退到弱模型」少了约 85%，claude.ai 总回退预计降 67%。看化验单、问症状、学生学生物这类请求会通得多；病毒学、毒理、分子设计等两用研究仍切到 Opus 5。公司承认上线时几乎一刀切挡住所有生物提问，现在才把良性用途从规则里抠出来。",
+      "date": "2026-08-07",
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+        },
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/"
+        }
+      ]
+    },
+    {
+      "title": "宇树科创板开闸：定价 150.8 元，DeepSeek 战略入股",
+      "summary": "宇树科技 8 月 6 日敲定科创板发行价 150.80 元/股，拟募约 61 亿元、发行后市值约 610 亿元，8 月 10 日开申购、12 日缴款。战略配售名单里有 DeepSeek 母公司（获配 93.34 万股、约 1.41 亿元，锁定 36 个月）和腾讯、中石油昆仑资本等。路透称网上认购超 8000 倍，中签率大约 0.018%，人形机器人第一股热度拉满。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "Global Times",
+          "url": "https://www.globaltimes.cn/page/202608/1367695.shtml"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/unitree-robotics-ipo-oversubscribed-8-175125684.html"
+        }
+      ]
+    }
+  ]
+}

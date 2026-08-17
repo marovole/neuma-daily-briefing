@@ -1,0 +1,837 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T06:00:00+08:00",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI / LLM 热点",
+      "summary": "本周主线从「谁更聪明」切到「谁更快、更合规、更能落地」：评测与可观测性融资、Anthropic 水印/买加速创业公司、智谱 GLM-5.3 与 Meta 本地开源 Agent、Nvidia 拉华尔街 5000 亿美元基建、苹果在华自训模型；本机档补上 Qwen3.8-27B，Apache 2.0 开源。",
+      "items": [
+        {
+          "title": "Anthropic 给 Claude 加水印：检测 API 很快来",
+          "summary": "8 月 14 日 Anthropic 发技术说明：未来 Claude 会用 DeepMind SynthID-Text 变体给文本打不可见水印，为了跟上 8 月 2 日起生效的欧盟 AI 法案，并和约 190 家机构一起签了透明度守则。因为暂时没法按地区开关，水印全球一起上；文件走开放标准 C2PA。第三方检测 API 正在敲细节，短期内还查不了。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/claude-text-watermark"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/"
+            }
+          ]
+        },
+        {
+          "title": "阿里 Qwen3.8-27B 开源：Apache 2.0，官方称编程办公超过 3.7-Plus",
+          "summary": "昨天写了 2.4T 那档，漏了更能本机跑的 27B。Qwen 14 日把 Qwen3.8-27B 权重放到 Hugging Face / ModelScope，Apache 2.0，原生多模态（图+视频），上下文 262K、YaRN 可拉到 1M。官方自评 SWE-bench Pro 61.7（3.7-Plus 57.6）、Terminal Bench 2.1 为 73.0（3.7-Plus 64.0）、办公 CoWorkBench 70.7（3.7-Plus 65.1）。思考模式默认开，Qwen Cloud 托管 1M 版还在路上。2.4T 走定制商用许可，27B 才是真开源。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Hugging Face Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/"
+            }
+          ]
+        },
+        {
+          "title": "智谱 GLM-5.3 上线：基座没换，编程涨 50%",
+          "summary": "8 月 14 日 Z.ai 发布 GLM-5.3，7430 亿参数基座和 5.2 一样，全靠后训练硬拉智能。官方称自建 Code Bench 比 5.2 提升 50%，Terminal Bench 3.0 等公开编程基准拿下开源第一；网安能力意外涌现，称在真实代码库挖出 2436 个漏洞。现已进 ZCode 和 GLM Coding Plan，完整权重约两周后开源，先做安全加固。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Z.ai",
+              "url": "https://z.ai/blog/glm-5.3"
+            },
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/"
+            }
+          ]
+        },
+        {
+          "title": "苹果在华自训大模型：阿里帮忙，Intelligence 要落地",
+          "summary": "路透 8 月 14 日独家：三位知情人士称，苹果已在阿里支持下训练一款专供中国市场的大模型，不再只靠第三方底座。这是监管备案之后的新动作——7 月网信办已登记 Apple Intelligence，预计未来几个月随系统更新上线。Qwen 仍会嵌进中国版 iPhone/iPad/Mac/Vision Pro，百度技术也会掺一把。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/business/retail-consumer/apple-trains-its-own-ai-model-china-market-with-alibabas-support-sources-say-2026-08-14/"
+            },
+            {
+              "label": "Hindu Business Line",
+              "url": "https://www.thehindubusinessline.com/info-tech/apple-trains-its-own-ai-model-for-china-market-with-alibabas-support/article71344084.ece"
+            }
+          ]
+        },
+        {
+          "title": "Dynatrace 9.15 亿美元买 Arize：把 Agent 盯到生产",
+          "summary": "8 月 13 日纽交所上市公司 Dynatrace 宣布以约 9.15 亿美元现金加股票收购 AI 可观测创业公司 Arize，其中现金约 8.15 亿美元。交易预计本季末或下季初交割；两位创始人都会留下，Arize CEO 直接向 Dynatrace CEO 汇报。官方把 AI Observability 市场押到 2030 年超 100 亿美元，要打通评测、幻觉监测和线上 GPU/应用排障。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Dynatrace",
+              "url": "https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-arize/"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic 传 60 亿美元谈买 Decart：给 Claude 加速",
+          "summary": "彭博先报、路透 8 月 13 日跟进：Anthropic 在谈收购英伟达入股的以色列创业公司 Decart，对价约 60 亿美元，会是其已知最大收购。Decart 做跨 GPU/TPU/Trainium 的训练推理优化；若成交，团队预计并入 Anthropic 推理与性能部门。双方都未评论，消息称谈判仍早、随时可能黄。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/technology/anthropic-talks-buy-decart-ai-source-says-2026-08-13/"
+            },
+            {
+              "label": "Fortune",
+              "url": "https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/"
+            }
+          ]
+        },
+        {
+          "title": "a16z 领投 Vals：4000 万美元，估值 4 亿",
+          "summary": "8 月 13–14 日，评测公司 Vals AI 完成 4000 万美元 A 轮、估值 4 亿美元，a16z 领投，8VC、Pear、Bloomberg Beta 跟投。它不考榜单题，而是把法律检索、财报分析、写能跑的应用变成专家级打分，私有题集限次防刷榜。同期上线 Vals Smith（用自家 GitHub 仓库做编码基准）和覆盖网安、心理健康的前沿风险评测。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Andreessen Horowitz",
+              "url": "https://a16z.com/announcement/investing-in-vals/"
+            },
+            {
+              "label": "Tech Funding News",
+              "url": "https://techfundingnews.com/a16z-leads-40m-vals-ai-round-at-400m-valuation-to-test-ai-on-real-world-tasks/"
+            }
+          ]
+        },
+        {
+          "title": "Thrive Holdings 再融 20 亿美元、估值 120 亿",
+          "summary": "OpenAI 入股的 Thrive Holdings 8 月 12 日宣布新募资超 20 亿美元、估值 120 亿美元，D1、Altimeter、软银首次作为外部投资人进场，累计融资超 30 亿美元。它按私募股权逻辑收购会计、IT 等传统公司，再把 OpenAI 团队嵌进去改流程，已运营 70 多家企业。新钱要扩现有平台，并开一条做美国实体基建审批与运维的新线。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Thrive Holdings",
+              "url": "https://www.thriveholdings.com/thrive-holdings-fundraise"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/"
+            }
+          ]
+        },
+        {
+          "title": "谷歌 DeepMind 换帅后续：旗舰再拖两个月",
+          "summary": "路透 8 月 12 日独家回访：Hassabis 8 月 5 日改任主席、Koray Kavukcuoglu 接管日常后，Gemini 两位技术联席负责人离职创业。知情人士称内部测试显示新旗舰在编程等项仍落后，发布时间再延两个月；Sergey Brin 虽无行政职务，却在督战「追上前沿」。同日全员会确认部分非技术团队划出 DeepMind、并入谷歌总部汇报。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/world/inside-google-executive-moves-that-led-its-big-ai-reshuffle-2026-08-12/"
+            },
+            {
+              "label": "Google",
+              "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"
+            }
+          ]
+        },
+        {
+          "title": "微软 MAI-Code-1.1-Flash 进 Copilot：价砍七成还加视觉",
+          "summary": "GitHub 8 月 11 日 changelog：自家小杯编码模型 MAI-Code-1.1-Flash 开始在 Copilot 全端铺开，新增原生看图，列表价比一代 Flash 低 73%，年订用户按 0.25 倍溢价请求计。Free/学生走自动选模，付费档可手选；企业管理员默认关掉，要手动开策略。旧版 MAI-Code-1-Flash 将于 9 月 10 日退役。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "GitHub Changelog",
+              "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/"
+            },
+            {
+              "label": "Neowin",
+              "url": "https://www.neowin.net/news/microsoft-releases-mai-code-11-flash-coding-model-to-better-compete-with-chinese-models/"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic 拿下 Riot 德州机房：20 年 91 亿美元",
+          "summary": "Riot Platforms 8 月 10 日公告：与「一家前沿 AI 实验室」签 20 年、191 兆瓦包租，首期合同收入约 91 亿美元，两段五年续约可到 161 亿美元；首批 96 兆瓦目标 2027 年 12 月，满配 2028 年 6 月。CNBC 随后确认租户是 Anthropic。加上 AMD 那单，Riot 德州校园已签下 241 兆瓦、约 98 亿美元长期收入。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "Riot Platforms",
+              "url": "https://www.riotplatforms.com/riot-platforms-reports-second-quarter-2026-financial-results-and-strategic-highlights/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html"
+            }
+          ]
+        },
+        {
+          "title": "英伟达拉华尔街 5000 亿美元：把算力做成资产",
+          "summary": "8 月 10 日 Nvidia 宣布与 Apollo、贝莱德、黑石、Brookfield、高盛、KKR 签谅解备忘录，要搭独立算力融资平台，目标动员超 5000 亿美元第三方资金。这是意向框架不是已到位现金，最终协议还没签。黄仁勋把「AI 工厂」说成新一类可投资基础设施，想让实验室和云厂商少掏自家资产负债表去买 GPU。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "NVIDIA",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html"
+            }
+          ]
+        },
+        {
+          "title": "Meta 开源 Muse Glimmer：30B，一张消费级卡跑 Agent",
+          "summary": "Meta Superintelligence Labs 本周放出 300 亿参数开源权重模型 Muse Glimmer，许可证是公司迄今最宽松的 Apache 2.0。它专为本地常驻 Agent 调过：连续工具调用、失败重试、图文交错，量化后能塞进单张 24–32GB 消费级 GPU 或 Mac，没有 API Key、也没有按 token 账单。权重已上 Hugging Face，Ollama、vLLM、llama.cpp 等路径本周铺开。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Meta",
+              "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-glimmer/"
+            },
+            {
+              "label": "VentureBeat",
+              "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now"
+            }
+          ]
+        },
+        {
+          "title": "Claude Fable 5 生物安全阀松绑：误拦砍 85%",
+          "summary": "Anthropic 8 月 7 日更新 Fable 5 生物分类器：测试中生物相关「回退到弱模型」少了约 85%，claude.ai 总回退预计降 67%。看化验单、问症状、学生学生物这类请求会通得多；病毒学、毒理、分子设计等两用研究仍切到 Opus 5。公司承认上线时几乎一刀切挡住所有生物提问，现在才把良性用途从规则里抠出来。",
+          "date": "2026-08-07",
+          "sources": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+            },
+            {
+              "label": "Unite.AI",
+              "url": "https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/"
+            }
+          ]
+        },
+        {
+          "title": "宇树科创板开闸：定价 150.8 元，DeepSeek 战略入股",
+          "summary": "宇树科技 8 月 6 日敲定科创板发行价 150.80 元/股，拟募约 61 亿元、发行后市值约 610 亿元，8 月 10 日开申购、12 日缴款。战略配售名单里有 DeepSeek 母公司（获配 93.34 万股、约 1.41 亿元，锁定 36 个月）和腾讯、中石油昆仑资本等。路透称网上认购超 8000 倍，中签率大约 0.018%，人形机器人第一股热度拉满。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "Global Times",
+              "url": "https://www.globaltimes.cn/page/202608/1367695.shtml"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/unitree-robotics-ipo-oversubscribed-8-175125684.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "women40",
+      "title": "40+ 女性热点",
+      "summary": "这周不是鸡汤周：广州团队把「运动延缓卵巢衰老」写进Nature Aging，早绝经叠加失业被证实放大死亡和痴呆；哈莉·贝瑞满60岁、林志玲晒甜菜根、舒淇喊「40岁后不能不吃」，中美两边都在把更年期从私密话题拽到台前。",
+      "items": [
+        {
+          "title": "【健康】广州团队Nature Aging：运动延缓卵巢衰老，英生物银行15.2万人印证",
+          "summary": "广州医科大学附属脑科医院团队14日在Nature Aging发文：英国生物银行15.2435万人横断面显示，绝经后女性体力活动明显低于未绝经者，美国NHANES 1.2418人同样趋势。小鼠实验里运动通过卵巢脂联素通路推迟卵巢老化，敲除脂联素后保护减弱；受体激动剂AdipoRon还能延长生殖寿命。目前没有获批的「延缓卵巢衰老」药，这篇把运动写成可验证的行为干预。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Nature Aging 论文",
+              "url": "https://www.nature.com/articles/s43587-026-01177-0"
+            },
+            {
+              "label": "Nature Aging 速览",
+              "url": "https://www.nature.com/articles/s43587-026-01176-1"
+            }
+          ]
+        },
+        {
+          "title": "【健康】早绝经再叠加失业：近2万女性随访10.8年，全因死亡和痴呆被放大",
+          "summary": "北美更年期学会12日在Menopause发表：近2万名48岁前自然绝经女性，按14项社会决定因素分成优/中/差三组，中位随访10.8年。社会劣势显著抬高全因死亡、心血管病和新发痴呆，14项里失业与死亡、痴呆关联最强；癌症没有显著关联。全球约6%女性会早绝经，作者呼吁把就业、住房、医保写进更年期问诊，别只盯激素。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "The Menopause Society",
+              "url": "https://menopause.org/press-releases/social-disadvantage-greatly-amplifies-risk-of-mortality-in-women-with-early-menopause"
+            },
+            {
+              "label": "News-Medical",
+              "url": "https://www.news-medical.net/news/20260812/Social-disadvantage-associated-with-increased-mortality-risk-in-women-with-early-natural-menopause.aspx"
+            }
+          ]
+        },
+        {
+          "title": "【生活】哈莉·贝瑞满60岁，斐济庆生顺手推59美元无激素阴道凝胶",
+          "summary": "奥斯卡影后8月14日满60岁，提前在斐济拍片喊「要像桃子一样多汁」，和Joylux推出FDA许可、无激素的Juicy Like a Peach凝胶，Ulta标价59美元、约30次用量。她说医生多年没提围绝经期，性交痛到像刀片才自己钻进更年期赛道。WWD转述《国际妇女健康杂志》综述：绝经后阴道干涩可高达50%。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "TheGrio",
+              "url": "https://thegrio.com/2026/08/03/halle-berry-60-birthday-juicy-like-a-peach/"
+            },
+            {
+              "label": "WWD",
+              "url": "https://wwd.com/shop/shop-beauty/halle-berry-vaginal-gel-menopause-symptoms-where-to-buy-1239091731/"
+            }
+          ]
+        },
+        {
+          "title": "【营养】51岁林志玲晒甜菜根早餐，医引英国75人试验：60岁后喝汁两周能降压",
+          "summary": "中时11日报道，林志玲在脸书分享燕麦、奇亚籽、优格配甜菜根，说「帮助血液循环」。肾内科医师江守山转述英国埃克塞特大学《自由基生物学与医学》交叉试验：75人（39名30岁以下、36名60–70岁）喝含硝酸盐甜菜根汁对比去硝酸盐安慰剂，连续两周每天两次后，只有年长组血压下降，口腔Prevotella减少、Neisseria上升。年轻组没看到降压。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "中时新闻网",
+              "url": "https://www.chinatimes.com/realtimenews/20260811001562-260418"
+            }
+          ]
+        },
+        {
+          "title": "【健康】BRCA别急着切卵巢：334人试验，只切输卵管一年性功能恶化少一半",
+          "summary": "Moffitt的Karen Lu团队写入JAMA Network Open：334名遗传突变携带者（入组均值39.2岁，BRCA1占49.1%）自选手术，165人切卵巢+输卵管、169人先只切输卵管。12个月性功能明显恶化分别是39.2%对18.3%；切卵巢又不做HRT的人，12个月恶化高达73.7%。中位随访73个月无人发生浸润性卵巢癌，但防癌效力还要等3000人的TUBA-WISP II。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Healio",
+              "url": "https://www.healio.com/news/hematology-oncology/20260813/novel-ovarian-cancer-prevention-surgery-benefits-sexual-function-menopausal-symptoms"
+            }
+          ]
+        },
+        {
+          "title": "【健康】卵巢不是被动仓库：小鼠3D图谱发现一生只唤醒约14%卵子",
+          "summary": "巴塞罗那基因组调控中心12日在Nature Aging交出第一张哺乳动物卵巢全生殖寿命3D地图：100多枚完整小鼠卵巢、AI数了超过8.5万个卵细胞。总储备掉约十倍，处于「休眠转生长」窗口的比例却一辈子钉在约14%。人类出生约100万卵，青春期剩约40万，绝经时约1000个、真正排卵约400个。作者说如果弄清大量卵子为何未排卵就损耗，才有机会推迟更年期。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "MedicalXpress",
+              "url": "https://medicalxpress.com/news/2026-08-3d-lifespan-mouse-ovaries-constant.html"
+            },
+            {
+              "label": "Nature Aging",
+              "url": "https://www.nature.com/articles/s43587-026-01178-z"
+            }
+          ]
+        },
+        {
+          "title": "【生活】1000名围绝经女性调查：三分之一不知道它会搞砸心情，七成拖半年才醒悟",
+          "summary": "心理健康连锁LifeStance 11日发布Dynata调查：1000名1960–1990年出生、自认围绝经或绝经的女性，33%不知道围绝经期会带来精神症状，66%说焦虑偏重或极重，54%说抑郁同样严重；74%症状持续六个月以上才怀疑是更年期。去过心理咨询的人里83%觉得有用，47%主张精神健康该写进围绝经期标准诊疗。文中引用2023 Mayo Clinic估算：更年期症状每年让美国少赚18亿美元生产力。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "PR Newswire / LifeStance",
+              "url": "https://www.prnewswire.com/news-releases/lifestance-survey-finds-women-want-mental-healthcare-built-into-perimenopause-and-menopause-care-302847433.html"
+            }
+          ]
+        },
+        {
+          "title": "【生活】印度卡纳塔克邦要让ASHA上门抓更年期，Ruthu Thare拟8月21日开跑",
+          "summary": "《印度教徒报》10日报道，卫生部长U.T. Khader宣布全邦公卫行动Ruthu Thare，暂定8月21日启动：第一阶段培训ASHA入户识别绝经女性并填问卷，第二阶段抓围绝经期和手术绝经高风险。委员会主席妇科医生Jyotsna Mirlay说，很多女性因围绝经期大出血被切子宫和双侧卵巢，事后才知道冠心病、骨折风险。女演员Divya Spandana将任妇女健康政策形象大使。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "The Hindu",
+              "url": "https://www.thehindu.com/news/national/karnataka/health-department-to-soon-launch-ruthu-thare-a-state-wide-campaign-to-deal-with-perimenopause-and-menopause/article71328489.ece"
+            }
+          ]
+        },
+        {
+          "title": "【生活】围绝经期Reddit一年翻近四倍：40–44岁女性42%不确定自己到没到",
+          "summary": "Stacker/Ivim 10日盘点：r/perimenopause在2025上半年订阅量相对2024同期几乎翻四倍；Weber Shandwick引用Reddit 2026年4月调查，70%女性觉得论坛让自己更敢跟医生谈。仍在转的Flo Health×Mayo《Menopause》7月14日研究：7640名35岁以上美国女性里34%说不清自己处在哪一生殖阶段，40–44岁高达42%。Pew 6月还发现55%的30–40多岁女性会从网红那儿拿健康信息。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "LocalNews8 / Stacker",
+              "url": "https://localnews8.com/stacker-womens-health/2026/08/10/women-are-building-online-communities-to-get-answers-about-whether-theyre-in-perimenopause/"
+            },
+            {
+              "label": "Flo Health（7月14日研究）",
+              "url": "https://flo.health/newsroom/a-perimenopause-guessing-game-flo-health-study-reveals-1-in-3-women-age-35-are-unsure-of-their-reproductive-stage"
+            }
+          ]
+        },
+        {
+          "title": "【生活】舒淇上《毛雪汪》：50岁放话「40岁后不能不吃」，体重锁死50公斤",
+          "summary": "金马影后8月3日做客李雪琴、毛不易的《毛雪汪》，抛出分龄吃法：40岁前少吃，过了40太瘦会「柴」、脸垮，35岁后得留一点肉。她说体重常年锁在50公斤，涨3公斤就启动管控，晚餐卡在下午6点前、睡前5小时不进食。中时4日跟进她IG短发下颌线照，粉丝喊「根本30岁」。",
+          "date": "2026-08-03",
+          "sources": [
+            {
+              "label": "中时新闻网",
+              "url": "https://www.chinatimes.com/realtimenews/20260804001806-260404"
+            },
+            {
+              "label": "新唐人",
+              "url": "https://www.ntdtv.com/gb/2026/08/05/a104121454.html"
+            }
+          ]
+        },
+        {
+          "title": "【健康】协和谭先杰上央视：40岁后单纯补雌激素会加子宫内膜癌，微博冲上话题",
+          "summary": "8月4日央视新闻经北京日报官微放出话题#40岁后不要单纯补充雌激素#：北京协和妇产科主任医师谭先杰说，有子宫的人只补雌激素、没有孕激素对抗，内膜被长期刺激，癌风险是升不是降。他强调要雌孕激素一起用、形成周期性出血，必须医生指导，别当抗衰老保健品乱吃。新浪、中安在线当天同步转载。",
+          "date": "2026-08-04",
+          "sources": [
+            {
+              "label": "新浪财经 / 北京晚报",
+              "url": "https://finance.sina.com.cn/jjxw/2026-08-04/doc-inimeefm2005473.shtml"
+            },
+            {
+              "label": "北京日报微博",
+              "url": "https://weibo.com/1617264814/RbRxmD54f"
+            }
+          ]
+        },
+        {
+          "title": "【营养】612名绝经后女性两年RCT：脂质体维D3骨密度比安慰剂多涨约1.7个百分点",
+          "summary": "《欧洲临床营养杂志》7日：50–75岁、T值-1.5到-2.5的612人分成普通维D3 1200IU、微粉化1200IU、脂质体800IU（均加钙1000mg）和安慰剂，各153人跟24个月。脂质体组25(OH)D到38.2 ng/mL，高于普通维D3的28.5；股骨颈和腰椎BMD均升2.8%，安慰剂升1.1%。新发脆性骨折脂质体1例（0.7%）对安慰剂8例（5.2%），但p=0.059未过统计门槛。",
+          "date": "2026-08-07",
+          "sources": [
+            {
+              "label": "European Journal of Clinical Nutrition",
+              "url": "https://www.nature.com/articles/s41430-026-01789-0"
+            }
+          ]
+        },
+        {
+          "title": "【健康】佐力药业灵莲花颗粒获批扩围绝经期焦虑试验，称中国更年期女性约2.1亿",
+          "summary": "8月12日A股公告：独家OTC灵莲花颗粒拿到国家药监局临床试验批件（中药2.3类，受理号CXZL2600050），拟新增「围绝经期综合征伴焦虑状态心肾不交证」。原适应症已是围绝经期心肾不交，核心原料乌灵菌粉。公司称中国更年期女性约2.1亿，并提醒研发周期长、对眼前业绩无重大影响。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "新浪财经 / 界面",
+              "url": "https://finance.sina.com.cn/jjxw/2026-08-12/doc-ininaezp3947571.shtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharma",
+      "title": "健康医药产业",
+      "summary": "本周中美审批与BD齐飞：Jazz砸最高13.2亿美元补罕见癫痫管线，国产ADC和免疫组合在华拿下肠癌、肺鳞癌新适应症，医保谈判材料截止、测算尺子提前亮出。",
+      "items": [
+        {
+          "title": "Jazz最高13.2亿美元买Actio，拿下KCNT1罕见癫痫口服药",
+          "summary": "Jazz Pharmaceuticals 8月10日宣布，以8.2亿美元首付款、最高5亿美元里程碑收购Actio Biosciences，总对价最高约13.2亿美元，预计2026年四季度交割。核心资产ABS-1230是口服KCNT1离子通道抑制剂，美国约2500名患者、尚无FDA获批疗法，已被纳入FDA罕见病证据原则（RDEP）通道，进行中的KYRON 1b/2a拟作注册研究。交割同时Actio将剥离TRPV4抑制剂ABS-0871等资产成立新公司，Jazz持股。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "Jazz IR",
+              "url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-acquire-actio-biosciences-expanding-rare"
+            },
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-to-acquire-actio-biosciences-expanding-rare-epilepsy-portfolio-302847060.html"
+            }
+          ]
+        },
+        {
+          "title": "Replimune溶瘤病毒Tudriqev加速获批，PD-1失败黑色素瘤ORR 24.2%",
+          "summary": "FDA于8月6日加速批准Replimune的Tudriqev（vusolimogene oderparepvec，原RP1）联合纳武利尤单抗，用于抗PD-1方案进展后的不可切除晚期皮肤黑色素瘤。IGNYTE入组140例，91例可评估人群ORR 24.2%、中位缓解持续14.1个月，80%为IV期、54% PD-L1阴性。该申请此前两度CRL，顾问委员会7月30日10:3投票支持后放行，确证性III期IGNYTE-3进行中。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "GlobeNewswire",
+              "url": "https://www.globenewswire.com/news-release/2026/08/06/3340656/0/en/Replimune-Announces-FDA-Accelerated-Approval-of-TUDRIQEVTM-in-Combination-with-Nivolumab-for-Unresectable-Advanced-Cutaneous-Melanoma-After-Progression-on-an-anti-PD-1-Based-Regime.html"
+            },
+            {
+              "label": "PharmExec",
+              "url": "https://www.pharmexec.com/view/fda-grants-accelerated-approval-tudriqev-combination-nivoumab-melanoma"
+            }
+          ]
+        },
+        {
+          "title": "MoonLake纳米抗体sonelokimab银屑病关节炎III期达终点，ACR50为42.1%",
+          "summary": "MoonLake 8月10日公布IZAR-1 III期顶线：生物制剂初治银屑病关节炎患者，sonelokimab 60 mg诱导组第16周ACR50达42.1%，ACR20 66.5%、MDA 41.2%、伴皮损者PASI90为61%，全部临床终点达标。试验按FDA方案暂不披露相对安慰剂差值，52周完整数据预计2027上半年；头对头Skyrizi的IZAR-2预计三季度完成入组。公司季末现金5.37亿美元，称跑道到2028年中。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "MoonLake IR",
+              "url": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-positive-topline-results-phase-3-izar-1-trial/"
+            },
+            {
+              "label": "Fierce Biotech",
+              "url": "https://www.fiercebiotech.com/biotech/moonlakes-nanobody-candidate-boosts-all-clinical-endpoints-phase-3-psoriatic-arthritis"
+            }
+          ]
+        },
+        {
+          "title": "Tenax口服左西孟旦LEVEL III期未达终点，6分钟步行仅多走3.5米",
+          "summary": "Tenax 8月10日公布TNX-103（口服左西孟旦）治疗射血分数保留心衰合并肺高压的III期LEVEL：241例随机，第12周6分钟步行距离较安慰剂仅多3.5米（p=0.63），KCCQ症状评分几乎打平。预设亚组里，基线步行<333米者改善26.3米，整体NT-proBNP较安慰剂降49%。公司拟约FDA Type C会议讨论富集入组，完整数据将在8月底ESC年会公布。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "BioSpace",
+              "url": "https://www.biospace.com/press-releases/tenax-therapeutics-announces-topline-results-from-phase-3-level-clinical-trial-of-tnx-103-in-patients-with-ph-hfpef"
+            }
+          ]
+        },
+        {
+          "title": "默沙东RSV抗体Enflonsia扩二季适应症，FDA受理sBLA、PDUFA定2027-03-22",
+          "summary": "默沙东8月6日宣布，FDA受理Enflonsia（clesrovimab）补充生物制品许可，拟把RSV下呼吸道疾病预防从首季婴儿扩至两岁以下高风险儿童的第二个RSV季，目标审评日2027年3月22日；EMA 7月已受理同类申请。依据III期SMART：首季105 mg对比帕利珠单抗，二季高风险儿童追加210 mg开放标签（n=276）。该药2025年6月在美获批，是目前唯一无需按体重给药的RSV预防单抗。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "Merck",
+              "url": "https://www.merck.com/news/u-s-fda-accepts-sbla-for-enflonsia-clesrovimab-cfor-to-update-its-respiratory-syncytial-virus-rsv-lower-respiratory-tract-disease-indication-to-include-children-under-two-years-at-increa/"
+            }
+          ]
+        },
+        {
+          "title": "济元基因iPSC现货细胞疗法CG101获FDA IND，剑指急性髓系白血病",
+          "summary": "杭州济元基因8月14日宣布，通用现货型iPSC来源免疫细胞产品CG101注射液获美国FDA IND许可，将开展AML多中心I期。公司称这是中国首个获FDA IND的经基因编辑修饰iPSC来源免疫细胞疗法，已在符合FDA/NMPA标准的GMP体系建成主细胞库和工作细胞库。产品经基因编辑增强趋化浸润和抗免疫抑制微环境能力，标志其通用现货平台进入全球临床。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "美通社",
+              "url": "https://www.prnasia.com/story/544020-1.shtml"
+            }
+          ]
+        },
+        {
+          "title": "爱科百发齐瑞索韦获FDA批美国II期，对准PICU重症RSV婴儿",
+          "summary": "爱科百发8月14日宣布，RSV直接抗病毒药齐瑞索韦（ziresovir，AK0529）获FDA批准在美国开展II期，入组需住PICU的重症RSV感染婴儿，主要看吸氧时长和持续康复时间。该药是全球首个完成III期并取得阳性结果的RSV直接抗病毒药，中国1–24月龄研究已发表于NEJM和Lancet Child & Adolescent Health，2025年被WHO列入儿科RSV药物优化清单。全球尚无获批RSV特异性抗病毒疗法。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/arkbios-rsv-antiviral-drug-ziresovir-receives-fda-approval-for-phase-ii-clinical-trial-302851766.html"
+            }
+          ]
+        },
+        {
+          "title": "爱科百发流感长效AFC药物AK0406获中国IND，成国内首个进临床的该类药",
+          "summary": "爱科百发8月13日宣布，抗流感长效药物-Fc偶联物AK0406注射液预防适应症获NMPA临床试验批准，成为中国首个进入临床的流感AFC药物。该药把高活性小分子接到抗体Fc上，临床前显示对甲型、乙型流感广谱长效。澳大利亚I期已完成全部健康成人队列给药、进入随访，公司走中澳双线开发。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.co.uk/news-releases/arkbio-announces-china-ind-approval-for-its-antiviral-drug-fc-conjugate-afc-candidate-ak0406-for-influenza-prophylaxis-302849777.html"
+            }
+          ]
+        },
+        {
+          "title": "医保谈判材料8月10日截止，主规格、参照药、支付范围三条线提前划定",
+          "summary": "国家医保局披露，获得2026年目录谈判、竞价或价格协商资格的企业须在8月10日17时前寄出材料。企业确认环节已反馈主规格、参照药品、支付范围三项结果；今年首次把参照药预沟通做到目录调整前，两批共59个品种提出申请。官方提醒：拿到谈判资格不等于进目录，后面还有测算、沟通和正式谈判。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "国家医保局",
+              "url": "http://www.nhsa.gov.cn/art/2026/8/10/art_14_21714.html"
+            }
+          ]
+        },
+        {
+          "title": "正大天晴贝莫苏拜联合安罗替尼一线肺鳞癌获批，PFS 11.20个月头对头赢PD-1化疗",
+          "summary": "中国生物制药8月7日公告，正大天晴贝莫苏拜单抗（安得卫）联合化疗序贯安罗替尼（福可维）获NMPA批准，用于一线局部晚期或转移性鳞状NSCLC。这是安罗替尼第12个、贝莫苏拜第6个适应症。III期ETER700中，试验组中位PFS 11.20个月对比替雷利珠单抗联合化疗的8.28个月（HR 0.68），OS风险比0.75，公司称是全球首个头对头优效于标准免疫化疗的肺鳞癌一线组合。",
+          "date": "2026-08-07",
+          "sources": [
+            {
+              "label": "新浪财经",
+              "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-07/doc-inimnvkp4798085.shtml"
+            },
+            {
+              "label": "新时空",
+              "url": "https://www.newtimespace.com/zh-cn/finance/1433919.html"
+            }
+          ]
+        },
+        {
+          "title": "药捷安康替恩戈替尼附条件获批，FGFR2耐药胆管癌ORR 28%、中位OS 20.7个月",
+          "summary": "NMPA于8月6日批准捷恩泰（替恩戈替尼片）上市，用于既往系统治疗和FGFR抑制剂后、具有FGFR2融合或重排的晚期胆管癌成人，为该多靶点激酶抑制剂首个适应症。中国单臂II期50例患者、中位随访12个月，BICR评估ORR 28.0%、DCR 82.0%、中位PFS 6.0个月、中位OS 20.7个月，数据已在2026 ASCO发表。新华社8月10日报道称其为FGFR耐药后有药可医的国产新选择。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "新华网",
+              "url": "https://www.xinhuanet.com/health/20260810/645ede74c4924d09af27931d0d6e0967/c.html"
+            },
+            {
+              "label": "新浪财经",
+              "url": "https://finance.sina.com.cn/roll/2026-08-13/doc-inineiys0020068.shtml"
+            }
+          ]
+        },
+        {
+          "title": "恒瑞瑞康曲妥珠单抗成中国首个结直肠癌抗HER2药，PFS 5.5个月对比2.8个月",
+          "summary": "恒瑞8月6日公告，艾维达（注射用瑞康曲妥珠单抗）第三项适应症获批：经奥沙利铂、氟尿嘧啶和伊立替康失败的HER2阳性结直肠癌成人，成为中国首个获批用于结直肠癌的抗HER2产品，NDA到获批约半年。III期HORIZON-CRC01共130例，IRC评估中位PFS 5.5个月 vs 标准治疗2.8个月（HR 0.33），ORR 40.7% vs 4.5%。该药此前已获批HER2突变NSCLC和HER2阳性乳腺癌。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "美通社",
+              "url": "https://www.prnasia.com/story/543268-1.shtml"
+            },
+            {
+              "label": "港交所公告",
+              "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0806/2026080601910_c.pdf"
+            }
+          ]
+        },
+        {
+          "title": "百济神州上半年营收222.20亿元，泽布替尼全球161亿并上调全年指引",
+          "summary": "百济神州8月5–6日披露2026年半年报：营业总收入222.20亿元同比增26.8%，归母净利润32.71亿元同比增627.1%，经调整净利58.63亿元。产品收入217.97亿元，其中泽布替尼全球161.27亿元（美国113.90亿元），替雷利珠单抗29.84亿元。公司上调全年营收指引至449亿–462亿元，并计划下半年在美欧中日递交泽布替尼套细胞淋巴瘤一线申请。",
+          "date": "2026-08-05",
+          "sources": [
+            {
+              "label": "经济参考报",
+              "url": "http://jjckb.xinhuanet.com/20260806/2003d310495d4f3e9e78e863f65e48e4/c.html"
+            },
+            {
+              "label": "港交所公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf"
+            }
+          ]
+        },
+        {
+          "title": "荣昌生物半年预告净利约47亿元，艾伯维RC148首付款6.5亿美元入账",
+          "summary": "荣昌生物8月5日晚预告，2026年上半年营收约58.50亿元同比增约433%，归母净利润约47亿元，上年同期亏损4.50亿元。公司称泰它西普及维迪西妥单抗国内销售增长，叠加4月收到艾伯维就PD-1/VEGF双抗RC148支付的6.5亿美元首付款；该交易总对价最高约56亿美元。推算二季度单季净利约43.72亿元，BD首付款仍是利润弹性的主引擎。",
+          "date": "2026-08-05",
+          "sources": [
+            {
+              "label": "新浪财经",
+              "url": "https://finance.sina.com.cn/roll/2026-08-07/doc-inimmyet0066900.shtml"
+            },
+            {
+              "label": "财联社",
+              "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhtuc4398213.shtml"
+            }
+          ]
+        },
+        {
+          "title": "意大利Alfasigma收购Nordic Pharma，补甲氨蝶呤针剂并切入日加市场",
+          "summary": "Fierce Pharma 8月12日报道，意大利药企Alfasigma计划从Sever Life Sciences手中收购Nordic Pharma，金额未披露，预计2026年底前交割。Nordic以风湿、妇科和眼科见长，拳头产品包括甲氨蝶呤注射剂Nordimet，并购后Alfasigma将进入日本和加拿大市场并扩大欧洲布局。买家近年连续外延，2023年买下Intercept和Jyseleca，今春还向GSK支付3亿美元首付款引进止痒药。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Fierce Pharma",
+              "url": "https://www.fiercepharma.com/pharma/alfasigma-gains-arthritis-drug-access-new-markets-ma-play"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codexiq",
+      "title": "Codex IQ 雷达",
+      "summary": "Codex 雷达 · DeepSWE 智力效率。今日领先：grok-4.5 / high IQ 150.0；gpt-5.6-sol / max IQ 103.57；gpt-5.6-sol / ultra IQ 102.86",
+      "items": [
+        {
+          "title": "今日 GPT / Codex IQ 概览（DeepSWE）",
+          "summary": "数据更新 2026-08-14T22:43:00+00:00。24h 采样 896 次，累计 32777 次。评分模式：weighted_latest_3。以下按 IQ 从高到低列出主要 model × effort 组合。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Codex 雷达",
+              "url": "https://codexradar.com/"
+            },
+            {
+              "label": "GPT IQ Index (镜像)",
+              "url": "https://www.hvoy.ai/en/codex-radar/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：日常开发",
+          "summary": "gpt-5.5 / xhigh（IQ 98.21，约 $5.515876 / 22.47 分钟）；gpt-5.6-luna / max（IQ 94.29，约 $0.478442 / 33.89 分钟）。原始 IQ ≥90，不再分档；在同一候选池中分别以平均耗时和费用与耗时综合成本为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 对应指标溢价；去重后取 2 个。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：难题攻坚",
+          "summary": "gpt-5.6-sol / max（IQ 103.57，约 $8.830864 / 34.83 分钟）；gpt-5.6-sol / ultra（IQ 102.86，约 $23.070868 / 55.81 分钟）。所有有实测数据的档位中，按 IQ 从高到低取 2 个；IQ 相同时按模型顺序与综合成本排序。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：后台自动化",
+          "summary": "gpt-5.6-luna / xhigh（IQ 86.07，约 $0.320715 / 24.04 分钟）；gpt-5.6-luna / max（IQ 94.29，约 $0.478442 / 33.89 分钟）。成本优先：整数 IQ ≥80，不设上限，以平均费用最低者为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 费用溢价；符合时优先 IQ 最高，依次取 2 个。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：跑龙虾类任务",
+          "summary": "gpt-5.6-terra / medium（IQ 55.36，约 $0.62483 / 9.64 分钟）；gpt-5.6-luna / high（IQ 76.07，约 $0.201956 / 17.84 分钟）。IQ ≥55，不设上限，按费用与耗时综合成本最低取 2 个。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "grok-4.5 · high — IQ 150.0",
+          "summary": "通过 1/1（加权 1.0/1.0）。均价约 $None，均时约 10.04 分钟，24h 运行 0 次。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · max — IQ 103.57",
+          "summary": "通过 232/336（加权 290.0/420.0）。均价约 $8.830864，均时约 34.83 分钟，24h 运行 13 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · ultra — IQ 102.86",
+          "summary": "通过 231/336（加权 288.0/420.0）。均价约 $23.070868，均时约 55.81 分钟，24h 运行 3 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · xhigh — IQ 101.07",
+          "summary": "通过 229/336（加权 283.0/420.0）。均价约 $6.124193，均时约 25.11 分钟，24h 运行 11 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.5 · xhigh — IQ 98.21",
+          "summary": "通过 219/336（加权 275.0/420.0）。均价约 $5.515876，均时约 22.47 分钟，24h 运行 7 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · max — IQ 96.79",
+          "summary": "通过 215/336（加权 271.0/420.0）。均价约 $3.662125，均时约 31.49 分钟，24h 运行 5 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · ultra — IQ 94.64",
+          "summary": "通过 212/336（加权 265.0/420.0）。均价约 $9.683256，均时约 44.67 分钟，24h 运行 7 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-luna · max — IQ 94.29",
+          "summary": "通过 210/336（加权 264.0/420.0）。均价约 $0.478442，均时约 33.89 分钟，24h 运行 17 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "dsh-deepseek-v4-pro · max — IQ 94.21",
+          "summary": "通过 76/121（加权 76.0/121.0）。均价约 $0.245953，均时约 52.54 分钟，24h 运行 121 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · high — IQ 91.79",
+          "summary": "通过 210/336（加权 257.0/420.0）。均价约 $4.507276，均时约 20.13 分钟，24h 运行 9 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "deepseek-v4-pro · max — IQ 89.78",
+          "summary": "通过 82/137（加权 82.0/137.0）。均价约 $0.244066，均时约 41.55 分钟，24h 运行 25 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · xhigh — IQ 88.21",
+          "summary": "通过 193/336（加权 247.0/420.0）。均价约 $1.775549，均时约 19.03 分钟，24h 运行 10 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "deepseek-v4-pro · high — IQ 87.88",
+          "summary": "通过 58/99（加权 58.0/99.0）。均价约 $0.175081，均时约 28.9 分钟，24h 运行 10 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · medium — IQ 87.14",
+          "summary": "通过 200/336（加权 244.0/420.0）。均价约 $3.462347，均时约 17.04 分钟，24h 运行 10 次。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-08-14T23:37:58.000Z"
+}

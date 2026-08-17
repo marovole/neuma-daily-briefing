@@ -1,0 +1,170 @@
+{
+  "id": "pharma",
+  "title": "健康医药产业",
+  "summary": "本周审批与BD齐飞：FDA批出阿尔茨海默病tau显像剂，EGFR 20ins肺癌III期中期胜出；信达拿下第一三共血液瘤推广，恒瑞GLP-1三激动剂与IBD新分子同日拿IND。",
+  "items": [
+    {
+      "title": "Lantheus tau显像剂Tauklarify获FDA批准，补齐阿尔茨海默病PET拼图",
+      "summary": "8月14日FDA批准Lantheus的F18标记tau PET显像剂Tauklarify（florquinitau，MK-6240），用于认知障碍成人评估阿尔茨海默病、识别tau神经纤维缠结。两项盲法读图研究覆盖500余例受试者：研究1阳性一致率80%–88%、阴性一致率98%–99%；安全性队列1734人，头痛发生率仅0.7%。公司暂以药企合作供药为主，尚未全面商用。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Lantheus官网",
+          "url": "https://investor.lantheus.com/news-releases/news-release-details/lantheus-announces-fda-approval-tauklarifytm-florquinitau-f-18"
+        }
+      ]
+    },
+    {
+      "title": "大鹏/Cullinan zipalertinib一线EGFR 20ins肺癌III期中期达PFS终点",
+      "summary": "8月13日Taiho与Cullinan宣布全球III期REZILIENT3中期分析达主要终点：zipalertinib联合含铂化疗一线治疗EGFR外显子20插入突变NSCLC，PFS较单化疗显著且有临床意义改善，安全性可管理，独监委会建议揭盲。试验入组285例初治患者，双方拟与FDA沟通申报一线适应症，完整数据待国际会议公布。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Taiho官网",
+          "url": "https://www.taiho.co.jp/en/release/2026/20260813.html"
+        },
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/press-releases/zipalertinib-plus-chemotherapy-meets-primary-endpoint-of-progression-free-survival-in-planned-interim-analysis-of-phase-3-rezilient3-trial-in-first-line-egfr-exon-20-insertion-mutation-non-small-cell-lung-cancer"
+        }
+      ]
+    },
+    {
+      "title": "Sagimet痤疮口服药denifanstat获FDA III期放行，计划入组800人",
+      "summary": "8月13日Sagimet宣布FDA清除denifanstat中重度痤疮III期IND并出具Study May Proceed函，下半年启动美国关键试验。计划入组约800名12岁及以上患者、其中450名为12–17岁青少年，2:1随机接受50mg每日一次或安慰剂共12周，随后40周开放延长期。中国合作方歌礼已完成480例III期，治疗成功率33.2%对安慰剂14.6%。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "BioSpace/公司稿",
+          "url": "https://www.biospace.com/press-releases/sagimet-biosciences-receives-fda-study-may-proceed-letter-and-ind-clearance-for-phase-3-trial-in-acne-in-adolescent-and-adult-patients"
+        }
+      ]
+    },
+    {
+      "title": "Vertex百亿美元收购Crinetics过美国反垄断等待期，9月初有望交割",
+      "summary": "Crinetics 8月14日8-K披露：Vertex以每股85美元现金、股权价值约100亿美元收购该公司的HSR等待期已于8月12日到期，奥德澳反垄断审批亦于13日到手。股东会定8月28日，若通过预计9月初交割。这是Vertex史上最大买案，押注内分泌赛道，峰值销售公司曾展望超50亿美元。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "SEC 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126032951/ef20080199_8k.htm"
+        },
+        {
+          "label": "Vertex官网",
+          "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-crinetics-pharmaceuticals"
+        }
+      ]
+    },
+    {
+      "title": "Amneal完成收购Kashiv，拼出端到端生物类似药平台",
+      "summary": "8月10日Amneal宣布完成对Kashiv BioSciences的收购，现金3.75亿美元外加约2894万股A类股，外加里程碑，印媒口径总对价约11亿美元。双方对接十年，瞄准未来十年超3000亿美元生物药专利悬崖，目标每年多款生物类似药上市。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "Amneal官网",
+          "url": "https://investors.amneal.com/news/press-releases/press-release-details/2026/Amneal-Completes-Acquisition-of-Kashiv-BioSciences-Creating-a-Global-Biosimilar-Leader/default.aspx"
+        },
+        {
+          "label": "ET Pharma",
+          "url": "https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/amneal-completes-1-1-bn-kashiv-biosciences-buyout/133167410"
+        }
+      ]
+    },
+    {
+      "title": "Zydus旗下Sentynl拿下Mereo口服AATD肺病药美国期权",
+      "summary": "8月11日Sentynl与Mereo就中性粒细胞弹性蛋白酶抑制剂alvelestat签署美国商业化及全球生产期权许可。行权后Mereo可再拿最多4000万美元至NDA的首付与研发款，外加美国净销售双位数分成，III期有望2027年初启动。该罕见遗传病美国患者估5万–8万人，目前尚无口服药。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/sentynl-therapeutics-and-mereo-biopharma-announce-option-and-license-agreement-for-alvelestat-in-alpha-1-antitrypsin-deficiency-associated-lung-disease-aatd-ld-302847861.html"
+        }
+      ]
+    },
+    {
+      "title": "NeOnc鼻喷NEO100复发IDH1突变高级别胶质瘤II期达终点",
+      "summary": "8月12日NeOnc公布NEO100-01 II期a部分顶线：24例放疗/替莫唑胺失败的III/IV级IDH1突变胶质瘤患者，6个月PFS达48.9%，显著高于预设20%标准治疗基准（p=0.0047），中位OS 26.09个月、6个月生存率86.7%。患者居家一日四次鼻喷，未报告重大毒性，公司将约FDA Type B会议谈注册路径。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "NeOnc官网",
+          "url": "https://neonc.com/neonc-technologies-reports-positive-topline-phase-2a-results-for-intranasal-neo100-in-recurrent-idh1-mutant-high-grade-glioma/"
+        }
+      ]
+    },
+    {
+      "title": "信达拿下第一三共维复泰中国独家推广，凑齐血液瘤第20款产品",
+      "summary": "8月10日信达与第一三共宣布：刚于6月在中国获批的FLT3-ITD阳性新诊断AML口服药维复泰（奎扎替尼，Vanflyta）由第一三共负责研发生产供应，信达拿中国大陆独家推广，成为其商业化组合第20款产品。中国2022年白血病新发近8.2万、死亡超5万，AML约占一半，FLT3-ITD约占AML的25%。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "美通社",
+          "url": "https://www.prnasia.com/story/543414-1.shtml"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/innovent-biologics-and-daiichi-sankyo-enter-exclusive-agreement-for-vanflyta-commercialization-in-china-302846648.html"
+        }
+      ]
+    },
+    {
+      "title": "恒瑞GLP-1/GIP/GCGR三激动剂HRS-4729获批开展糖尿病II期",
+      "summary": "8月12日恒瑞公告，自主多肽HRS-4729注射液获NMPA批准开展成人2型糖尿病II期，受理号CXHL2600577/578，减重II期同步推进。该药同时激动GLP-1R、GIPR与GCGR，国内外尚无同类获批，累计研发投入约8160万元。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "新时空/港股公告",
+          "url": "https://www.newtimespace.com/zh-cn/finance/1435195.html"
+        }
+      ]
+    },
+    {
+      "title": "恒瑞同日再下一城：IBD新分子SHR-7590获临床试验批件",
+      "summary": "同一天恒瑞子公司广东恒瑞收到SHR-7590注射液临床试验批准通知书，拟用于溃疡性结肠炎和克罗恩病，受理号CXSL2600550/551。公司称该1类生物制品在动物IBD模型可抑制炎症，全球尚无同靶点药物上市，累计研发投入约3250万元。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "界面新闻",
+          "url": "https://www.jiemian.com/article/14913263.html"
+        },
+        {
+          "label": "新时空",
+          "url": "https://www.newtimespace.com/zh-cn/finance/1435199.html"
+        }
+      ]
+    },
+    {
+      "title": "以岭补体Factor B抑制剂LB220-D08临床试验申请获受理",
+      "summary": "8月12日以岭药业公告，1类化药LB220-D08缓释片IND获NMPA受理，受理号CXHL2600983/984。该药靶向补体Factor B，适应症为非典型溶血性尿毒症综合征（aHUS），是公司从中药主业向外拓展补体罕见病的一步。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "同花顺/公司公告",
+          "url": "https://stock.10jqka.com.cn/20260812/c678897709.shtml"
+        }
+      ]
+    },
+    {
+      "title": "翰宇拿下替尔泊肽国内首仿上市申请受理，对标365亿美元药王",
+      "summary": "8月8日翰宇药业公告，4类仿制药替尔泊肽注射液上市申请获NMPA受理，四个规格对应受理号CYHS2601923–926，适应症覆盖2型糖尿病与长期体重管理，公司称系国内首家申报该品种仿制上市。礼来原研2025年全球销售约365.07亿美元，其中降糖Mounjaro约229.65亿、减重Zepbound约135.42亿。",
+      "date": "2026-08-08",
+      "sources": [
+        {
+          "label": "巨潮资讯公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463132.PDF"
+        }
+      ]
+    },
+    {
+      "title": "中报季出海成色：上半年创新药授权约1100亿美元，药明净利破百亿",
+      "summary": "8月10日《经济参考报》盘点：国家药监局数据显示今年上半年中国创新药海外授权总额约1100亿美元；药明康德上半年营收288.97亿元同比增38.93%、归母净利110.8亿元增29.43%，半年度净利首次破百亿。同期西药类出口302.62亿美元同比增8.35%，创新药板块8月7日单日大涨，中证创新药30指数涨7.11%。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "中国经济网/经济参考报",
+          "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202608/t20260810_3137311.shtml"
+        }
+      ]
+    }
+  ]
+}

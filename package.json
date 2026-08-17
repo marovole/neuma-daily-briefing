@@ -1,0 +1,14 @@
+{
+  "name": "daily-briefing-site",
+  "version": "1.0.0",
+  "description": "每日简报：AI/LLM、健康医药、40+ 女性热点",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}

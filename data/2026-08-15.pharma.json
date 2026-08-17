@@ -1,0 +1,204 @@
+{
+  "id": "pharma",
+  "title": "健康医药产业",
+  "summary": "本周中美审批与BD齐飞：Jazz砸最高13.2亿美元补罕见癫痫管线，国产ADC和免疫组合在华拿下肠癌、肺鳞癌新适应症，医保谈判材料截止、测算尺子提前亮出。",
+  "items": [
+    {
+      "title": "Jazz最高13.2亿美元买Actio，拿下KCNT1罕见癫痫口服药",
+      "summary": "Jazz Pharmaceuticals 8月10日宣布，以8.2亿美元首付款、最高5亿美元里程碑收购Actio Biosciences，总对价最高约13.2亿美元，预计2026年四季度交割。核心资产ABS-1230是口服KCNT1离子通道抑制剂，美国约2500名患者、尚无FDA获批疗法，已被纳入FDA罕见病证据原则（RDEP）通道，进行中的KYRON 1b/2a拟作注册研究。交割同时Actio将剥离TRPV4抑制剂ABS-0871等资产成立新公司，Jazz持股。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "Jazz IR",
+          "url": "https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-acquire-actio-biosciences-expanding-rare"
+        },
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-to-acquire-actio-biosciences-expanding-rare-epilepsy-portfolio-302847060.html"
+        }
+      ]
+    },
+    {
+      "title": "Replimune溶瘤病毒Tudriqev加速获批，PD-1失败黑色素瘤ORR 24.2%",
+      "summary": "FDA于8月6日加速批准Replimune的Tudriqev（vusolimogene oderparepvec，原RP1）联合纳武利尤单抗，用于抗PD-1方案进展后的不可切除晚期皮肤黑色素瘤。IGNYTE入组140例，91例可评估人群ORR 24.2%、中位缓解持续14.1个月，80%为IV期、54% PD-L1阴性。该申请此前两度CRL，顾问委员会7月30日10:3投票支持后放行，确证性III期IGNYTE-3进行中。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/08/06/3340656/0/en/Replimune-Announces-FDA-Accelerated-Approval-of-TUDRIQEVTM-in-Combination-with-Nivolumab-for-Unresectable-Advanced-Cutaneous-Melanoma-After-Progression-on-an-anti-PD-1-Based-Regime.html"
+        },
+        {
+          "label": "PharmExec",
+          "url": "https://www.pharmexec.com/view/fda-grants-accelerated-approval-tudriqev-combination-nivoumab-melanoma"
+        }
+      ]
+    },
+    {
+      "title": "MoonLake纳米抗体sonelokimab银屑病关节炎III期达终点，ACR50为42.1%",
+      "summary": "MoonLake 8月10日公布IZAR-1 III期顶线：生物制剂初治银屑病关节炎患者，sonelokimab 60 mg诱导组第16周ACR50达42.1%，ACR20 66.5%、MDA 41.2%、伴皮损者PASI90为61%，全部临床终点达标。试验按FDA方案暂不披露相对安慰剂差值，52周完整数据预计2027上半年；头对头Skyrizi的IZAR-2预计三季度完成入组。公司季末现金5.37亿美元，称跑道到2028年中。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "MoonLake IR",
+          "url": "https://ir.moonlaketx.com/news-releases/news-release-details/moonlake-announces-positive-topline-results-phase-3-izar-1-trial/"
+        },
+        {
+          "label": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/moonlakes-nanobody-candidate-boosts-all-clinical-endpoints-phase-3-psoriatic-arthritis"
+        }
+      ]
+    },
+    {
+      "title": "Tenax口服左西孟旦LEVEL III期未达终点，6分钟步行仅多走3.5米",
+      "summary": "Tenax 8月10日公布TNX-103（口服左西孟旦）治疗射血分数保留心衰合并肺高压的III期LEVEL：241例随机，第12周6分钟步行距离较安慰剂仅多3.5米（p=0.63），KCCQ症状评分几乎打平。预设亚组里，基线步行<333米者改善26.3米，整体NT-proBNP较安慰剂降49%。公司拟约FDA Type C会议讨论富集入组，完整数据将在8月底ESC年会公布。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/press-releases/tenax-therapeutics-announces-topline-results-from-phase-3-level-clinical-trial-of-tnx-103-in-patients-with-ph-hfpef"
+        }
+      ]
+    },
+    {
+      "title": "默沙东RSV抗体Enflonsia扩二季适应症，FDA受理sBLA、PDUFA定2027-03-22",
+      "summary": "默沙东8月6日宣布，FDA受理Enflonsia（clesrovimab）补充生物制品许可，拟把RSV下呼吸道疾病预防从首季婴儿扩至两岁以下高风险儿童的第二个RSV季，目标审评日2027年3月22日；EMA 7月已受理同类申请。依据III期SMART：首季105 mg对比帕利珠单抗，二季高风险儿童追加210 mg开放标签（n=276）。该药2025年6月在美获批，是目前唯一无需按体重给药的RSV预防单抗。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "Merck",
+          "url": "https://www.merck.com/news/u-s-fda-accepts-sbla-for-enflonsia-clesrovimab-cfor-to-update-its-respiratory-syncytial-virus-rsv-lower-respiratory-tract-disease-indication-to-include-children-under-two-years-at-increa/"
+        }
+      ]
+    },
+    {
+      "title": "济元基因iPSC现货细胞疗法CG101获FDA IND，剑指急性髓系白血病",
+      "summary": "杭州济元基因8月14日宣布，通用现货型iPSC来源免疫细胞产品CG101注射液获美国FDA IND许可，将开展AML多中心I期。公司称这是中国首个获FDA IND的经基因编辑修饰iPSC来源免疫细胞疗法，已在符合FDA/NMPA标准的GMP体系建成主细胞库和工作细胞库。产品经基因编辑增强趋化浸润和抗免疫抑制微环境能力，标志其通用现货平台进入全球临床。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "美通社",
+          "url": "https://www.prnasia.com/story/544020-1.shtml"
+        }
+      ]
+    },
+    {
+      "title": "爱科百发齐瑞索韦获FDA批美国II期，对准PICU重症RSV婴儿",
+      "summary": "爱科百发8月14日宣布，RSV直接抗病毒药齐瑞索韦（ziresovir，AK0529）获FDA批准在美国开展II期，入组需住PICU的重症RSV感染婴儿，主要看吸氧时长和持续康复时间。该药是全球首个完成III期并取得阳性结果的RSV直接抗病毒药，中国1–24月龄研究已发表于NEJM和Lancet Child & Adolescent Health，2025年被WHO列入儿科RSV药物优化清单。全球尚无获批RSV特异性抗病毒疗法。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/arkbios-rsv-antiviral-drug-ziresovir-receives-fda-approval-for-phase-ii-clinical-trial-302851766.html"
+        }
+      ]
+    },
+    {
+      "title": "爱科百发流感长效AFC药物AK0406获中国IND，成国内首个进临床的该类药",
+      "summary": "爱科百发8月13日宣布，抗流感长效药物-Fc偶联物AK0406注射液预防适应症获NMPA临床试验批准，成为中国首个进入临床的流感AFC药物。该药把高活性小分子接到抗体Fc上，临床前显示对甲型、乙型流感广谱长效。澳大利亚I期已完成全部健康成人队列给药、进入随访，公司走中澳双线开发。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.co.uk/news-releases/arkbio-announces-china-ind-approval-for-its-antiviral-drug-fc-conjugate-afc-candidate-ak0406-for-influenza-prophylaxis-302849777.html"
+        }
+      ]
+    },
+    {
+      "title": "医保谈判材料8月10日截止，主规格、参照药、支付范围三条线提前划定",
+      "summary": "国家医保局披露，获得2026年目录谈判、竞价或价格协商资格的企业须在8月10日17时前寄出材料。企业确认环节已反馈主规格、参照药品、支付范围三项结果；今年首次把参照药预沟通做到目录调整前，两批共59个品种提出申请。官方提醒：拿到谈判资格不等于进目录，后面还有测算、沟通和正式谈判。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "国家医保局",
+          "url": "http://www.nhsa.gov.cn/art/2026/8/10/art_14_21714.html"
+        }
+      ]
+    },
+    {
+      "title": "正大天晴贝莫苏拜联合安罗替尼一线肺鳞癌获批，PFS 11.20个月头对头赢PD-1化疗",
+      "summary": "中国生物制药8月7日公告，正大天晴贝莫苏拜单抗（安得卫）联合化疗序贯安罗替尼（福可维）获NMPA批准，用于一线局部晚期或转移性鳞状NSCLC。这是安罗替尼第12个、贝莫苏拜第6个适应症。III期ETER700中，试验组中位PFS 11.20个月对比替雷利珠单抗联合化疗的8.28个月（HR 0.68），OS风险比0.75，公司称是全球首个头对头优效于标准免疫化疗的肺鳞癌一线组合。",
+      "date": "2026-08-07",
+      "sources": [
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-07/doc-inimnvkp4798085.shtml"
+        },
+        {
+          "label": "新时空",
+          "url": "https://www.newtimespace.com/zh-cn/finance/1433919.html"
+        }
+      ]
+    },
+    {
+      "title": "药捷安康替恩戈替尼附条件获批，FGFR2耐药胆管癌ORR 28%、中位OS 20.7个月",
+      "summary": "NMPA于8月6日批准捷恩泰（替恩戈替尼片）上市，用于既往系统治疗和FGFR抑制剂后、具有FGFR2融合或重排的晚期胆管癌成人，为该多靶点激酶抑制剂首个适应症。中国单臂II期50例患者、中位随访12个月，BICR评估ORR 28.0%、DCR 82.0%、中位PFS 6.0个月、中位OS 20.7个月，数据已在2026 ASCO发表。新华社8月10日报道称其为FGFR耐药后有药可医的国产新选择。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "新华网",
+          "url": "https://www.xinhuanet.com/health/20260810/645ede74c4924d09af27931d0d6e0967/c.html"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-08-13/doc-inineiys0020068.shtml"
+        }
+      ]
+    },
+    {
+      "title": "恒瑞瑞康曲妥珠单抗成中国首个结直肠癌抗HER2药，PFS 5.5个月对比2.8个月",
+      "summary": "恒瑞8月6日公告，艾维达（注射用瑞康曲妥珠单抗）第三项适应症获批：经奥沙利铂、氟尿嘧啶和伊立替康失败的HER2阳性结直肠癌成人，成为中国首个获批用于结直肠癌的抗HER2产品，NDA到获批约半年。III期HORIZON-CRC01共130例，IRC评估中位PFS 5.5个月 vs 标准治疗2.8个月（HR 0.33），ORR 40.7% vs 4.5%。该药此前已获批HER2突变NSCLC和HER2阳性乳腺癌。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "美通社",
+          "url": "https://www.prnasia.com/story/543268-1.shtml"
+        },
+        {
+          "label": "港交所公告",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0806/2026080601910_c.pdf"
+        }
+      ]
+    },
+    {
+      "title": "百济神州上半年营收222.20亿元，泽布替尼全球161亿并上调全年指引",
+      "summary": "百济神州8月5–6日披露2026年半年报：营业总收入222.20亿元同比增26.8%，归母净利润32.71亿元同比增627.1%，经调整净利58.63亿元。产品收入217.97亿元，其中泽布替尼全球161.27亿元（美国113.90亿元），替雷利珠单抗29.84亿元。公司上调全年营收指引至449亿–462亿元，并计划下半年在美欧中日递交泽布替尼套细胞淋巴瘤一线申请。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "经济参考报",
+          "url": "http://jjckb.xinhuanet.com/20260806/2003d310495d4f3e9e78e863f65e48e4/c.html"
+        },
+        {
+          "label": "港交所公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501449_c.pdf"
+        }
+      ]
+    },
+    {
+      "title": "荣昌生物半年预告净利约47亿元，艾伯维RC148首付款6.5亿美元入账",
+      "summary": "荣昌生物8月5日晚预告，2026年上半年营收约58.50亿元同比增约433%，归母净利润约47亿元，上年同期亏损4.50亿元。公司称泰它西普及维迪西妥单抗国内销售增长，叠加4月收到艾伯维就PD-1/VEGF双抗RC148支付的6.5亿美元首付款；该交易总对价最高约56亿美元。推算二季度单季净利约43.72亿元，BD首付款仍是利润弹性的主引擎。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-08-07/doc-inimmyet0066900.shtml"
+        },
+        {
+          "label": "财联社",
+          "url": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhtuc4398213.shtml"
+        }
+      ]
+    },
+    {
+      "title": "意大利Alfasigma收购Nordic Pharma，补甲氨蝶呤针剂并切入日加市场",
+      "summary": "Fierce Pharma 8月12日报道，意大利药企Alfasigma计划从Sever Life Sciences手中收购Nordic Pharma，金额未披露，预计2026年底前交割。Nordic以风湿、妇科和眼科见长，拳头产品包括甲氨蝶呤注射剂Nordimet，并购后Alfasigma将进入日本和加拿大市场并扩大欧洲布局。买家近年连续外延，2023年买下Intercept和Jyseleca，今春还向GSK支付3亿美元首付款引进止痒药。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/alfasigma-gains-arthritis-drug-access-new-markets-ma-play"
+        }
+      ]
+    }
+  ]
+}

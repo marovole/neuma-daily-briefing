@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Neuma 每日简报：AI / LLM、健康医药、40+ 女性热点" />
+  <title>Neuma 每日简报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="/" class="brand" id="brand-link">
+        <span class="brand-mark">簡</span>
+        <span class="brand-text">
+          <strong>Neuma 每日简报</strong>
+          <small>news.neumabio.xyz</small>
+        </span>
+      </a>
+      <div class="header-right">
+        <label class="date-picker">
+          <span class="sr-only">选择日期</span>
+          <select id="date-select" aria-label="选择日期"></select>
+        </label>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="topic-tabs" id="topic-tabs" aria-label="话题分页"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="hero">
+      <p class="eyebrow" id="eyebrow">加载中</p>
+      <h1 id="page-title">Neuma 每日简报</h1>
+      <p class="hero-summary" id="hero-summary"></p>
+      <p class="hero-meta" id="hero-meta"></p>
+    </section>
+
+    <div id="status" class="status" hidden></div>
+
+    <section id="topic-panel" class="topic-panel" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Neuma 每日简报 · 三大话题分页阅读，每页展示全部条目与可点击来源</p>
+      <p class="muted">时区 Asia/Singapore · 内容由每日研究写入</p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

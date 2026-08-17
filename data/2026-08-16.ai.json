@@ -1,0 +1,187 @@
+{
+  "id": "ai",
+  "title": "AI / LLM 热点",
+  "summary": "本周不重复已发过的 Flash/Sol/V4-Pro/Qwen 那一串：融资看 Databricks 50 亿、River 11 亿，产品看 MiniMax 开源写歌、Nemotron Lightning，基础设施看 Mistral 主权算力与 SpaceX 交割 Cursor，研究看 Claude 把黎曼零点下界推到 67.2%。DeepSeek 只记周日峰谷改价。",
+  "items": [
+    {
+      "title": "DeepSeek 周日改峰谷价：谷时也比现在贵",
+      "summary": "官方定价页写明：8 月 16 日 16:00 UTC 起取消一口价，改峰谷计费，谷时是峰时的一半。高峰是 01:00–04:00 和 06:00–10:00 UTC（北京时间 9–12 点、14–18 点），其余为谷时。V4-Flash 输出谷时 $0.66、峰时 $1.32 / 百万 token；V4-Pro 输出谷时 $1.98、峰时 $3.96。对照改价前 Flash $0.28、Pro $0.87，谷时也是涨价，不是半价促销。",
+      "date": "2026-08-16",
+      "sources": [
+        {
+          "label": "DeepSeek API Docs",
+          "url": "https://api-docs.deepseek.com/quick_start/pricing"
+        },
+        {
+          "label": "TechNode",
+          "url": "https://technode.com/2026/08/14/deepseek-to-introduce-peak-and-off-peak-pricing-for-its-api/"
+        }
+      ]
+    },
+    {
+      "title": "路透独家：Anthropic IPO 按 2028 年 1900–2000 亿美元营收定价",
+      "summary": "两位知情人士告诉路透：华尔街不用当下数字给 Anthropic 定价，而是按它自己给的 2028 年营收约 1900–2000 亿美元来算倍数。公司 5 月刚公开年化 run-rate 470 亿美元，Q2 指引营收至少 109 亿、有望录得 5.59 亿经营利润。对标被点名的是 Cloudflare、Palantir、SpaceX。这是预测不是财报，最终估值仍看分析师日和招股书。",
+      "date": "2026-08-15",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/"
+        },
+        {
+          "label": "CNA",
+          "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-6320831"
+        }
+      ]
+    },
+    {
+      "title": "SpaceX 正式交割 Cursor：600 亿美元全股票",
+      "summary": "Cursor 官方 8 月 14 日发文：已被 SpaceX 收购，走完 4 月合作、6 月签约的流程。SEC 8-K 写明生效日 8 月 14 日，Anysphere 普通股和优先股换成约 3.89 亿股 SpaceX A 类股，隐含股权价值 600 亿美元。Cursor 说从此能用「全球最大 GPU 舰队」，Grok 4.6 是第一次合作样品。TechCrunch 次日跟进确认交割完成。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Cursor",
+          "url": "https://cursor.com/blog/joining-spacex"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+        }
+      ]
+    },
+    {
+      "title": "Databricks 再融 50 亿美元，估值 1900 亿",
+      "summary": "8 月 13 日官方宣布：战略轮融资 50 亿美元、估值 1900 亿美元，Coatue 领投，黑石、MGX、T. Rowe Price 和新进的 Sixth Street Growth 跟投。钱要砸进 Lakebase（面向 agent 的 serverless Postgres，年化已超 1 亿美元）、Genie 和 Unity AI Gateway。同期 Q2 年化营收跑过 70 亿美元、同比增超 80%。六个月前上一轮估值还是 1340 亿。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Databricks",
+          "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/databricks-raises-5-billion-financing-190-billion-valuation-2026-08-13/"
+        }
+      ]
+    },
+    {
+      "title": "MiniMax Music 3.0：开源权重，一首歌能写满五分钟",
+      "summary": "MiniMax 放出下一代音乐模型 Music 3.0：给创意说明和可选歌词，一次生成编曲、演奏、人声到成片，最长约五分钟。架构是 80 亿全局 LLM + 6 亿局部 LLM，再用 flow matching 和 Flow-VAE 出声。8 月 13 日开源权重进 Hugging Face / ComfyUI，32 kHz 立体声；官方定位 production-ready，面向本机自托管，不只是云端 API。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "MiniMax",
+          "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+        },
+        {
+          "label": "ComfyUI Blog",
+          "url": "https://blog.comfy.org/p/minimax-music-3-state-of-the-art"
+        }
+      ]
+    },
+    {
+      "title": "Cursor 收 Firetiger：写完代码还要盯生产",
+      "summary": "Cursor 8 月 13 日宣布 Firetiger 团队加入，金额未披露。Firetiger 做上线后的 agent：盯发布、抓回归、查事故，再把线索交回编码 agent。独立产品会关停，能力并进 Cursor，和自家 Git 平台 Origin、即将上线的 Change Monitors 绑在一起。交割 SpaceX 的前一天还在买公司，等于先把「写代码到跑生产」这条链补上。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Cursor",
+          "url": "https://cursor.com/blog/firetiger"
+        },
+        {
+          "label": "Firetiger",
+          "url": "https://blog.firetiger.com/firetiger-is-joining-cursor/"
+        }
+      ]
+    },
+    {
+      "title": "Mistral 上架 GLM-5.2，顺手卖欧洲主权算力",
+      "summary": "Mistral 8 月 11 日三件事一起发：区域推理端点正式可用（欧洲/美国，可钉死数据落点）、Priority Tier 带 99.5% SLA 公测、平台开始托管第三方开源模型，第一个就是智谱 GLM-5.2，和自家模型同一套区域控制与服务承诺。另一头拉 Amadeus、ASML、Capgemini、法国存款保险基金、CMA CGM 签多年算力承诺（ECU），目标 2027 年底 200 兆瓦、2030 年 1 吉瓦欧洲产能。法国实验室给中国开源模型当欧洲通道，叙事从卖模型改成卖主权分发层。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "Mistral",
+          "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now"
+        }
+      ]
+    },
+    {
+      "title": "River AI 种子+A 轮一口气拿 11 亿美元",
+      "summary": "xAI 联合创始人 Igor Babuschkin 的 River AI 8 月 11 日宣布，种子轮和 A 轮合计融资 11 亿美元，General Catalyst 与 AMP PBC 领投，NVIDIA、AMD Ventures、Y Combinator、Temasek 跟投，估值未披露。公司 6 月才公开，做的是让企业和开发者自己训、调、拥有开源权重模型：LoRA 和强化学习走 API，按 token 计费，复杂 RL 称 15–20 分钟跑完。两个月大龄公司拿十亿美元级支票，赌的是「模型归用户」而不是再卖一个通用助手。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "River AI",
+          "url": "https://river.ai/series-seed-series-a-funding"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia Nemotron 3.5 Lightning：30B 开源，3B 激活跑长程 agent",
+      "summary": "Nvidia 8 月 11 日放出 Nemotron 3.5 Lightning：混合 MoE，总参 300 亿、每次激活 30 亿，Mamba-2 + 专家层 + 少量注意力，原生多 token 预测和投机解码，上下文最高 100 万。官方称面向高并发、低延迟的常驻 agent，NVFP4/BF16 权重全开，许可证 OpenMDW 1.1，Hugging Face、NIM、OpenRouter 当天可下。一张 H100 或 DGX Spark 就能跑，和 Meta 同周的本机开源叙事叠在一起。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+        }
+      ]
+    },
+    {
+      "title": "Google AMIE 第一次用视频问诊：模拟里打平全科医生",
+      "summary": "Google Research / DeepMind 8 月 11 日把研究系统 AMIE 推进到实时视频：Gemini + Project Astra，三个 agent 并行（说话、规划、感知），能看步态、听咳嗽、指导虚拟体检。100 个场景、300 场、30 名执业全科对照的随机 OSCE 里，临床评审在问诊、诊断、处置、沟通上给 AMIE 打到与医生持平，体检引导还更高；演员病人更喜欢视频而不是打字。仍是演员模拟，不是真病人，公司自己写了这条限制。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "Google Research",
+          "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/"
+        },
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+        }
+      ]
+    },
+    {
+      "title": "Claude 没证黎曼猜想，却把零点下界从 41.6% 推到 67.2%",
+      "summary": "Anthropic 8 月 10 日发研究笔记：未发布的研究版 Claude 被要求「认真啃一口」黎曼猜想，没证出来，却把「能证明落在临界线上的 zeta 零点比例」从 41.6% 提到 67.2%。两次 Claude Code 会话、约 3100 万输出 token、约 60 个子 agent；公司数学家和外部专家 Conrey、Goldston 看过稿，并有 Lean 形式化。公司明确说：这套方法预期走不到猜想本身。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/riemann-zeta"
+        },
+        {
+          "label": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/"
+        }
+      ]
+    },
+    {
+      "title": "Cursor 拿到 AIUC-1：第一次有人给编码 agent 做对抗认证",
+      "summary": "Cursor 8 月 13 日宣布通过 AIUC-1，这是面向 AI agent 安全与可靠性的新标准：既审公司控制，也对抗测试产品本身。Schellman 做独立审计，两轮共数千个场景覆盖 IDE 和云端 agent，测密钥泄露、不安全代码、危险命令。标准由百余名 Fortune 500 CISO 参与起草，编码 agent 专属条款今年三季度才公布。要保证得每季复测、每年全审，报告在 trust.cursor.com。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Cursor",
+          "url": "https://cursor.com/blog/aiuc-1"
+        },
+        {
+          "label": "AIUC-1",
+          "url": "https://www.aiuc-1.com/"
+        }
+      ]
+    }
+  ]
+}

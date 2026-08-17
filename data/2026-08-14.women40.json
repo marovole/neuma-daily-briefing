@@ -1,0 +1,252 @@
+{
+  "id": "women40",
+  "title": "40+ 女性热点",
+  "summary": "这72小时海外被Stanford单纯雌激素与阿尔茨海默病关联、贴片断货、GLP-1改写女性就业三条线拉走；补上哈佛更年期饮食、NHS处方破200万、众议员逼FDA认短缺，中文圈仍是范瑞君和官方再喊别硬扛激素。",
+  "items": [
+    {
+      "title": "【健康】Stanford：单纯雌激素HRT使用者，尸检阿尔茨海默病变低35%",
+      "summary": "8月12日《Neurology》上线Stanford回顾研究，两套共2.1万名女性记录里，只用雌激素的人尸检出现淀粉样斑+tau缠结的几率低35%，生前痴呆诊断几率低39%。作者自己先泼冷水：这是关联不是因果，用药者平均70岁才开始、跟现在40多50岁窗口期开HRT再60岁前停的标准完全不是一回事，雌孕激素联合方案样本还不够下结论。社媒已经在把“35%”当成HRT护脑新证据传，跟昨天那条HRT+替尔泊肽减重35%不是同一件事。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "AAN新闻稿",
+          "url": "https://www.aan.com/PressRoom/Home/PressRelease/5359"
+        },
+        {
+          "label": "MedicalXpress / Stanford",
+          "url": "https://medicalxpress.com/news/2026-08-estrogen-based-menopausal-hormone-therapy.html"
+        },
+        {
+          "label": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/estrogen-only-hormone-therapy-could-lower-risk-of-alzheimers/"
+        },
+        {
+          "label": "MedPage Today",
+          "url": "https://www.medpagetoday.com/neurology/alzheimersdisease/122575"
+        }
+      ]
+    },
+    {
+      "title": "【健康】雌激素贴片断货还在恶化，Flow Space刚更新一波替代方案",
+      "summary": "Yahoo/Flow Space 8月13日跟进：ASHP上周五刚刷新短缺名单，多个剂量间歇断货或无限期延期；Medfinder同一天写Dotti近30天1627次药店核查只有3%有货。FDA仍不认全国短缺、说六家厂全负荷在产，患者端就是药房空货架、换品牌、减剂量。Sharon Malone把贴片比成HRT界的“舒洁”——大家以为它是唯一选项，凝胶、喷雾、口服雌二醇都在，但不能自己按毫克对换。这不是新爆点，是去年FDA摘黑框后需求冲上来的长尾，这周还在烧。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Yahoo / Flow Space",
+          "url": "https://health.yahoo.com/your-body/womens-health/menopause/articles/estrogen-patch-shortages-worsen-experts-110000414.html"
+        },
+        {
+          "label": "ASHP短缺页",
+          "url": "https://www.ashp.org/drug-shortages/current-shortages/drug-shortage-detail.aspx?id=1206"
+        },
+        {
+          "label": "Medfinder Dotti库存",
+          "url": "https://www.medfinder.com/blog/dotti-shortage-what-providers-and-prescribers-need-to-know-2026"
+        }
+      ]
+    },
+    {
+      "title": "【生活】哈佛论文：失业女性上GLP-1，18个月后就业率多出27个百分点",
+      "summary": "CBS 8月13日把Rebecca Diamond的NBER工作论文摊开：对照“想打还没打上”的女性，失业后开始用GLP-1减重的人，六个季度后就业率高出27个百分点，单身女性结婚/同居率高出29个百分点；已经在职的人没有加薪或升职。论文自己写得很刺：肥胖惩罚主要卡在“新匹配”——面试和找对象——而不是上班之后的生产力。作者也说，用医疗手段去对冲外貌歧视本身就让人不舒服，何况先用上药的人本来就更有钱。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/glp-1-weight-loss-drugs-women-employment/"
+        },
+        {
+          "label": "NBER w35387",
+          "url": "https://www.nber.org/system/files/working_papers/w35387/w35387.pdf"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/healthcare/articles/harvard-study-links-glp-1-123000637.html"
+        }
+      ]
+    },
+    {
+      "title": "【生活】范瑞君京都爬坡心悸差点叫救护车，回台查出更年期",
+      "summary": "三立/镜周刊8月12日独家：金钟女星范瑞君在京都清水寺爬坡突然心悸恐慌，语言不通又怕搅家人行程硬撑回大阪，让家人去药妆店买更年期保健品吞了才缓一点。回台心脏科、肺部查完没事，妇科一查是荷尔蒙低下，她自己说完全没过渡期、来得“猛爆”，现在改吃黄豆、盯体重和关节痛，还丢下一句“不要惹更年期女子”。中文娱乐圈少有人把旅行事故和围绝经期当新闻讲，这条比任何科普帖都更像社交引爆点。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "三立新闻网",
+          "url": "https://www.setn.com/news/1888040"
+        },
+        {
+          "label": "三立星闻",
+          "url": "https://star.setn.com/news/1888040"
+        }
+      ]
+    },
+    {
+      "title": "【生活】更年期网红医生Mary Claire Haver：Pause Life去年做到4300万美元",
+      "summary": "Inc. 8月11日把这位7位数粉丝的OB-GYN写成创业样本：Galveston Diet靠TikTok一条更年期体重帖起飞，2022年做第三方检测补剂品牌’Pause Life，2025年营收4300万美元，卖补剂到负重背心；她去年卸任CEO，转去做播客unPaused。故事核心不是产品清单，是“医学院只教潮热、病人40岁体重莫名上了”这件事被做成一门生意，中年女性创作者经济这周又被主流商业媒体点名。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "Inc.",
+          "url": "https://www.inc.com/sarah-lynch/she-saw-millions-of-women-being-ignored-her-solution-became-a-43-million-business/91376897"
+        },
+        {
+          "label": "CNBC Changemaker",
+          "url": "https://www.cnbc.com/mary-claire-haver-2026-changemaker/"
+        }
+      ]
+    },
+    {
+      "title": "【生活】夏威夷四季度假村下周四开中年女性长寿营，4995美元一位",
+      "summary": "Four Seasons Lanai官方仍挂8月20–23日“Midlife & Longevity”四日营：Jessica Shepherd（更年期专科、Generation M作者）和Ingrid Yang（内科+瑜伽）带激素、肠道、代谢心血管、睡眠和神经系统，早课力量训练，晚上悬崖日落巡航+观星，含檀香山往返包机，单人4995美元起。Travel Weekly当旅游新闻推过，定位很明确——不是SPA清单，是把中年女性健康做成高端旅行产品。下周开营，这周旅行媒体还在转。",
+      "date": "2026-08-20",
+      "sources": [
+        {
+          "label": "Four Seasons新闻稿",
+          "url": "https://press.fourseasons.com/lanai/hotel-news/2026/wellness-retreat/"
+        },
+        {
+          "label": "Travel Weekly",
+          "url": "https://www.travelweekly.com/Hawaii-Travel/Lanai-resort-to-host-retreat-focused-on-womens-health"
+        }
+      ]
+    },
+    {
+      "title": "【健康】新华网再发文：40–60岁女性近一半有更年期不适，别再硬扛激素",
+      "summary": "齐鲁网8月6日转新华网：国内专项调查称40–60岁女性更年期相关不适发生率46.3%，失眠、疲惫、情绪敏感最高发；文里把“熬过去就好”直接打成误区，重申60岁内、绝经10年内是黄金窗口，并写雌孕激素联合只小幅提高乳腺癌检出、增幅还低于肥胖和长期饮酒。这不是新指南，是官方通稿在中文健康频道继续洗“谈激素色变”。山东健康频道当天把它顶到要闻热榜第一。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "齐鲁网（转新华网）",
+          "url": "https://health.iqilu.com/stjk/jkyw/2026/0806/5934121.shtml"
+        }
+      ]
+    },
+    {
+      "title": "【营养】参考消息：别再只报1万步，抗阻才是中老年抗衰王牌",
+      "summary": "参考消息8月7日把一篇2025年《恶病质、肌肉减少症与肌肉》综述翻成中文热帖：覆盖60岁以上健康、衰弱和多种慢病人群，结论是相对1RM的80%–84%抗阻能把流失的肌肉练回来，一次训练最大肌力平均能抬2.5%，而50岁后自然流失一年大约1%。北京体育大学李浩、苏浩出镜讲“离心慢、向心快”，还给出哑铃弯举和壶铃高脚杯深蹲的家庭版。微博#建议中年人要长期坚持力量训练#月初就在转，这条是本周中文主流媒体把“中年女只散步”按倒的最新一拍。",
+      "date": "2026-08-07",
+      "sources": [
+        {
+          "label": "新浪财经 / 参考消息",
+          "url": "https://finance.sina.com.cn/roll/2026-08-07/doc-inimpfxz3095173.shtml"
+        }
+      ]
+    },
+    {
+      "title": "【营养】哈佛JAMA：更年期跟行星健康饮食，肥胖风险低54%",
+      "summary": "哈佛陈曾公卫学院和布列根妇女医院团队8月11日通过校报再推这篇JAMA Network Open论文：护士健康研究II里38283名女性、围绝经期前后约12年，头一次把11种饮食放在同一群人里比控重。平均每年涨0.8公斤；跟得最紧的行星健康饮食，新发肥胖风险低54%（HR 0.46），低胰岛素饮食减重幅度最大（相对最差一组每年少涨0.28公斤）。红肉、加工肉、薯条、高盐是拖后腿的，坚果全谷蔬菜才是主力——地中海和DASH也健康，但这场更年期控重赛没赢过这两套。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "Harvard Gazette",
+          "url": "https://news.harvard.edu/gazette/story/2026/08/for-women-in-menopause-not-all-healthy-diets-are-equal/"
+        },
+        {
+          "label": "JAMA Network Open（DOI）",
+          "url": "https://doi.org/10.1001/jamanetworkopen.2026.13102"
+        },
+        {
+          "label": "NUS Medicine",
+          "url": "https://medicine.nus.edu.sg/news/plant-forward-and-low-insulinemic-diets-may-help-reduce-weight-gain-and-obesity-risk-during-menopause-long-term-study-finds/"
+        }
+      ]
+    },
+    {
+      "title": "【健康】韩国《Menopause》：糖尿病女性绝经后症状重54%，潮热关节痛更狠",
+      "summary": "北美更年期学会8月5日发布、刊于期刊Menopause：乙支大学杨有利团队调查296名40–64岁韩国女性，按空腹血糖和糖化血红蛋白分成糖尿病/糖前期 vs 正常。差异只在绝经后站得住——Healthline援引数据：绝经后糖尿病组平均约19个症状，对照组约14个，严重程度分高54%，潮热关节痛等躯体症状强46%。情绪分两边差不多。更年期门诊别只问潮热，血糖也得一起看。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "The Menopause Society",
+          "url": "https://menopause.org/press-releases/worse-menopause-symptoms-may-accompany-type-2-diabetes"
+        },
+        {
+          "label": "Healthline",
+          "url": "https://www.healthline.com/health-news/type-2-diabetes-may-worsen-menopause-symptoms"
+        },
+        {
+          "label": "Healio",
+          "url": "https://www.healio.com/news/womens-health-ob-gyn/20260811/type-2-diabetes-may-worsen-menopause-symptoms-in-south-korean-women"
+        }
+      ]
+    },
+    {
+      "title": "【生活】英格兰NHS：40岁以上HRT处方破200万，五年翻倍，穷区开药率只有富人区一半出头",
+      "summary": "NHSBSA 8月5日报告：2025/26财年英格兰40岁以上女性有200万人至少开过一次NHS HRT，2020/21还是80万。最贫困地区开药率8.8%，较富裕地区14.2%；Brighton and Hove每100人23张，伦敦Newham只有4张。增长最快的是40–49岁，经皮制剂已是主流。全国药师协会主席警告：处方暴涨正在反噬供应链，Estradot部分规格短缺已是NHS史上拖得最长的药荒之一。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "Pharmacy Magazine",
+          "url": "https://www.pharmacymagazine.co.uk/nhs-and-health-news/a-record-breaking-two-million-women-prescribed-hrt-in-2025-26"
+        },
+        {
+          "label": "PMLiVE",
+          "url": "https://pmlive.com/pharma_news/number-of-women-in-england-receiving-hrt-on-the-nhs-more-than-doubles/"
+        },
+        {
+          "label": "NHSBSA互动报告",
+          "url": "https://nhsbsadata.shinyapps.io/hrt-inequalities-latest/"
+        }
+      ]
+    },
+    {
+      "title": "【生活】This Is Us的Chrissy Metz上TODAY认GLP-1：围绝经期开练，百老汇一周八场才扛住",
+      "summary": "45岁的Metz 8月10日上TODAY，说自己观望了好几年，因家族肥胖史和进入围绝经期才开GLP-1，并与远程医疗公司Ro合作。她说“食物噪音”消了，月经周期稳了，关节不那么肿，百老汇《& Juliet》一周八场体力够用。一年前开始跟教练练力量——她自己强调这不是魔杖，药只是一半，力量训练才是围绝经期和GLP-1期间不能省的那半。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "TODAY",
+          "url": "https://www.today.com/health/celebrity-health/chrissy-metz-glp-1-weight-loss-rcna591013"
+        },
+        {
+          "label": "USA Today",
+          "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/08/10/chrissy-metz-glp-1-weight-management-this-is-us/91244005007/"
+        },
+        {
+          "label": "Fox News",
+          "url": "https://www.foxnews.com/entertainment/this-us-star-chrissy-metz-says-she-turned-glp-1-drug-after-years-skepticism"
+        }
+      ]
+    },
+    {
+      "title": "【健康】CBS主播O'Donnell公开用睾酮：医生称阴道雌激素能给Medicare年省60–220亿美元",
+      "summary": "Norah O'Donnell 8月12日在播客Healthful请来自己的医生、泌尿科医生Rachel Rubin谈更年期。Rubin把绝经叫“阉割事件”——卵巢停产雌激素、孕激素和睾酮。她主张所有绝经女性都应被提供阴道雌激素，目前使用率不到1/10，却可能每年给Medicare省下60亿到220亿美元的UTI急诊和住院。O'Donnell首次公开自己在用男用管装睾酮的小剂量；美国目前没有FDA批准的女性睾酮制剂，只能超说明书开。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "CBS News",
+          "url": "https://www.cbsnews.com/news/menopause-norah-odonnell-dr-rachel-rubin-healthful/"
+        }
+      ]
+    },
+    {
+      "title": "【生活】8名众议员逼FDA：雌激素贴片ASHP列了14个规格短缺，官方清单一个都没有",
+      "summary": "密歇根众议员Debbie Dingell等8人8月6日致信FDA代理局长Diamantas。Epic Research数据显示2021到2025年秋雌激素贴片处方涨了72%，药师协会ASHP从今年1月起把14个品牌/剂量列入短缺，FDA自己的短缺库一个都没登。信里点名问：是不是裁员让短缺监测跟不上、凝胶喷雾会不会接着断、短缺何时结束。这不是又一篇“去哪找替代贴片”，是监管认不认短缺的政治对峙。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "众议员Dingell办公室",
+          "url": "https://debbiedingell.house.gov/news/documentsingle.aspx?DocumentID=7194"
+        },
+        {
+          "label": "Quiver Quantitative",
+          "url": "https://www.quiverquant.com/news/Press+Release%3A+Debbie+Dingell+and+House+Colleagues+Seek+FDA+Response+on+Estrogen+Patch+Shortages"
+        }
+      ]
+    },
+    {
+      "title": "【生活】Jenny McCarthy新书预告更年期是“荷尔蒙马戏团”，她说HRT“救了我的命”",
+      "summary": "53岁的McCarthy 8月13日向People宣布新书《I'm Too Hot for This $#!+: The Naked Truth About Menopause》，2027年2月16日上市，现已开放预售。她写潮热、凌晨三点醒、脑雾和怒扫房间，并专访Mary Claire Haver等医生。今年1月上Kelly Clarkson秀时她就说过，黑框警告拿掉后HRT“救了我的命”，还觉得当年被吓退的婴儿潮一代亏大了——这本是她把那句话做成畅销书规格的后续。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "First for Women",
+          "url": "https://firstforwomen.com/jenny-mccarthy-opens-up-about-the-full-hormonal-circus-of-menopause-reveals-what-saved-my-life/"
+        },
+        {
+          "label": "Ex Libris 书目页",
+          "url": "https://www.exlibris.ch/de/buecher-buch/english-books/jenny-mccarthy-wahlberg/im-too-hot-for-this-/id/9780063574861/"
+        }
+      ]
+    }
+  ]
+}

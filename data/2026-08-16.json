@@ -1,0 +1,547 @@
+{
+  "date": "2026-08-16",
+  "updatedAt": "2026-08-15T22:30:32.000Z",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI / LLM 热点",
+      "summary": "本周不重复已发过的 Flash/Sol/V4-Pro/Qwen 那一串：融资看 Databricks 50 亿、River 11 亿，产品看 MiniMax 开源写歌、Nemotron Lightning，基础设施看 Mistral 主权算力与 SpaceX 交割 Cursor，研究看 Claude 把黎曼零点下界推到 67.2%。DeepSeek 只记周日峰谷改价。",
+      "items": [
+        {
+          "title": "DeepSeek 周日改峰谷价：谷时也比现在贵",
+          "summary": "官方定价页写明：8 月 16 日 16:00 UTC 起取消一口价，改峰谷计费，谷时是峰时的一半。高峰是 01:00–04:00 和 06:00–10:00 UTC（北京时间 9–12 点、14–18 点），其余为谷时。V4-Flash 输出谷时 $0.66、峰时 $1.32 / 百万 token；V4-Pro 输出谷时 $1.98、峰时 $3.96。对照改价前 Flash $0.28、Pro $0.87，谷时也是涨价，不是半价促销。",
+          "date": "2026-08-16",
+          "sources": [
+            {
+              "label": "DeepSeek API Docs",
+              "url": "https://api-docs.deepseek.com/quick_start/pricing"
+            },
+            {
+              "label": "TechNode",
+              "url": "https://technode.com/2026/08/14/deepseek-to-introduce-peak-and-off-peak-pricing-for-its-api/"
+            }
+          ]
+        },
+        {
+          "title": "路透独家：Anthropic IPO 按 2028 年 1900–2000 亿美元营收定价",
+          "summary": "两位知情人士告诉路透：华尔街不用当下数字给 Anthropic 定价，而是按它自己给的 2028 年营收约 1900–2000 亿美元来算倍数。公司 5 月刚公开年化 run-rate 470 亿美元，Q2 指引营收至少 109 亿、有望录得 5.59 亿经营利润。对标被点名的是 Cloudflare、Palantir、SpaceX。这是预测不是财报，最终估值仍看分析师日和招股书。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/"
+            },
+            {
+              "label": "CNA",
+              "url": "https://www.channelnewsasia.com/business/exclusive-anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-6320831"
+            }
+          ]
+        },
+        {
+          "title": "SpaceX 正式交割 Cursor：600 亿美元全股票",
+          "summary": "Cursor 官方 8 月 14 日发文：已被 SpaceX 收购，走完 4 月合作、6 月签约的流程。SEC 8-K 写明生效日 8 月 14 日，Anysphere 普通股和优先股换成约 3.89 亿股 SpaceX A 类股，隐含股权价值 600 亿美元。Cursor 说从此能用「全球最大 GPU 舰队」，Grok 4.6 是第一次合作样品。TechCrunch 次日跟进确认交割完成。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Cursor",
+              "url": "https://cursor.com/blog/joining-spacex"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/"
+            }
+          ]
+        },
+        {
+          "title": "Databricks 再融 50 亿美元，估值 1900 亿",
+          "summary": "8 月 13 日官方宣布：战略轮融资 50 亿美元、估值 1900 亿美元，Coatue 领投，黑石、MGX、T. Rowe Price 和新进的 Sixth Street Growth 跟投。钱要砸进 Lakebase（面向 agent 的 serverless Postgres，年化已超 1 亿美元）、Genie 和 Unity AI Gateway。同期 Q2 年化营收跑过 70 亿美元、同比增超 80%。六个月前上一轮估值还是 1340 亿。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Databricks",
+              "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+            },
+            {
+              "label": "Reuters",
+              "url": "https://www.reuters.com/legal/transactional/databricks-raises-5-billion-financing-190-billion-valuation-2026-08-13/"
+            }
+          ]
+        },
+        {
+          "title": "MiniMax Music 3.0：开源权重，一首歌能写满五分钟",
+          "summary": "MiniMax 放出下一代音乐模型 Music 3.0：给创意说明和可选歌词，一次生成编曲、演奏、人声到成片，最长约五分钟。架构是 80 亿全局 LLM + 6 亿局部 LLM，再用 flow matching 和 Flow-VAE 出声。8 月 13 日开源权重进 Hugging Face / ComfyUI，32 kHz 立体声；官方定位 production-ready，面向本机自托管，不只是云端 API。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "MiniMax",
+              "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model"
+            },
+            {
+              "label": "ComfyUI Blog",
+              "url": "https://blog.comfy.org/p/minimax-music-3-state-of-the-art"
+            }
+          ]
+        },
+        {
+          "title": "Cursor 收 Firetiger：写完代码还要盯生产",
+          "summary": "Cursor 8 月 13 日宣布 Firetiger 团队加入，金额未披露。Firetiger 做上线后的 agent：盯发布、抓回归、查事故，再把线索交回编码 agent。独立产品会关停，能力并进 Cursor，和自家 Git 平台 Origin、即将上线的 Change Monitors 绑在一起。交割 SpaceX 的前一天还在买公司，等于先把「写代码到跑生产」这条链补上。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Cursor",
+              "url": "https://cursor.com/blog/firetiger"
+            },
+            {
+              "label": "Firetiger",
+              "url": "https://blog.firetiger.com/firetiger-is-joining-cursor/"
+            }
+          ]
+        },
+        {
+          "title": "Mistral 上架 GLM-5.2，顺手卖欧洲主权算力",
+          "summary": "Mistral 8 月 11 日三件事一起发：区域推理端点正式可用（欧洲/美国，可钉死数据落点）、Priority Tier 带 99.5% SLA 公测、平台开始托管第三方开源模型，第一个就是智谱 GLM-5.2，和自家模型同一套区域控制与服务承诺。另一头拉 Amadeus、ASML、Capgemini、法国存款保险基金、CMA CGM 签多年算力承诺（ECU），目标 2027 年底 200 兆瓦、2030 年 1 吉瓦欧洲产能。法国实验室给中国开源模型当欧洲通道，叙事从卖模型改成卖主权分发层。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "Mistral",
+              "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+            },
+            {
+              "label": "VentureBeat",
+              "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now"
+            }
+          ]
+        },
+        {
+          "title": "River AI 种子+A 轮一口气拿 11 亿美元",
+          "summary": "xAI 联合创始人 Igor Babuschkin 的 River AI 8 月 11 日宣布，种子轮和 A 轮合计融资 11 亿美元，General Catalyst 与 AMP PBC 领投，NVIDIA、AMD Ventures、Y Combinator、Temasek 跟投，估值未披露。公司 6 月才公开，做的是让企业和开发者自己训、调、拥有开源权重模型：LoRA 和强化学习走 API，按 token 计费，复杂 RL 称 15–20 分钟跑完。两个月大龄公司拿十亿美元级支票，赌的是「模型归用户」而不是再卖一个通用助手。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "River AI",
+              "url": "https://river.ai/series-seed-series-a-funding"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/"
+            }
+          ]
+        },
+        {
+          "title": "Nvidia Nemotron 3.5 Lightning：30B 开源，3B 激活跑长程 agent",
+          "summary": "Nvidia 8 月 11 日放出 Nemotron 3.5 Lightning：混合 MoE，总参 300 亿、每次激活 30 亿，Mamba-2 + 专家层 + 少量注意力，原生多 token 预测和投机解码，上下文最高 100 万。官方称面向高并发、低延迟的常驻 agent，NVFP4/BF16 权重全开，许可证 OpenMDW 1.1，Hugging Face、NIM、OpenRouter 当天可下。一张 H100 或 DGX Spark 就能跑，和 Meta 同周的本机开源叙事叠在一起。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "NVIDIA Technical Blog",
+              "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/"
+            },
+            {
+              "label": "Hugging Face",
+              "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+            }
+          ]
+        },
+        {
+          "title": "Google AMIE 第一次用视频问诊：模拟里打平全科医生",
+          "summary": "Google Research / DeepMind 8 月 11 日把研究系统 AMIE 推进到实时视频：Gemini + Project Astra，三个 agent 并行（说话、规划、感知），能看步态、听咳嗽、指导虚拟体检。100 个场景、300 场、30 名执业全科对照的随机 OSCE 里，临床评审在问诊、诊断、处置、沟通上给 AMIE 打到与医生持平，体检引导还更高；演员病人更喜欢视频而不是打字。仍是演员模拟，不是真病人，公司自己写了这条限制。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "Google Research",
+              "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/"
+            },
+            {
+              "label": "Google Blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+            }
+          ]
+        },
+        {
+          "title": "Claude 没证黎曼猜想，却把零点下界从 41.6% 推到 67.2%",
+          "summary": "Anthropic 8 月 10 日发研究笔记：未发布的研究版 Claude 被要求「认真啃一口」黎曼猜想，没证出来，却把「能证明落在临界线上的 zeta 零点比例」从 41.6% 提到 67.2%。两次 Claude Code 会话、约 3100 万输出 token、约 60 个子 agent；公司数学家和外部专家 Conrey、Goldston 看过稿，并有 Lean 形式化。公司明确说：这套方法预期走不到猜想本身。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/research/riemann-zeta"
+            },
+            {
+              "label": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/"
+            }
+          ]
+        },
+        {
+          "title": "Cursor 拿到 AIUC-1：第一次有人给编码 agent 做对抗认证",
+          "summary": "Cursor 8 月 13 日宣布通过 AIUC-1，这是面向 AI agent 安全与可靠性的新标准：既审公司控制，也对抗测试产品本身。Schellman 做独立审计，两轮共数千个场景覆盖 IDE 和云端 agent，测密钥泄露、不安全代码、危险命令。标准由百余名 Fortune 500 CISO 参与起草，编码 agent 专属条款今年三季度才公布。要保证得每季复测、每年全审，报告在 trust.cursor.com。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Cursor",
+              "url": "https://cursor.com/blog/aiuc-1"
+            },
+            {
+              "label": "AIUC-1",
+              "url": "https://www.aiuc-1.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "women40",
+      "title": "40+ 女性热点",
+      "summary": "这一周不是鸡汤清单，是真事件：无激素潮热新药两边开打，歌后病逝被拿来讲心血管，40岁筛癌和「腹硬当发福」同时在华语圈刷屏。",
+      "items": [
+        {
+          "title": "【健康】单针抗体ABCL635：92人试验四周潮热少83%，股价一天涨34%",
+          "summary": "加拿大AbCellera 8月10日公布II期顶线：92名绝经后女性平均每天约10次中重度潮热，一针皮下600mg，四周频次降83%、安慰剂33%；严重程度降58%对12%。92人全部走完、无人因副作用退出，最常见是头痛、疲劳和注射部位反应。公司称美国约1200万女性有中重度潮热、超600万在求医，12周数据还在后头。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "AbCellera",
+              "url": "https://investors.abcellera.com/news/news-releases/2026/AbCellera-Announces-Positive-Top-Line-Phase-2-Clinical-Trial-Results-for-ABCL635-Demonstrating-Significant-Reduction-in-Frequency-and-Severity-of-Vasomotor-Symptoms-and-a-Favorable-Tolerability-Profile/default.aspx"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/healthcare/articles/abcellera-stock-surges-abcl635-menopause-131637503.html"
+            }
+          ]
+        },
+        {
+          "title": "【健康】英国批Lynkuet扩适应证：474人试验，乳腺癌内分泌治疗潮热有了无激素药",
+          "summary": "英国MHRA 8月12日批准Bayer的elinzanetant（Lynkuet）用于乳腺癌辅助内分泌治疗引起的中重度潮热，称是该适应证英国首个获批方案。OASIS-4在16国90个中心随机474人，第4周比安慰剂少3.5次/天、第12周少3.4次，睡眠量表改善6.1分。资料写绝经前患者最多95%、绝经后约30%会因此潮热；英国每年约5.9万女性新发乳腺癌。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "FirstWord Pharma",
+              "url": "https://firstwordpharma.com/story/7841475"
+            },
+            {
+              "label": "NEJM OASIS-4",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40454634/"
+            }
+          ]
+        },
+        {
+          "title": "【生活】46岁Olivia Munn开Instagram系列：手术绝经后还在吃芳香化酶抑制剂",
+          "summary": "她8月13日发视频说自己在「长跑障碍」里：2023年确诊双侧Luminal B乳腺癌后切双乳，2024年4月切子宫和卵巢，直接从「还没到」跳进手术绝经。8月起吃阿那曲唑关掉体内雌激素通路，她说这些药很难熬，以后会单独拍一集讲手术绝经。当年Tyrer-Cuzick评分约37%才查出癌，基因检测却是阴性。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Us Weekly",
+              "url": "https://www.usmagazine.com/celebrity-news/news/olivia-munn-gives-update-on-her-breast-cancer-journey/"
+            },
+            {
+              "label": "Particle",
+              "url": "https://particle.news/story/olivia-munn-launches-instagram-series-on-ongoing-luminal-b-breast-cancer-recovery"
+            }
+          ]
+        },
+        {
+          "title": "【营养】64岁Rosie O'Donnell谈Mounjaro：三周掉12磅吓到以为得癌",
+          "summary": "她8月11日上Amy Poehler播客说，三年前医生为控2型糖尿病开了Mounjaro，完全没提会瘦。去Nobu吃不下，两周后称重发现三周掉了12磅，哭着打电话「我一定得癌了」。她说64岁才「从没这么舒服过」，三年大约减了65磅，也吐槽与其给代言费不如把药价降下来。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "Daily Mail",
+              "url": "https://www.dailymail.co.uk/tvshowbiz/article-16043843/Rosie-ODonnell-opens-dramatic-weight-loss-shedding-12lbs-three-weeks-using-Mounjaro.html"
+            },
+            {
+              "label": "Irish Star",
+              "url": "https://www.irishstar.com/culture/entertainment/rosie-odonnell-cancer-scare-doctors-37540699"
+            }
+          ]
+        },
+        {
+          "title": "【健康】台语歌后陈盈洁72岁病逝，医把更年期说成心血管「加速器」",
+          "summary": "陈盈洁8月12日晚7时在台北过世，晚年中风、失智、肾衰竭。家医许书华随后发文：卵巢衰退对心血管的伤害独立于老化，变化会在末次月经前后各一年里爆发；好看的HDL数字可能是假象。她点名热潮红、失眠、情绪低落可能是心脏警报，并提醒女性腰围尽量守在80厘米内。",
+          "date": "2026-08-15",
+          "sources": [
+            {
+              "label": "中时新闻网",
+              "url": "https://www.chinatimes.com/realtimenews/20260815002546-260418"
+            },
+            {
+              "label": "中央社",
+              "url": "https://www.cna.com.tw/news/amov/202608120336.aspx"
+            }
+          ]
+        },
+        {
+          "title": "【健康】ICU医生薄世宁在广州喊：40岁人人做一次防癌筛查",
+          "summary": "北大三院薄世宁8月12日在广州说，40岁后患癌风险指数级上升，临床绝大多数晚期癌前期没症状。他点名40岁起钼靶加超声查乳癌，早发现5年生存率可大于90%；肠镜、低剂量CT也别拖。他还引用研究：45.2%的癌症死亡可归因于吸烟、超重、加工肉等23种可改变因素。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "中国新闻网/新浪",
+              "url": "https://finance.sina.com.cn/jjxw/2026-08-13/doc-inincxkw0136282.shtml"
+            }
+          ]
+        },
+        {
+          "title": "【健康】75岁奶奶腹硬当发福，盆腔里是13厘米卵巢纤维瘤",
+          "summary": "陕西核工业二一五医院本周收治绝经20余年的罗奶奶，下腹发胀发硬一直当老年发胖，检查发现13厘米囊实性包块，确诊良性卵巢纤维瘤。她合并高血压、脑梗，多学科做腹腔镜完整切除，9天出院。院方提醒：绝经不等于没妇科病，腰围异常增粗别拖着。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "环球网/新浪",
+              "url": "https://finance.sina.com.cn/roll/2026-08-14/doc-ininfvzx9525990.shtml"
+            }
+          ]
+        },
+        {
+          "title": "【健康】台湾乳癌筛检率卡在39.1%，协会喊别拿抽血指数当挡箭牌",
+          "summary": "常春月刊8月14日援引乳癌病友协会：公费乳房X光已扩到40–74岁每两年一次，但筛检率仅约39.1%，远低于欧美60%–80%。协会强调肿瘤标记不能替代摄影；国健署数据称两年一次摄影可降41%乳癌死亡，早期五年存活率九成以上、晚期约39.2%。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Yahoo奇摩/常春月刊",
+              "url": "https://tw.news.yahoo.com/%E4%B9%B3%E7%99%8C%E7%AF%A9%E6%AA%A2%E7%8E%87%E5%83%854%E6%88%90-%E6%8A%BD%E8%A1%80%E9%A9%97%E7%99%8C%E7%97%87%E6%8C%87%E6%95%B8%E6%AD%A3%E5%B8%B8%E5%B0%B1%E6%B2%92%E4%BA%8B-%E9%86%AB%E6%8F%AD%E4%B9%B3%E6%88%BFx%E5%85%89%E6%94%9D%E5%BD%B1%E9%87%8D%E8%A6%81%E6%80%A7-001558305.html"
+            },
+            {
+              "label": "优活健康网",
+              "url": "https://www.uho.com.tw/article-70136.html"
+            }
+          ]
+        },
+        {
+          "title": "【生活】TikTok女患者看了四个妇科仍要不来HRT，带丈夫去才被开化验单",
+          "summary": "英国媒体8月14日盯上这条围绝经期视频：她换了四位妇科，被建议饮食运动、SSRI和避孕药，HRT一直没谈拢；她说「也许他们会听我丈夫的」。带上丈夫后医生开了实验室检查和超声。视频在Reddit引发跟帖，不少人说带伴侣看病更被当回事。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Fashion Times",
+              "url": "https://www.fashiontimes.co.uk/womans-tiktok-highlights-perimenopause-healthcare-struggles-1762730"
+            }
+          ]
+        },
+        {
+          "title": "【健康】剑桥+ICR：NICE标准漏掉最多95%十年内会得乳癌的50岁以下女性",
+          "summary": "8月4日《British Journal of Cancer》分析Generations Study里1258名50岁以下女性。现行NICE只靠家族史，只能转诊1.4%的人、覆盖后来得癌者的4.4%；全套BOADICEA能标出26.5%，覆盖34.8%。关键数字：73%十年内得癌的50岁以下女性根本没有乳癌家族史。NICE说欢迎研究但暂不改指南。",
+          "date": "2026-08-04",
+          "sources": [
+            {
+              "label": "University of Cambridge",
+              "url": "https://www.cam.ac.uk/research/news/nice-referral-criteria-miss-up-to-95-of-women-under-50-who-go-on-to-develop-breast-cancer-within-10"
+            },
+            {
+              "label": "BBC",
+              "url": "https://www.bbc.com/news/articles/ckgv652r625o"
+            }
+          ]
+        },
+        {
+          "title": "【健康】英国衰老队列6509人跟了20年：新发心绞痛后骨质疏松风险高62%",
+          "summary": "8月5日BMC Public Health用ELSA第1到11波数据，基线无心绞痛也无骨质疏松的6509人入组。完全校正后，新发心绞痛随后发生骨质疏松的HR=1.621（95% CI 1.081–2.430）。机器学习把随时间变化的心绞痛排进骨质疏松的重要预测因子，多变量模型AUC 0.793。",
+          "date": "2026-08-05",
+          "sources": [
+            {
+              "label": "BMC Public Health",
+              "url": "https://link.springer.com/article/10.1186/s12889-026-28218-y"
+            }
+          ]
+        },
+        {
+          "title": "【营养】台湾减重医把Science 6400人代谢曲线搬上版面：更年期肚子是「脂肪搬家」",
+          "summary": "三立新闻8月10日报道萧捷健引用2021年Science对全球6400多人的能量消耗分析：45–60岁代谢率并没有崩。他给出的对照数字是停经前内脏脂肪约占体脂5%–8%，停经后爬到15%–20%；另有研究称50–70岁女性节食20周平均减10.8公斤，其中32%是肌肉。他还提到大豆异黄酮约50毫克连补6周以上，热潮红频率可降约20%。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "三立新闻网",
+              "url": "https://www.setn.com/news/1887048"
+            }
+          ]
+        },
+        {
+          "title": "【健康】111名绝经后骨质疏松女性：血管内皮功能差，低风险组里仍有55%测得低FMD",
+          "summary": "法国克莱蒙费朗大学医院队列8月6日见刊：111名绝经后骨质疏松女性，平均69.4岁，肱动脉血流介导舒张均值仅3.14%。49.5%被SCORE2/2-OP标成高/极高危；即便分在低/中危的人里，仍有55% FMD偏低。FMD与曾用双膦酸盐呈正相关（r=0.270），和传统骨指标反而对不上。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "University of Surrey",
+              "url": "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Postmenopausal-Osteoporosis-Endothelial-Dysfunction-and-Cardiovascular/991133695502346"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharma",
+      "title": "健康医药产业",
+      "summary": "本周审批与BD齐飞：FDA批出阿尔茨海默病tau显像剂，EGFR 20ins肺癌III期中期胜出；信达拿下第一三共血液瘤推广，恒瑞GLP-1三激动剂与IBD新分子同日拿IND。",
+      "items": [
+        {
+          "title": "Lantheus tau显像剂Tauklarify获FDA批准，补齐阿尔茨海默病PET拼图",
+          "summary": "8月14日FDA批准Lantheus的F18标记tau PET显像剂Tauklarify（florquinitau，MK-6240），用于认知障碍成人评估阿尔茨海默病、识别tau神经纤维缠结。两项盲法读图研究覆盖500余例受试者：研究1阳性一致率80%–88%、阴性一致率98%–99%；安全性队列1734人，头痛发生率仅0.7%。公司暂以药企合作供药为主，尚未全面商用。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "Lantheus官网",
+              "url": "https://investor.lantheus.com/news-releases/news-release-details/lantheus-announces-fda-approval-tauklarifytm-florquinitau-f-18"
+            }
+          ]
+        },
+        {
+          "title": "大鹏/Cullinan zipalertinib一线EGFR 20ins肺癌III期中期达PFS终点",
+          "summary": "8月13日Taiho与Cullinan宣布全球III期REZILIENT3中期分析达主要终点：zipalertinib联合含铂化疗一线治疗EGFR外显子20插入突变NSCLC，PFS较单化疗显著且有临床意义改善，安全性可管理，独监委会建议揭盲。试验入组285例初治患者，双方拟与FDA沟通申报一线适应症，完整数据待国际会议公布。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Taiho官网",
+              "url": "https://www.taiho.co.jp/en/release/2026/20260813.html"
+            },
+            {
+              "label": "BioSpace",
+              "url": "https://www.biospace.com/press-releases/zipalertinib-plus-chemotherapy-meets-primary-endpoint-of-progression-free-survival-in-planned-interim-analysis-of-phase-3-rezilient3-trial-in-first-line-egfr-exon-20-insertion-mutation-non-small-cell-lung-cancer"
+            }
+          ]
+        },
+        {
+          "title": "Sagimet痤疮口服药denifanstat获FDA III期放行，计划入组800人",
+          "summary": "8月13日Sagimet宣布FDA清除denifanstat中重度痤疮III期IND并出具Study May Proceed函，下半年启动美国关键试验。计划入组约800名12岁及以上患者、其中450名为12–17岁青少年，2:1随机接受50mg每日一次或安慰剂共12周，随后40周开放延长期。中国合作方歌礼已完成480例III期，治疗成功率33.2%对安慰剂14.6%。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "BioSpace/公司稿",
+              "url": "https://www.biospace.com/press-releases/sagimet-biosciences-receives-fda-study-may-proceed-letter-and-ind-clearance-for-phase-3-trial-in-acne-in-adolescent-and-adult-patients"
+            }
+          ]
+        },
+        {
+          "title": "Vertex百亿美元收购Crinetics过美国反垄断等待期，9月初有望交割",
+          "summary": "Crinetics 8月14日8-K披露：Vertex以每股85美元现金、股权价值约100亿美元收购该公司的HSR等待期已于8月12日到期，奥德澳反垄断审批亦于13日到手。股东会定8月28日，若通过预计9月初交割。这是Vertex史上最大买案，押注内分泌赛道，峰值销售公司曾展望超50亿美元。",
+          "date": "2026-08-14",
+          "sources": [
+            {
+              "label": "SEC 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1658247/000114036126032951/ef20080199_8k.htm"
+            },
+            {
+              "label": "Vertex官网",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-acquire-crinetics-pharmaceuticals"
+            }
+          ]
+        },
+        {
+          "title": "Amneal完成收购Kashiv，拼出端到端生物类似药平台",
+          "summary": "8月10日Amneal宣布完成对Kashiv BioSciences的收购，现金3.75亿美元外加约2894万股A类股，外加里程碑，印媒口径总对价约11亿美元。双方对接十年，瞄准未来十年超3000亿美元生物药专利悬崖，目标每年多款生物类似药上市。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "Amneal官网",
+              "url": "https://investors.amneal.com/news/press-releases/press-release-details/2026/Amneal-Completes-Acquisition-of-Kashiv-BioSciences-Creating-a-Global-Biosimilar-Leader/default.aspx"
+            },
+            {
+              "label": "ET Pharma",
+              "url": "https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/amneal-completes-1-1-bn-kashiv-biosciences-buyout/133167410"
+            }
+          ]
+        },
+        {
+          "title": "Zydus旗下Sentynl拿下Mereo口服AATD肺病药美国期权",
+          "summary": "8月11日Sentynl与Mereo就中性粒细胞弹性蛋白酶抑制剂alvelestat签署美国商业化及全球生产期权许可。行权后Mereo可再拿最多4000万美元至NDA的首付与研发款，外加美国净销售双位数分成，III期有望2027年初启动。该罕见遗传病美国患者估5万–8万人，目前尚无口服药。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/sentynl-therapeutics-and-mereo-biopharma-announce-option-and-license-agreement-for-alvelestat-in-alpha-1-antitrypsin-deficiency-associated-lung-disease-aatd-ld-302847861.html"
+            }
+          ]
+        },
+        {
+          "title": "NeOnc鼻喷NEO100复发IDH1突变高级别胶质瘤II期达终点",
+          "summary": "8月12日NeOnc公布NEO100-01 II期a部分顶线：24例放疗/替莫唑胺失败的III/IV级IDH1突变胶质瘤患者，6个月PFS达48.9%，显著高于预设20%标准治疗基准（p=0.0047），中位OS 26.09个月、6个月生存率86.7%。患者居家一日四次鼻喷，未报告重大毒性，公司将约FDA Type B会议谈注册路径。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "NeOnc官网",
+              "url": "https://neonc.com/neonc-technologies-reports-positive-topline-phase-2a-results-for-intranasal-neo100-in-recurrent-idh1-mutant-high-grade-glioma/"
+            }
+          ]
+        },
+        {
+          "title": "信达拿下第一三共维复泰中国独家推广，凑齐血液瘤第20款产品",
+          "summary": "8月10日信达与第一三共宣布：刚于6月在中国获批的FLT3-ITD阳性新诊断AML口服药维复泰（奎扎替尼，Vanflyta）由第一三共负责研发生产供应，信达拿中国大陆独家推广，成为其商业化组合第20款产品。中国2022年白血病新发近8.2万、死亡超5万，AML约占一半，FLT3-ITD约占AML的25%。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "美通社",
+              "url": "https://www.prnasia.com/story/543414-1.shtml"
+            },
+            {
+              "label": "PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/innovent-biologics-and-daiichi-sankyo-enter-exclusive-agreement-for-vanflyta-commercialization-in-china-302846648.html"
+            }
+          ]
+        },
+        {
+          "title": "恒瑞GLP-1/GIP/GCGR三激动剂HRS-4729获批开展糖尿病II期",
+          "summary": "8月12日恒瑞公告，自主多肽HRS-4729注射液获NMPA批准开展成人2型糖尿病II期，受理号CXHL2600577/578，减重II期同步推进。该药同时激动GLP-1R、GIPR与GCGR，国内外尚无同类获批，累计研发投入约8160万元。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "新时空/港股公告",
+              "url": "https://www.newtimespace.com/zh-cn/finance/1435195.html"
+            }
+          ]
+        },
+        {
+          "title": "恒瑞同日再下一城：IBD新分子SHR-7590获临床试验批件",
+          "summary": "同一天恒瑞子公司广东恒瑞收到SHR-7590注射液临床试验批准通知书，拟用于溃疡性结肠炎和克罗恩病，受理号CXSL2600550/551。公司称该1类生物制品在动物IBD模型可抑制炎症，全球尚无同靶点药物上市，累计研发投入约3250万元。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "界面新闻",
+              "url": "https://www.jiemian.com/article/14913263.html"
+            },
+            {
+              "label": "新时空",
+              "url": "https://www.newtimespace.com/zh-cn/finance/1435199.html"
+            }
+          ]
+        },
+        {
+          "title": "以岭补体Factor B抑制剂LB220-D08临床试验申请获受理",
+          "summary": "8月12日以岭药业公告，1类化药LB220-D08缓释片IND获NMPA受理，受理号CXHL2600983/984。该药靶向补体Factor B，适应症为非典型溶血性尿毒症综合征（aHUS），是公司从中药主业向外拓展补体罕见病的一步。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "同花顺/公司公告",
+              "url": "https://stock.10jqka.com.cn/20260812/c678897709.shtml"
+            }
+          ]
+        },
+        {
+          "title": "翰宇拿下替尔泊肽国内首仿上市申请受理，对标365亿美元药王",
+          "summary": "8月8日翰宇药业公告，4类仿制药替尔泊肽注射液上市申请获NMPA受理，四个规格对应受理号CYHS2601923–926，适应症覆盖2型糖尿病与长期体重管理，公司称系国内首家申报该品种仿制上市。礼来原研2025年全球销售约365.07亿美元，其中降糖Mounjaro约229.65亿、减重Zepbound约135.42亿。",
+          "date": "2026-08-08",
+          "sources": [
+            {
+              "label": "巨潮资讯公告",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225463132.PDF"
+            }
+          ]
+        },
+        {
+          "title": "中报季出海成色：上半年创新药授权约1100亿美元，药明净利破百亿",
+          "summary": "8月10日《经济参考报》盘点：国家药监局数据显示今年上半年中国创新药海外授权总额约1100亿美元；药明康德上半年营收288.97亿元同比增38.93%、归母净利110.8亿元增29.43%，半年度净利首次破百亿。同期西药类出口302.62亿美元同比增8.35%，创新药板块8月7日单日大涨，中证创新药30指数涨7.11%。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "中国经济网/经济参考报",
+              "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202608/t20260810_3137311.shtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codexiq",
+      "title": "Codex IQ",
+      "summary": "",
+      "items": []
+    }
+  ]
+}

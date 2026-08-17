@@ -1,0 +1,244 @@
+{
+  "id": "pharma",
+  "title": "健康医药产业",
+  "summary": "8月12–14日审批端中美同时放量：BMS首个CELMoD、康方依沃西鳞癌一线、优赫得进一线乳腺癌；补上LSD焦虑III期、国产AKT报产、武田睡病新药和Moderna流感mRNA。",
+  "items": [
+    {
+      "title": "BMS首个CELMoD Zenbexus获FDA加速批准，复发骨髓瘤可早到二线",
+      "summary": "8月13日FDA加速批准BMS的iberdomide（商品名Zenbexus），联用达雷妥尤单抗皮下制剂+地塞米松，用于至少一线含蛋白酶体抑制剂和免疫调节剂后的成人多发性骨髓瘤，是首个获批的cereblon蛋白降解剂（CELMoD）。III期EXCALIBER-RRMM里，ZDd组MRD阴性完全缓解41%、对照DVd仅21%，这是该适应症首次按MRD阴性CR获批；PFS还在随访，完全批准要等确证。Endpoints报道28天疗程标价2.95万美元，带胚胎毒性和血栓黑框，走REMS；BMS另一个CELMoD mezigdomide PDUFA排到2027年5月13日。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "BMS官网",
+          "url": "https://news.bms.com/news/details/2026/U-S--FDA-Grants-Accelerated-Approval-to-Bristol-Myers-Squibbs-First-CELMoD-Therapy-ZENBEXUS-in-Combination-with-Daratumumab-and-Hyaluronidase-fihj-and-Dexamethasone-ZDd-for-Patients-with-Multiple-Myeloma-as-Early-as-First-Relapse/default.aspx"
+        },
+        {
+          "label": "Endpoints News",
+          "url": "https://endpoints.news/fda-approves-bristol-myers-multiple-myeloma-successor/"
+        }
+      ]
+    },
+    {
+      "title": "康方依沃西联合化疗一线鳞癌获批，头对头PD-1+化疗拿下PFS/OS双阳",
+      "summary": "8月12日NMPA批准依达方（依沃西）联合化疗一线治疗晚期鳞状NSCLC，这是该PD-1/VEGF双抗在肺癌的第3个适应症。III期HARMONi-6入组532人，对比替雷利珠单抗+化疗：死亡风险降34%（HR 0.66），中位OS 27.9个月对23.7个月；中位PFS 11.1个月对6.9个月。OS数据刚上过2026 ASCO全体大会并刊《柳叶刀》，公司称这是ASCO 61年来首个登上全体大会的中国首创新药。鳞癌一线金标准被国产双抗改写，全球多中心III期还在往后推。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "康方生物",
+          "url": "https://akesobio.com/cn/media/akeso-news/20260812/"
+        },
+        {
+          "label": "21世纪经济报道",
+          "url": "https://www.21jingji.com/article/20260813/herald/25eda587397c8c12c7b4a203db67624e.html"
+        }
+      ]
+    },
+    {
+      "title": "优赫得联合帕妥珠一线HER2阳性乳腺癌在华获批，PFS超40个月",
+      "summary": "阿斯利康称NMPA于8月11日批准优赫得（德曲妥珠单抗）联合帕妥珠单抗，一线治疗不可切除或转移性HER2阳性成人乳腺癌；第一三共、阿斯利康8月12日正式对外宣布。DESTINY-Breast09对比标准THP：疾病进展或死亡风险降44%（HR 0.56），中位PFS 40.7个月对26.9个月，确认ORR 85.1%对78.6%；中国患者约占入组近四分之一，中国亚组ORR 95.5%。这是该药在乳腺癌的第5个中国适应症，也是十余年来该一线场景首个获批的创新ADC方案。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "阿斯利康美通社",
+          "url": "https://www.prnasia.com/story/543779-1.shtml"
+        },
+        {
+          "label": "中新社上海",
+          "url": "https://www.sh.chinanews.com.cn/tpxw/2026-08-12/148381.shtml"
+        }
+      ]
+    },
+    {
+      "title": "天境生物CD38单抗菲泽妥单抗（境斐）在华获批，联用来那+地塞米松",
+      "summary": "NMPA官网8月12日送达信息显示、媒体8月13日报道：天境生物药业（杭州）的注射用菲泽妥单抗（felzartamab，商品名境斐）获批，联合来那度胺和地塞米松，用于既往至少一线治疗的成人多发性骨髓瘤。这是MorphoSys原研的CD38人源单抗，天境2017年拿下大中华区权益；海外权益后来经HI-Bio落到渤健手里。国内CD38战场本就有达雷妥尤单抗等，新来者要靠价格和自身免疫后续适应症讲故事。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "格隆汇",
+          "url": "https://www.gelonghui.com/live/2610335"
+        },
+        {
+          "label": "NMPA送达信息",
+          "url": "https://www.nmpa.gov.cn/zwfw/sdxx/sdxxyp/yppjfb/20260812151837188.html"
+        }
+      ]
+    },
+    {
+      "title": "破产中的Sangamo被拆卖：PTC拿下法布雷基因治疗，礼来买走平台",
+      "summary": "8月12日Sangamo宣布法院监督拍卖落槌：PTC以1.11亿美元首付、最高1亿美元里程碑（加速批准8000万、完全批准2000万）拿下BLA阶段法布雷AAV基因治疗ST-920（isaralgagene civaparvovec），礼来另付5000万美元买锌指/衣壳/整合酶平台和朊病毒项目，交割现金合计约1.6355亿美元。ST-920滚动BLA计划2026年四季度交齐CMC，依据STAAR研究52周eGFR；交易还要等破产法院和反垄断，预计三季度末到四季度初交割。基因治疗公司现金流一断，管线就按零件卖。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Sangamo 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1001233/000119312526347524/d125617d8k.htm"
+        },
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/deals/bankrupt-sangamo-offloads-assets-to-lilly-ptc-in-161m-sale"
+        }
+      ]
+    },
+    {
+      "title": "艾力斯再联手ArriVent，引进MUC16/NaPi2b双抗ADC大中华权益",
+      "summary": "8月13日艾力斯宣布拿下AST12608/ARR-002在中国大陆及港澳台的研究、开发、生产、注册和商业化独占许可，未披露金额。这是潜在首创的MUC16/NaPi2b双靶点四价ADC，先做卵巢癌和子宫内膜癌，FDA IND已于2026年5月7日获批，ArriVent计划下半年启动I期。双方2021年已有伏美替尼NewCo合作，这次是反向引进；双抗ADC热，条款保密说明还在早期讲故事阶段。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "医药魔方/新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-08-13/doc-inincnuu4867683.shtml"
+        },
+        {
+          "label": "新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-08-13/doc-ininecsr3504386.shtml"
+        }
+      ]
+    },
+    {
+      "title": "驯鹿医疗收购新加坡MediSix，补T细胞肿瘤短板",
+      "summary": "8月13日驯鹿医疗（IASO Bio）宣布完成收购新加坡细胞治疗公司MediSix Therapeutics，未披露对价。MediSix由CAR-T先驱Dario Campana教授团队创办，核心是PEBL平台，用来挡住CAR-T表面靶抗原、减少自相残杀，主攻T细胞恶性肿瘤和AML；领先管线IASO107（原PCART7）已在国际医院做早期临床。驯鹿自己的伊基奥仑赛已在国内上市卖复发难治骨髓瘤，这次明显是买技术和国际化团队，而不是买现成销售。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/iaso-biotechnology-announces-acquisition-of-singapore-based-cell-therapy-company-medisix-therapeutics-302850787.html"
+        }
+      ]
+    },
+    {
+      "title": "亚虹医药CLDN6/9 ADC拿下FDA临床许可，剑指卵巢癌等实体瘤",
+      "summary": "8月14日亚虹公告，控股子公司Baylink收到FDA同意函，自主研发的APL-2501（化合物BLB101）可按递交方案在美国做晚期实体瘤临床。这是带专有亲水性连接子、拓扑异构酶抑制剂载荷的CLDN6/9 ADC，公司称支持DAR8均质偶联，潜在适应症包括卵巢癌、NSCLC、子宫内膜癌、胃癌。公告照例强调对近期业绩无重大影响、上市还早；CLDN6赛道拥挤，FDA只是放行，不是背书疗效。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "亚虹医药公告/上证报",
+          "url": "https://finance.sina.com.cn/roll/2026-08-14/doc-ininffef9735207.shtml"
+        }
+      ]
+    },
+    {
+      "title": "拜耳阿柏西普8mg视网膜静脉阻塞适应症在华申报获受理",
+      "summary": "8月13日拜耳宣布，NMPA已受理阿柏西普8mg（114.3 mg/ml）用于视网膜静脉阻塞（含中央、分支、半侧）继发黄斑水肿的上市申请，依据全球III期QUASAR（含中国患者）。研究显示，3针月疗后每8周给药，视力获益不劣于每月2mg；64周时8mg组平均少打约3针（8.5对11.7），超六成末次给药间隔≥4个月。该规格在中国已批湿性AMD，RVO若过审，卖点就是少跑医院。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "拜耳新闻稿",
+          "url": "https://www.bayer.com/media/en-us/aflibercept-8-mg-application-for-macular-edema-following-retinal-vein-occlusion-accepted-for-review-in-china/"
+        }
+      ]
+    },
+    {
+      "title": "FDA公布PDUFA VIII承诺信：审评可再快一个月，夹带America First",
+      "summary": "8月13日FDA放出2028–2032财年处方药用户费（PDUFA VIII）承诺信草案，PhRMA和BIO同日表态支持，国会须在2027年9月30日前再授权；9月16日将开公开会。大框架沿用现行审评时限，但优先审评且满足“重要公共卫生需求”的品种，目标日期可再提前至少一个月；并加强关键试验方案预审和跨中心会议。Endpoints称文本含鼓励本土药企的America First条款，用户费结构也会一并送国会——审评加速和产业政策绑在同一份五年合同里。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "RAPS",
+          "url": "https://www.raps.org/resource/pdufa-viii-fda-outlines-goals-program-enhancements-in-commitment-letter.html"
+        },
+        {
+          "label": "Endpoints News",
+          "url": "https://endpoints.news/pdufa-viii-commitments-america-first-provisions-faster-reviews-and-more/"
+        },
+        {
+          "label": "BIO",
+          "url": "https://www.bio.org/press-release/bio-supports-pdufa-viii-commitment-letter-and-urges-timely-reauthorization"
+        }
+      ]
+    },
+    {
+      "title": "Definium口服LSD药DT120泛焦虑III期达终点，单次给药12周HAM-A较安慰剂多降5.4分",
+      "summary": "8月12日Definium公布口服崩解片DT120（lysergide 100µg）治疗成人广泛性焦虑障碍的III期Voyage顶线：214人1:1随机，第12周HAM-A较基线LS均值下降11.6分、安慰剂6.2分，校正差值5.4分（p<0.0001，效应量d=0.81），第2天就见效。这是该药继6月抑郁症Emerge之后第二次III期阳性，耐受性与既往一致、未见自杀信号。第二项III期Panorama读出排在9月，公司拿着突破性疗法认定，准备两边适应症一起冲NDA。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Definium官网",
+          "url": "https://ir.definiumtx.com/news-events/press-releases/detail/243/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder"
+        },
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/drug-development/definiums-lsd-asset-beats-analyst-expectations-in-phase-3-anxiety-readout"
+        },
+        {
+          "label": "Endpoints News",
+          "url": "https://endpoints.news/definiums-lsd-drug-clears-bar-in-first-of-two-phase-3-trials-in-anxiety-disorder/"
+        }
+      ]
+    },
+    {
+      "title": "国产首个AKT抑制剂报产：齐鲁引进来凯阿氟色替NDA获受理，打HR+/HER2-耐药乳腺癌",
+      "summary": "8月11日CDE公示，齐鲁1类化药盐酸阿氟色替片（来凯LAE002）上市申请获受理，联合氟维司群用于内分泌治疗后进展、伴PIK3CA/AKT1/PTEN改变的HR+/HER2-局部晚期或转移性乳腺癌。依据是来凯III期AFFIRM-205：PFS较对照高度统计学显著且有临床意义，安全性可耐受，详细数据还没甩出来。2025年11月齐鲁拿下中国独家，交易总额最高20.45亿元；全球目前只有阿斯利康卡匹色替一款AKT抑制剂上市，这是国产第一家去敲门。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "来凯港交所公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200066_c.pdf"
+        },
+        {
+          "label": "齐鲁网",
+          "url": "https://news.iqilu.com/shandong/kejiaoshehui/20260812/5935498.shtml"
+        },
+        {
+          "label": "格隆汇",
+          "url": "https://www.gelonghui.com/news/5283840"
+        }
+      ]
+    },
+    {
+      "title": "武田食欲素激动剂Orzeyful获FDA批准，1型发作性睡病第一次对准病因",
+      "summary": "8月5日FDA批准武田口服OX2R激动剂Orzeyful（oveporexton）治疗成人1型发作性睡病，号称美国首个、也是唯一对准食欲素缺失这一病因、覆盖全症状谱的药，而不是只压嗜睡或猝倒。依据全球III期FirstLight、RadiantLight，日间嗜睡、猝倒和生活质量都显著优于安慰剂；常见不良反应是失眠、尿频尿急、流涎。DEA管制分类还在审、预计90天内出结果，排完才能进专科药房。中国已经先批过，美国大约12万患者在等。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "武田官网",
+          "url": "https://www.takeda.com/newsroom/newsreleases/2026/orzeyful-approved-narcolepsy/"
+        },
+        {
+          "label": "美国睡眠医学会",
+          "url": "https://aasm.org/fda-approves-orzeyful-for-narcolepsy-type-1-in-adults/"
+        },
+        {
+          "label": "PharmExec",
+          "url": "https://www.pharmexec.com/view/fda-approves-orezeyful-narcolepsy-type-1-adults"
+        }
+      ]
+    },
+    {
+      "title": "Moderna流感mRNA疫苗mFLUSIVA获FDA批准，50岁以上能打、65岁以上走加速",
+      "summary": "8月5日FDA批准Moderna的mFLUSIVA（mRNA-1010）用于50岁及以上成人季节性流感，这是美国首支mRNA流感疫苗，也是Moderna在美第四款获批产品。50–64岁走常规批准，65岁及以上按免疫原性拿加速批准、还要做确证试验。今年初FDA一度拒收卷宗、一周后又改口，VRBPAC全票认为获益大于风险。公司预计2026–2027呼吸季供货，欧盟、加拿大、澳大利亚还在审。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "Moderna IR",
+          "url": "https://www.modernatx.com/ir-insights-mflusiva"
+        },
+        {
+          "label": "Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/modernas-mrna-flu-shot-mflusiva-snags-fda-nod-after-refusal-file-imbroglio"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599"
+        }
+      ]
+    },
+    {
+      "title": "Zealand把真红增多症药rusfertide权益卖给Royalty Pharma，1亿美元套现非核心分成",
+      "summary": "8月12日Zealand与Royalty Pharma成交：Zealand把rusfertide（PTG-300）相关经济权益卖掉，换1亿美元——交割日先拿5000万，满一年再拿5000万。Royalty拿未来全球净销售1%分成及注册/销售里程碑；年销超过15亿美元的部分，Zealand留0.25%、Royalty留0.75%。这药是潜在first-in-class真性红细胞增多症疗法，武田负责全球商业化，FDA的PDUFA目标日就在2026年三季度。Zealand说这是非核心分成变现，钱拿去养代谢主业。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "BioSpace",
+          "url": "https://www.biospace.com/press-releases/zealand-pharma-enters-into-a-usd-100-million-royalty-purchase-and-sale-agreement-with-royalty-pharma-for-the-economics-related-to-rusfertide"
+        },
+        {
+          "label": "Royalty Pharma",
+          "url": "https://markets.businessinsider.com/news/stocks/royalty-pharma-and-zealand-pharma-enter-into-rusfertide-funding-agreement-for-100-million-1036449211"
+        },
+        {
+          "label": "Nordic Life Science",
+          "url": "https://nordiclifescience.org/zealand-pharma-enters-into-royalty-purchase-and-sale-agreement-with-royalty-pharma/"
+        }
+      ]
+    }
+  ]
+}

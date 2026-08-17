@@ -1,0 +1,220 @@
+{
+  "id": "codexiq",
+  "title": "Codex IQ 雷达",
+  "summary": "Codex 雷达 · DeepSWE 智力效率。今日领先：grok-4.5 / high IQ 150.0；gpt-5.6-sol / ultra IQ 103.21；gpt-5.6-sol / max IQ 102.14",
+  "items": [
+    {
+      "title": "今日 GPT / Codex IQ 概览（DeepSWE）",
+      "summary": "数据更新 2026-08-13T23:47:41+00:00。24h 采样 760 次，累计 31967 次。评分模式：weighted_latest_3。以下按 IQ 从高到低列出主要 model × effort 组合。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Codex 雷达",
+          "url": "https://codexradar.com/"
+        },
+        {
+          "label": "GPT IQ Index (镜像)",
+          "url": "https://www.hvoy.ai/en/codex-radar/"
+        }
+      ]
+    },
+    {
+      "title": "推荐场景：日常开发",
+      "summary": "gpt-5.5 / xhigh（IQ 97.86，约 $5.516798 / 22.42 分钟）；gpt-5.6-luna / max（IQ 97.5，约 $0.483973 / 34.18 分钟）。原始 IQ ≥90，不再分档；在同一候选池中分别以平均耗时和费用与耗时综合成本为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 对应指标溢价；去重后取 2 个。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Codex 雷达推荐",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "推荐场景：难题攻坚",
+      "summary": "gpt-5.6-sol / ultra（IQ 103.21，约 $23.079693 / 55.89 分钟）；gpt-5.6-sol / max（IQ 102.14，约 $8.888731 / 34.81 分钟）。所有有实测数据的档位中，按 IQ 从高到低取 2 个；IQ 相同时按模型顺序与综合成本排序。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Codex 雷达推荐",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "推荐场景：后台自动化",
+      "summary": "gpt-5.6-luna / xhigh（IQ 85.36，约 $0.318063 / 24.02 分钟）；gpt-5.6-luna / max（IQ 97.5，约 $0.483973 / 34.18 分钟）。成本优先：整数 IQ ≥80，不设上限，以平均费用最低者为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 费用溢价；符合时优先 IQ 最高，依次取 2 个。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Codex 雷达推荐",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "推荐场景：跑龙虾类任务",
+      "summary": "gpt-5.6-luna / high（IQ 78.57，约 $0.202361 / 17.86 分钟）；gpt-5.6-terra / high（IQ 74.29，约 $1.0821 / 13.06 分钟）。IQ ≥55，不设上限，按费用与耗时综合成本最低取 2 个。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Codex 雷达推荐",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "grok-4.5 · high — IQ 150.0",
+      "summary": "通过 1/1（加权 1.0/1.0）。均价约 $None，均时约 10.04 分钟，24h 运行 0 次。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-sol · ultra — IQ 103.21",
+      "summary": "通过 232/336（加权 289.0/420.0）。均价约 $23.079693，均时约 55.89 分钟，24h 运行 17 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-sol · max — IQ 102.14",
+      "summary": "通过 230/336（加权 286.0/420.0）。均价约 $8.888731，均时约 34.81 分钟，24h 运行 30 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-sol · xhigh — IQ 100.71",
+      "summary": "通过 228/336（加权 282.0/420.0）。均价约 $6.124724，均时约 25.1 分钟，24h 运行 29 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.5 · xhigh — IQ 97.86",
+      "summary": "通过 218/336（加权 274.0/420.0）。均价约 $5.516798，均时约 22.42 分钟，24h 运行 27 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-luna · max — IQ 97.5",
+      "summary": "通过 215/336（加权 273.0/420.0）。均价约 $0.483973，均时约 34.18 分钟，24h 运行 44 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-terra · max — IQ 97.5",
+      "summary": "通过 216/336（加权 273.0/420.0）。均价约 $3.666728，均时约 31.55 分钟，24h 运行 20 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-terra · ultra — IQ 94.64",
+      "summary": "通过 212/336（加权 265.0/420.0）。均价约 $9.612715，均时约 44.68 分钟，24h 运行 25 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-sol · high — IQ 91.07",
+      "summary": "通过 209/336（加权 255.0/420.0）。均价约 $4.500778，均时约 20.12 分钟，24h 运行 31 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "deepseek-v4-pro · high — IQ 89.33",
+      "summary": "通过 53/89（加权 53.0/89.0）。均价约 $0.172578，均时约 28.68 分钟，24h 运行 68 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "deepseek-v4-pro · low — IQ 88.89",
+      "summary": "通过 48/81（加权 48.0/81.0）。均价约 $0.154137，均时约 23.43 分钟，24h 运行 58 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-sol · medium — IQ 87.5",
+      "summary": "通过 201/336（加权 245.0/420.0）。均价约 $3.461604，均时约 17.1 分钟，24h 运行 39 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "gpt-5.6-terra · xhigh — IQ 87.5",
+      "summary": "通过 192/336（加权 245.0/420.0）。均价约 $1.781299，均时约 18.94 分钟，24h 运行 14 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    },
+    {
+      "title": "deepseek-v4-flash · max — IQ 85.71",
+      "summary": "通过 192/336（加权 192.0/336.0）。均价约 $0.098606，均时约 31.76 分钟，24h 运行 13 次。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "智力效率",
+          "url": "https://codexradar.com/"
+        }
+      ]
+    }
+  ]
+}

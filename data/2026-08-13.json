@@ -1,0 +1,570 @@
+{
+  "date": "2026-08-13",
+  "updatedAt": "2026-08-13T01:45:34.000Z",
+  "sections": [
+    {
+      "id": "ai",
+      "title": "AI / LLM 热点",
+      "summary": "Grok 4.6 正式上线并打进 Cursor；美系开源权重连发；推理链加密漏洞与 Claude 降级争议同日刷屏。",
+      "items": [
+        {
+          "title": "SpaceXAI 发布 Grok 4.6：对标 GPT-5.6 Sol，Cursor 首周双倍用量",
+          "summary": "8 月 12 日 SpaceXAI 正式推出 Grok 4.6，主打长程智能体、编码与交互视觉任务。官方称在 Artificial Analysis Intelligence Index 打到 61，与 GPT-5.6 Sol Max 持平、略低于 Fable 5 Max 的 62。已接入 Cursor、Grok Build、API 以及 OpenRouter / Vercel / Cloudflare；定价约 $2/$6 每百万输入输出 token，首周 Cursor 与 Grok Build 含双倍用量。和 Cursor 收购叙事、Grok Bot 连发同周叠在一起。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "x.ai 官方公告",
+              "url": "https://x.ai/news/grok-4-6"
+            },
+            {
+              "label": "VentureBeat",
+              "url": "https://venturebeat.com/technology/spacexai-debuts-grok-4-6-overtaking-kimi-k3s-performance-and-matching-gpt-5-6-sol-for-worlds-third-best-on-artificial-analysis"
+            }
+          ]
+        },
+        {
+          "title": "Nvidia 推出 Nemotron 3.5 Lightning：30B 开源权重，冲智能体本地跑",
+          "summary": "紧跟 Meta Muse Glimmer，Nvidia 于 8 月 12 日前后发布约 30B 的 Nemotron 3.5 Lightning，强调开源权重、训练数据与方法更「真开源」，面向 agentic 工作负载与端侧速度。和 Meta 同周站队，明显在回应中美开源权重赛道压力。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Business Standard",
+              "url": "https://www.business-standard.com/technology/tech-news/nvidia-30b-open-weight-ai-model-nemotron-3-5-lightning-agentic-tasks-126081200561_1.html"
+            },
+            {
+              "label": "CNBC（Meta/Nvidia 开源权重）",
+              "url": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html"
+            }
+          ]
+        },
+        {
+          "title": "Meta + Nvidia 联手把「美国开源权重」旗插进政策辩论",
+          "summary": "CNBC 等报道：美国 20 多家科技公司此前联名呼吁勿过早限制开源权重；本周 Meta、Nvidia 连续放模型，给叙事补上产品证据。焦点仍是与中国开源实验室的竞争，以及端侧智能体能不能绕开云端算力账单。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/12/meta-nvidia-open-weight-ai-race-china.html"
+            }
+          ]
+        },
+        {
+          "title": "Muse Glimmer 余温：扎克伯格承诺开放更强 Muse Spark 1.2 权重",
+          "summary": "Meta 周一放出面向本机的 Muse Glimmer，并预告将开放更强的 Muse Spark 1.2 权重。这是本周开源权重叙事的起点，后续 Nvidia 跟进让话题从「Meta 单独转向」变成「美国大厂集体补位」。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html"
+            }
+          ]
+        },
+        {
+          "title": "推理链「内心独白」可跨模型解密：OpenAI / Anthropic / Google 同中招",
+          "summary": "研究人员披露：多家推理模型对 chain-of-thought 使用可移植的全局加密密钥；从 GitHub / Hugging Face 上公开的 agent 会话日志解码出大量凭证与敏感信息。厂商已上补丁，但历史公开日志仍可能被翻出来。安全圈把这当成「推理痕迹默认不可外泄」假设破产的案例。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Decrypt",
+              "url": "https://decrypt.co/375501/inner-thoughts-every-major-ai-model-exposed-exploit"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic / Claude Fable 5：静默降级到 Opus 引发开发者反弹",
+          "summary": "用户发现部分 Fable 5 请求被安全分类器悄悄改走更弱模型（如 Opus 4.8），初期提示不够透明，社区反弹很大。Anthropic 随后道歉并改为明确告知切换；同时又在收紧/校准生物安全分类器以降低误触发。信任议题比单次能力更新更吵。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Tech Startups",
+              "url": "https://techstartups.com/2026/08/12/anthropic-secretly-downgraded-claude-users-to-a-weaker-ai-model-without-telling-them-sparking-developer-backlash/"
+            },
+            {
+              "label": "Claude Help Center",
+              "url": "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic：Fable 5 生物安全分类器大修，误 fallback 约降 85%",
+          "summary": "官方称重写分类器规则与训练数据后，生物相关误触发导致的模型降级大幅下降，同时仍挡住双用途专业生物与药物研发类请求。等于一边灭火（用户体验），一边坚持高能力模型的安全闸门。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Anthropic 官方",
+              "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+            }
+          ]
+        },
+        {
+          "title": "Google DeepMind 权力重心迁回加州：加速追赶 Gemini",
+          "summary": "报道称 Google 把更多 AI 决策与 Gemini 推进力量集中到 Mountain View；Koray Kavukcuoglu 扛日常，Demis Hassabis 转向董事长 / Alphabet 首席科学家角色。背景是旗舰模型节奏滞后与人才外流压力。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Straits Times",
+              "url": "https://www.straitstimes.com/world/united-states/google-shifts-ai-power-to-california-in-race-against-anthropic-openai"
+            }
+          ]
+        },
+        {
+          "title": "Grok Bot 仍是本周产品形态主线：常驻云电脑同事刚上线",
+          "summary": "8 月 11 日 SpaceXAI / Cursor 放出的 Grok Bot beta（Mac / Win / Linux / iOS，Android 待定）继续被媒体复盘：限 SuperGrok Heavy、Cursor Ultra、Teams Premium。第二天接上 Grok 4.6，等于「智能体产品 + 新模型」连击。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "x.ai/bot",
+              "url": "https://x.ai/bot"
+            },
+            {
+              "label": "VentureBeat",
+              "url": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "women40",
+      "title": "40+ 女性热点",
+      "summary": "肌酸×更年期脑雾继续刷屏；HRT+GLP-1、口服减重药「全阶段更年期」数据，以及「停经后练肌力还来得及」研究在中文圈热传。",
+      "items": [
+        {
+          "title": "【营养】CONCRET-MENOPA：更年期女性肌酸 RCT 被社媒截图传播",
+          "summary": "8 月前后被补剂圈与科普号反复转发：首个专为围绝经/更年期女性设计的肌酸 RCT（NCT06660004）显示中剂量肌酸盐酸盐组在反应速度、脑内肌酸水平、血脂指标上优于安慰剂，情绪波动有改善趋势。讨论焦点是「证据开始专门做给女人」，同时有人提醒样本仍小、别把 HCl 当唯一答案。",
+          "date": "2026-08",
+          "sources": [
+            {
+              "label": "Vybrance Labs 综述",
+              "url": "https://www.vybrancelabs.co/blogs/the-lab/whats-new-in-creatine-research-august-2026"
+            }
+          ]
+        },
+        {
+          "title": "【营养/社媒】Halle Berry 公开「肌酸治脑雾」继续出圈",
+          "summary": "Good Housekeeping、Women’s Health 等本周仍在跟 Vogue 播客那句「girl needs creatine for brain fog」。明星背书 + 新兴研究，把肌酸从 gym bro 补剂改写成 midlife women 话题——也带动质疑：证据够不够、涨水腹胀怎么处理。",
+          "date": "2026-08",
+          "sources": [
+            {
+              "label": "Good Housekeeping",
+              "url": "https://www.goodhousekeeping.com/uk/health/a71635090/halle-berry-59-swears-this-one-supplement-banished-her-brain-fog/"
+            },
+            {
+              "label": "Woman's World",
+              "url": "https://www.womansworld.com/aging/menopause/halle-berry-reveals-creatine-helps-manage-menopause-symptom"
+            }
+          ]
+        },
+        {
+          "title": "【营养】中文媒体跟进：肌酸成「中年女性健康突破」标题党",
+          "summary": "家医大健康等转述 Independent / 诊所医生观点，把肌酸包装成中年女性肌肉、脑力、经期疲劳的多面手；生物行等则引用 The Conversation，强调镁与肌酸证据相对靠前，但多数研究并非专做更年期，生活方式仍是基石。中文信息流里「种草」与「纠偏」同步。",
+          "date": "2026-08",
+          "sources": [
+            {
+              "label": "家医大健康",
+              "url": "https://www.familydoctor.cn/news/jisuan-buchong-chengzhong-nvxingjiankang-tupoxing-xuanze-130169.html"
+            },
+            {
+              "label": "生物行",
+              "url": "https://www.bioguider.com/plus/view-24701-1.html"
+            }
+          ]
+        },
+        {
+          "title": "【健康】HRT + 替尔泊肽：绝经后减重「多 35%」研究被二次传播",
+          "summary": "Mayo 团队回顾性队列（Lancet Obstetrics 线）称：绝经后女性用 tirzepatide 同时接受激素治疗，12 个月以上减重约 19.2%，单用约 14.0%。Maven Clinic 等诊所内容本周仍在解读「双疗法」与口服激素吸收问题。不是新 RCT，但是中年女性 GLP-1 讨论的硬钩子。",
+          "date": "2026",
+          "sources": [
+            {
+              "label": "TRT Catalog 解读",
+              "url": "https://trtcatalog.com/learn/hrt-tirzepatide-weight-loss-menopause"
+            },
+            {
+              "label": "Maven Clinic",
+              "url": "https://www.mavenclinic.com/post/glp-1-with-hormone-replacement-therapy"
+            }
+          ]
+        },
+        {
+          "title": "【健康】礼来 Foundayo：口服 GLP-1「每一阶段更年期」减重数据持续被引用",
+          "summary": "ADA 上披露的 ATTAIN 事后分析（1500+ 女性）显示最高剂量在绝经前/围绝经/绝经后均有显著减重；配合英国等市场获批与口服便利，femtech 与中年女性内容继续拿它做「腰围焦虑」标题。注意：适应症仍是肥胖/超重管理，不是更年期药物。",
+          "date": "2026-06",
+          "sources": [
+            {
+              "label": "Lilly 新闻稿",
+              "url": "https://www.prnewswire.com/news-releases/lillys-foundayo-orforglipron-the-only-oral-glp-1-taken-without-food-or-water-restrictions-was-associated-with-significant-weight-loss-in-women-at-every-stage-of-menopause-302793332.html"
+            },
+            {
+              "label": "Clinical Advisor",
+              "url": "https://www.clinicaladvisor.com/news/orforglipron-weight-loss-menopause/"
+            }
+          ]
+        },
+        {
+          "title": "【生活】「停经后练肌力还来得及吗」：4000 人荟萃分析刷中文圈",
+          "summary": "阿丸玩运动等解读 2026 年 JSAMS 荟萃分析（约 4000 名女性）：停经前后力量与体成分对阻力训练的反应几乎一样大。Instagram / 健身博主同步喊 “it’s never too late”。直接打中「是不是晚了」的情绪痛点，转发量明显高于一般养生文。",
+          "date": "2026",
+          "sources": [
+            {
+              "label": "阿丸玩运动",
+              "url": "https://wcoachlife.com/blog/postmenopausal-women-strength-training"
+            }
+          ]
+        },
+        {
+          "title": "【生活】台港媒体热议：更年期小腹是脂肪「搬家」不是代谢崩了",
+          "summary": "三立、中时等 8 月 10 日前后跟进减重医师萧捷健说法：引用 Science 代谢曲线，强调雌激素下降后脂肪从臀腿迁往内脏；内容搭配重训 + 蛋白 + 腰围指标。中文平台把「代谢玄学」改写成「规则换了」叙事，评论区共鸣很强。",
+          "date": "2026-08-10",
+          "sources": [
+            {
+              "label": "三立新闻",
+              "url": "https://www.setn.com/news/1887048"
+            },
+            {
+              "label": "中时新闻网",
+              "url": "https://www.chinatimes.com/realtimenews/20260810003987-260418"
+            }
+          ]
+        },
+        {
+          "title": "【健康】肌酸 + 抗阻：绝经后女性荟萃分析进学术传播链",
+          "summary": "ECU 团队系统综述/荟萃分析称：≥5 g/日肌酸一水合物联合阻力训练，对绝经后女性瘦体重与腿举力量有小而明确获益，骨密度证据仍不足。补剂媒体与中年女力内容把它当作「别只吞粉不练」的科学注脚。",
+          "date": "2026",
+          "sources": [
+            {
+              "label": "ECU Works PDF",
+              "url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=9225&context=ecuworks2022-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharma",
+      "title": "健康医药产业",
+      "summary": "国内创新药与集采并行落地；全球侧溶瘤病毒获批余温仍在，GLP-1 双强财报继续拉开差距。",
+      "items": [
+        {
+          "title": "国家药监局：替恩戈替尼等两款创新药获批",
+          "summary": "8 月 12 日消息，药监局通过优先审评附条件批准药捷安康 1 类创新药替恩戈替尼片（捷恩泰），用于 FGFR 抑制剂治疗后仍进展、带 FGFR2 融合/重排的晚期胆管癌；同时批准济川药业中药 1.1 类创新药小儿通便颗粒。国产创新药审批节奏继续偏快。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "新浪财经/格隆汇",
+              "url": "https://finance.sina.com.cn/stock/bxjj/2026-08-12/doc-inimzivr6978011.shtml"
+            },
+            {
+              "label": "新华网（捷恩泰）",
+              "url": "https://www.xinhuanet.com/health/20260810/645ede74c4924d09af27931d0d6e0967/c.html"
+            }
+          ]
+        },
+        {
+          "title": "塔拉妥单抗（安泰适）国内开出首批处方：SCLC 二线 TCE 落地",
+          "summary": "百济神州与安进合作的 DLL3/CD3 T 细胞衔接器塔拉妥单抗，8 月 10 日起在全国多地医院正式用于广泛期小细胞肺癌二线及以上治疗，17 城 29 家机构开出处方。中国小细胞肺癌免疫治疗从「化疗后无药」叙事里多出一条定向免疫路径。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "新华网",
+              "url": "https://www.xinhuanet.com/health/20260811/a2b1e9e6b2d14d2095ef87fd5ec24429/c.html"
+            }
+          ]
+        },
+        {
+          "title": "第 12 批国采约 600 亿规模：65 品种全中选，创历届之最",
+          "summary": "7 月末上海开标结果继续发酵：65 个品种全采购成功，拟中选产品 521 个，采购规模约 600 亿元、单批品种数新高。覆盖降压降糖抗肿瘤等大领域，预计年内患者用上降价后中选药。政策侧「以量换价」仍是国内仿制药主旋律。",
+          "date": "2026-08-04",
+          "sources": [
+            {
+              "label": "艾瑞网/新浪财经",
+              "url": "https://news.iresearch.cn/content/202608/562469.shtml"
+            }
+          ]
+        },
+        {
+          "title": "Nature Reviews：Replimune Tudriqev 溶瘤病毒加速获批入镜",
+          "summary": "8 月 12 日 Nature Reviews Drug Discovery 短讯跟进：Tudriqev（RP1）联合 Opdivo 获 FDA 加速批准，用于抗 PD-1 进展后的晚期皮肤黑色素瘤——这是美国市场上第二款溶瘤病毒，且此前两度被拒。监管拉锯后的落地，仍是本周全球肿瘤圈话题。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "Nature Reviews Drug Discovery",
+              "url": "https://www.nature.com/articles/d41573-026-00136-z"
+            },
+            {
+              "label": "Replimune 新闻稿",
+              "url": "https://www.globenewswire.com/news-release/2026/08/06/3340656/0/en/Replimune-Announces-FDA-Accelerated-Approval-of-TUDRIQEVTM-in-Combination-with-Nivolumab-for-Unresectable-Advanced-Cutaneous-Melanoma-After-Progression-on-an-anti-PD-1-Based-Regime.html"
+            }
+          ]
+        },
+        {
+          "title": "Moderna 首个 mRNA 流感疫苗 mFlusiva 获 FDA 批准",
+          "summary": "8 月 5–6 日获批用于 50 岁及以上人群（65+ 为加速批准并需确证试验）。大型试验相对常规流感疫苗约再降 27% 发病。mRNA 从新冠特需走向季节性大众品类，秋冬季供应与 ACIP 后续建议仍是下一步看点。",
+          "date": "2026-08-05",
+          "sources": [
+            {
+              "label": "NBC News",
+              "url": "https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599"
+            },
+            {
+              "label": "Healthcare Dive",
+              "url": "https://www.healthcaredive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/827180/"
+            }
+          ]
+        },
+        {
+          "title": "礼来 vs 诺和诺德：Q2 财报后 GLP-1 叙事继续分化",
+          "summary": "两家都超预期并上调全年指引，但市场更买礼来的份额与管线故事；诺和诺德则被 CagriSema 对比 Zepbound 的血糖控制不及预期、以及心血管药 ziltivekimab 关键败等拖累信心。口服 Wegovy 在扩国家，注射剂增速放缓。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/08/06/eli-lilly-novo-nordisk-earnings-glp1-market.html"
+            }
+          ]
+        },
+        {
+          "title": "礼来管线连发：Foundayo 口服 GLP-1、retatrutide 等继续推高预期",
+          "summary": "礼来 Q2 材料继续强调口服 Foundayo（orforglipron）在糖尿病试验中的 A1C/减重表现，以及三靶点 retatrutide 更多 III 期肥胖数据；另有 Jaypirca 欧盟推荐、EBGLYSS 维持剂量调整等。肥胖/代谢赛道「礼来领先」叙事仍是资本市场默认帧。",
+          "date": "2026-08-06",
+          "sources": [
+            {
+              "label": "礼来新闻稿",
+              "url": "https://www.prnewswire.com/news-releases/lilly-reports-second-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-continued-growth-and-pipeline-progress-302843165.html"
+            }
+          ]
+        },
+        {
+          "title": "药捷安康捷恩泰：国产胆管癌耐药后新选择，全球 III 期已入组",
+          "summary": "公司称这是其首个获批产品；国内 II 期支撑附条件上市，全球多中心 III 期已完成入组，后续拟向美欧递交。罕见亚型 + 优先审评，是本轮国产创新药「先国内兑现、再出海」路径的又一案例。",
+          "date": "2026-08-09",
+          "sources": [
+            {
+              "label": "每日经济新闻",
+              "url": "https://finance.sina.com.cn/jjxw/2026-08-09/doc-inimtpwm5451778.shtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codexiq",
+      "title": "Codex IQ 雷达",
+      "summary": "Codex 雷达 · DeepSWE 智力效率。今日领先：grok-4.5 / high IQ 150.0；gpt-5.6-sol / ultra IQ 103.57；gpt-5.6-sol / max IQ 103.21",
+      "items": [
+        {
+          "title": "今日 GPT / Codex IQ 概览（DeepSWE）",
+          "summary": "数据更新 2026-08-13T01:37:32+00:00。24h 采样 1042 次，累计 31274 次。评分模式：weighted_latest_3。以下按 IQ 从高到低列出主要 model × effort 组合。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Codex 雷达",
+              "url": "https://codexradar.com/"
+            },
+            {
+              "label": "GPT IQ Index (镜像)",
+              "url": "https://www.hvoy.ai/en/codex-radar/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：日常开发",
+          "summary": "gpt-5.6-sol / medium（IQ 92.14，约 $3.487389 / 16.98 分钟）；gpt-5.6-luna / max（IQ 95.71，约 $0.481421 / 34.05 分钟）。原始 IQ ≥90，不再分档；在同一候选池中分别以平均耗时和费用与耗时综合成本为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 对应指标溢价；去重后取 2 个。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：难题攻坚",
+          "summary": "gpt-5.6-sol / ultra（IQ 103.57，约 $23.35624 / 56.28 分钟）；gpt-5.6-sol / max（IQ 103.21，约 $8.87912 / 34.24 分钟）。所有有实测数据的档位中，按 IQ 从高到低取 2 个；IQ 相同时按模型顺序与综合成本排序。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：后台自动化",
+          "summary": "gpt-5.6-luna / xhigh（IQ 87.5，约 $0.318963 / 23.74 分钟）；gpt-5.6-luna / max（IQ 95.71，约 $0.481421 / 34.05 分钟）。成本优先：整数 IQ ≥80，不设上限，以平均费用最低者为基准；更高 IQ 至少领先 1.5 IQ，且每领先 1 IQ 可接受最多 2% 费用溢价；符合时优先 IQ 最高，依次取 2 个。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "推荐场景：跑龙虾类任务",
+          "summary": "gpt-5.6-terra / medium（IQ 56.79，约 $0.627442 / 9.4 分钟）；gpt-5.6-luna / high（IQ 74.29，约 $0.202578 / 17.82 分钟）。IQ ≥55，不设上限，按费用与耗时综合成本最低取 2 个。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "Codex 雷达推荐",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "grok-4.5 · high — IQ 150.0",
+          "summary": "通过 1/1（加权 1.0/1.0）。均价约 $None，均时约 10.04 分钟，24h 运行 0 次。",
+          "date": "2026-08-11",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · ultra — IQ 103.57",
+          "summary": "通过 233/336（加权 290.0/420.0）。均价约 $23.35624，均时约 56.28 分钟，24h 运行 71 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · max — IQ 103.21",
+          "summary": "通过 232/336（加权 289.0/420.0）。均价约 $8.87912，均时约 34.24 分钟，24h 运行 58 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · xhigh — IQ 101.79",
+          "summary": "通过 229/336（加权 285.0/420.0）。均价约 $6.193655，均时约 25.41 分钟，24h 运行 65 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · max — IQ 97.86",
+          "summary": "通过 215/336（加权 274.0/420.0）。均价约 $3.694422，均时约 31.37 分钟，24h 运行 53 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · high — IQ 96.07",
+          "summary": "通过 218/336（加权 269.0/420.0）。均价约 $4.635097，均时约 20.49 分钟，24h 运行 62 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · ultra — IQ 96.07",
+          "summary": "通过 215/336（加权 269.0/420.0）。均价约 $9.413236，均时约 43.75 分钟，24h 运行 37 次。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-luna · max — IQ 95.71",
+          "summary": "通过 212/336（加权 268.0/420.0）。均价约 $0.481421，均时约 34.05 分钟，24h 运行 50 次。",
+          "date": "2026-08-12",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.5 · xhigh — IQ 95.0",
+          "summary": "通过 214/336（加权 266.0/420.0）。均价约 $5.486879，均时约 22.06 分钟，24h 运行 44 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-sol · medium — IQ 92.14",
+          "summary": "通过 207/336（加权 258.0/420.0）。均价约 $3.487389，均时约 16.98 分钟，24h 运行 42 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-terra · xhigh — IQ 89.64",
+          "summary": "通过 196/336（加权 251.0/420.0）。均价约 $1.807132，均时约 18.92 分钟，24h 运行 49 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "deepseek-v4-pro · high — IQ 87.5",
+          "summary": "通过 14/24（加权 14.0/24.0）。均价约 $0.174324，均时约 22.69 分钟，24h 运行 24 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "gpt-5.6-luna · xhigh — IQ 87.5",
+          "summary": "通过 197/336（加权 245.0/420.0）。均价约 $0.318963，均时约 23.74 分钟，24h 运行 51 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        },
+        {
+          "title": "deepseek-v4-pro · max — IQ 87.1",
+          "summary": "通过 18/31（加权 18.0/31.0）。均价约 $0.231959，均时约 34.4 分钟，24h 运行 31 次。",
+          "date": "2026-08-13",
+          "sources": [
+            {
+              "label": "智力效率",
+              "url": "https://codexradar.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

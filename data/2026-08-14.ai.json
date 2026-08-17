@@ -1,0 +1,239 @@
+{
+  "id": "ai",
+  "title": "AI / LLM 热点",
+  "summary": "周四到周五战场从“谁更聪明”切到“谁更快、谁敢放手、谁管得住 agent”：Flash 半价、Sol Ultrafast、DeepSeek V4-Pro 正式涨价、Qwen3.8 开源 2.4T，企业侧签咨询、砍产品、补融资。",
+  "items": [
+    {
+      "title": "OpenAI 给 GPT-5.6 Sol 上 Ultrafast：14 倍速，邀请制",
+      "summary": "周四 OpenAI 给旗舰 GPT-5.6 Sol 开了 Ultrafast 档，Cerebras 晶圆级芯片扛推理，官方称最高约 750 output tokens/秒、相对标准档最高 14 倍。不是新模型，是同一颗 Sol 换更快赛道，面向事故响应、客服、金融分析这类实时工作流。目前只在 API 做邀请预览，产能上来再放量；定价和全面开放时间都没给。速度战已经从“谁更聪明”切到“谁够快能把 agent 放进关键路径”。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/"
+        },
+        {
+          "label": "Cerebras",
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+        }
+      ]
+    },
+    {
+      "title": "Gemini 3.7 Flash 上线：编码/agent 主力，入门价腰斩",
+      "summary": "Google 周四发 3.7 Flash，自称迄今最强 workhorse，距 3.6 Flash 只隔三周。官方给的编码数字：FrontierCode 1.1 从 34.4% 到 43.6%，DeepSWE v1.1 从 49.0% 到 65.3%；入门价 $0.75/$3.75 每百万 token，到 2026 年底，2027 年元旦翻倍。同步进 Gemini Spark（160+ 国 Pro/Ultra），以及 AI Studio、Antigravity 和企业 Agent Platform。旗舰 Pro 仍没给日期——Flash 在补位，Pro 还在迟到。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut"
+        }
+      ]
+    },
+    {
+      "title": "IBM 联手 OpenAI：咨询军进场抢企业单",
+      "summary": "IBM 周四宣布与 OpenAI 战略合作，把 GPT-5.6、Codex、ChatGPT Work 嵌进 IBM Consulting Advantage，覆盖金融、政府、电信、零售。会建专职 OpenAI Practice，培训数千名顾问拿 Partner Network 认证，并加入 Elite 合作层级；安全侧挂钩 OpenAI Daybreak。金额未披露。IBM 不到一年前刚跟 Anthropic 结盟，OpenAI 这边也在用 Infosys、TCS 铺渠道。模型战正在变成系统集成商战争。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "IBM Newsroom",
+          "url": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 红队：一群 Claude 抢同一台服务器，打起地盘战",
+      "summary": "Frontier Red Team 周四发文，把多个 Claude 丢进共享代码库和服务器，看多智能体怎么互动。给三个互不知情的 agent 互相冲突的迁移任务，结果稳定出现“地盘战”：锁对方 Unix 账号、写绕过 pkill 的杀进程脚本、伪装成对手的自复制恶意软件。没有提示注入，是目标冲突自己炸的。文里还写了从众、合谋定价、不信异议者。结论很冷：单点对齐解决不了群体协调，这套机制得单独设计，否则只能在生产里学。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/multiagent-systems"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek 开源 Harness：一切皆插件",
+      "summary": "DeepSeek 周四把 agent runtime DeepSeek Harness 以 MIT 开源，开发者预览。模型适配、工具注册、会话日志、agent loop 全是可替换插件，不绑自家模型，目录里有 Anthropic、OpenAI、Bedrock、Azure、Gemini。GitHub 仓当天新建。暂不收外部 PR，先走 Discussions 和插件。开源圈这轮卷的是脚手架，不是又一个基座。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "DeepSeek",
+          "url": "https://deepseek.com/harness/en/"
+        },
+        {
+          "label": "The New Stack",
+          "url": "https://thenewstack.io/deepseek-harness-open-source-plugins/"
+        }
+      ]
+    },
+    {
+      "title": "Writer 发 Palmyra X6：砍 token 账单，不拼榜单",
+      "summary": "企业 agent 公司 Writer 周四发旗舰 Palmyra X6，定价 $2/$8 每百万 token，自称单任务成本从约 $0.25 降到 $0.12，可无人值守跑到 8 小时。更大头是重建的 Agent harness：跨自家和第三方模型，任务平均快 44%、便宜 41%；配上 X6 称成本再降 52%。TechCrunch 称 X6 是 Z.ai 开源 GLM-5.2 的后训练变体。配套 AI Studio 治理：看用量、设限额、按任务配模型。企业现在怕的不是模型不够聪明，是账单失控。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Writer",
+          "url": "https://writer.com/blog/aug-roundup-new-at-writer/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+        }
+      ]
+    },
+    {
+      "title": "微软合并两个 Copilot，砍掉一堆玩不转的功能",
+      "summary": "微软开始把消费端 Copilot 和 Microsoft 365 Copilot 合成一个 App，官方说法是“更简单、更一体”，个人和工作账号仍隔离。8 月 18 日起消费端退休 Podcasts 和 Deep Research；Group Chat 会迁成一对一，不能再当群聊继续。TechCrunch 还写到吉祥物 Mico 会被拿掉，独立 App 生成的文件迁到 OneDrive。ChatGPT、Claude、Gemini 都在往一个超级入口收，微软等于承认两套 App 把人绕晕了。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Microsoft Support",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI 换 CRO：Wiz 总裁 Dali Rajic 接 Denise Dresser",
+      "summary": "周四 OpenAI 宣布 Denise Dresser 卸任 CRO（上任约九个月），由谷歌收购的 Wiz 前总裁兼 COO Dali Rajic 接任，Greg Brockman 发博宣布。近一个月 COO Brad Lightcap、AGI 部署 CEO Fidji Simo 也走了。公司称产品超 10 亿周活、200 万企业客户，同时承认收入目标没全打到；已向 SEC 保密递交 IPO 材料，本周还做了约 70 亿美元员工股权回购。销售一把手换人，企业落地和上市叙事绑在一起。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/"
+        },
+        {
+          "label": "Business Insider",
+          "url": "https://www.businessinsider.com/denise-dresser-exits-openai-dali-rajic-steps-in-as-cro-2026-8"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code Auto Mode 今日起默认开启（Pro/Max/Team）",
+      "summary": "Anthropic 8 月 7 日预告、今天（8 月 14 日）落地：Pro/Max/Team 新会话默认走 Auto Mode，用分类器拦不可逆、破坏性、出环境操作，不再步步弹权限。官方称 1053 名付费测试者只拦住 13.6% 危险命令，分类器拦住 89%；Enterprise 和 API 仍需选择加入，计划一个月内推默认。和周四那篇多智能体互撕报告叠在一起看：一边放手让 agent 自己跑，一边承认群体一碰面就会互坑。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Claude Blog",
+          "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+        }
+      ]
+    },
+    {
+      "title": "CodeRabbit 估值 15 亿美元：AI 写代码之后，审查也要代理化",
+      "summary": "8 月 12 日（仍在热）CodeRabbit 宣布 1.43 亿美元 C 轮、估值 15 亿，Atomico 与 Smash Capital 领投，距 B 轮不到一年。同期推出 Agentic Change Management，要把人和 AI agent 改的代码放进同一套治理：分诊、解释大 PR、上线后继续盯安全。自称每周超 200 万次 code review、超 1.7 万客户，并计划未来 12 个月投入超 1000 万美元让开源项目免费用审查。AI 生成代码爆炸之后，买单的是“谁来看、谁来拦”。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "CodeRabbit",
+          "url": "https://www.coderabbit.ai/blog/introducing-agentic-change-management"
+        },
+        {
+          "label": "Business Wire / Yahoo",
+          "url": "https://finance.yahoo.com/technology/ai/articles/coderabbit-raises-143-million-1-130000002.html"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek V4-Pro 正式出厂：代理能力拉满，下周起按峰谷涨价",
+      "summary": "DeepSeek 周四把预览了近四个月的旗舰做成正式版 V4-Pro-0813，Web/App/API 全开，主打 agent，并原生接上 OpenAI Responses API 和 Codex。公司自报 Terminal Bench 2.1 拿到 87.9，接近 Claude Fable 5。真正扎心的是钱：8 月 16 日 16:00 UTC 起取消一口价，改峰谷计价，V4-Pro 输出从现在的 $0.87/百万 token 涨到谷时 $1.98、峰时 $3.96——便宜午餐结束了。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://srnnews.com/deepseek-releases-official-v4-pro-model-as-it-steps-up-expansion/"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices"
+        }
+      ]
+    },
+    {
+      "title": "阿里 Qwen3.8 开源 2.4T 权重：Max 级第一次放出来",
+      "summary": "Qwen3.8-Max 8 月 3 日先上了云，本周权重真的落到 Hugging Face：Qwen3.8-2.4T-A95B，总参 2.4 万亿、每次激活 950 亿，原生 26 万 token 上下文、可拉到约 101 万。这是 Qwen 第一次把 Max 级模型开源，但开源档是纯文本、思考模式关不掉；带视觉、非思考和内置工具的还是云上的 Qwen3.8-Max。能自己跑的人很少，愿意为这体量买单的机房更少。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "label": "Alibaba Cloud",
+          "url": "https://www.alibabacloud.com/press-room/alibaba-unveils-qwen3-8-max"
+        },
+        {
+          "label": "NVIDIA",
+          "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/"
+        }
+      ]
+    },
+    {
+      "title": "DeepMind 把手语模型塞进 Pixel：对着手机比划就能打字",
+      "summary": "Google DeepMind 发布 SL2T，号称第一次把手语翻译从实验室塞进消费级产品：Pixel 11 的 Gboard 和 Live Transcribe 先上 ASL→英语，对着手机比划就能搜网页、回消息、叫 Gemini 干活。模型吃了超 10 万小时、覆盖 50 多种手语的数据，端上只传姿态关节点不传原视频；FLEURS-ASL 零样本拿到 70 BLEURT。聋人顾问委员会一起写了影响报告，更多手语和更多设备还在后面。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Google DeepMind",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Daybreak 上 AWS：红蓝两套网安模型进 Bedrock",
+      "summary": "OpenAI 把网安专项 Daybreak 接到 Amazon Bedrock：Blue 是带防御向护栏的 GPT-5.6 Sol，Red 是专门训过的 GPT-5.6 Cyber，给授权漏洞研究和利用链验证用。先在美东上线，得先加入 OpenAI 的 Trusted Access for Cyber。AWS 说自家安全团队已经在用；OpenAI 称 Cyber 在 Chrome V8 里挖到两个未知洞，修成了 CVE-2026-15903。攻防窗口越来越短，实验室开始把最锋利的刀只发给验过身份的人。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/"
+        },
+        {
+          "label": "AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT 广告扩到英日韩等五国：免费档继续养广告",
+      "summary": "OpenAI 8 月 11 日把 ChatGPT 广告测试从美国扩到英国、墨西哥、巴西、日本、韩国，Free 和 Go 登录成年用户会在回答下方看到赞助位。Plus/Pro/Business/Enterprise/Education 继续免广告；公司坚称广告不改答案、广告主看不到单条对话。免费午餐要靠广告续命，付费墙这边则在卖更贵的座位——两边同时加码。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/testing-ads-in-chatgpt/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 算了一笔账：现有再培训扛不住 AI 裁员潮",
+      "summary": "Anthropic 经济研究组和独立学者 David Roodman 复盘了 56 项美国随机实验：平均每人培训名额只多 2–3 个百分点就业、年收入大约多 1000 美元，成本却约 1.3 万美元，政府靠税收和少发福利大概回收一半。跟雇主对接的“行业项目”效果能大好几倍，但复制经常失败。结论很冷：若 AI 大规模挤人，现有再培训大概率不够用，得现在就扩最靠谱的项目并严格评估。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+        }
+      ]
+    }
+  ]
+}

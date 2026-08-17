@@ -1,0 +1,183 @@
+{
+  "id": "ai",
+  "title": "AI / LLM 热点",
+  "summary": "周末没发新旗舰，真新闻在落地层：OpenAI 给 Mac 记键盘、英伟达给俄亥俄机房砍担保、Anthropic 自己承认人工反馈平台关了生物过滤器 11 个月；融资看 Lovable 133 亿、Pathway 赌后 Transformer。",
+  "items": [
+    {
+      "title": "OpenAI 给 Mac 版 ChatGPT 上 Computer History：记键盘，不截屏",
+      "summary": "The Verge 周日跟进：macOS 桌面端给 Pro / Business / Enterprise 加了 opt-in 的 Computer History，用辅助功能记点击、打字、快捷键和切 App，做成时间线给 ChatGPT 和 Codex 当上下文。官方文档写明不截屏、不录音、隐私浏览一律不进；事件文件本机最多留 48 小时，记忆是未加密 Markdown。EEA、英国、瑞士现在用不了。取代 Chronicle 那套截屏方案，但同账号下别的程序仍可能读到明文记忆文件。",
+      "date": "2026-08-16",
+      "sources": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+        },
+        {
+          "label": "OpenAI Docs",
+          "url": "https://learn.chatgpt.com/docs/customization/computer-history"
+        }
+      ]
+    },
+    {
+      "title": "英伟达谈入股 SB Energy 30 亿，俄亥俄担保从 2500 亿砍到不到 1200 亿",
+      "summary": "路透转述 The Information：英伟达在谈向软银旗下 SB Energy 最多投 30 亿美元，并给 OpenAI 俄亥俄 10 吉瓦校园提供约 1000 亿美元信用支持。WSJ 更早报过担保从先前讨论的 2500 亿砍到首期不到 1200 亿，只覆盖前 5 吉瓦，周末前后可能签字。OpenAI 没投资级评级，借的是黄仁勋的资产负债表。各方都未官宣，数字还在晃。",
+      "date": "2026-08-15",
+      "sources": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15/"
+        },
+        {
+          "label": "Reuters / Tribune",
+          "url": "https://tribune.com.pk/story/2624107/nvidia-scales-back-funding-guarantee"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic 风险报告：人工反馈平台关了生物过滤器 11 个月，过了 1.33 亿条",
+      "summary": "公司 8 月 14 日放出 8 月风险报告，覆盖到 7 月 15 日。生物武器拦截分类器 2025 年 5 月就该上，结果到 2026 年 4 月在人工反馈平台全关：约 5 万人、1.33 亿轮对话。回头用 Sonnet 5 扫，高风险 1197 条，自家团队占 757。对齐灾难风险从「极低」调到「低」。还承认承包商偷到 API Key，Mythos Preview 在缺口里跑过约两周。Claude 自己审稿，说有一节「比完整记录更让人安心」。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Anthropic PDF",
+          "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-risk-report-bio-classifiers-human-feedback-gap"
+        }
+      ]
+    },
+    {
+      "title": "Lovable C 轮 4 亿美元，估值 133 亿",
+      "summary": "斯德哥尔摩 vibe coding 公司官方确认：Menlo Ventures 领投、EQT 管理的 Scaleup Europe Fund 联合领投，C 轮 4 亿美元、估值 133 亿美元，去年 12 月还是 66 亿。公司称项目超 6000 万、月访 9 亿，年化营收 6 月到 5 亿美元，团队要扩到约 450 人。腾讯、Balderton、Kaszek 新进。欧洲最贵的「用嘴写软件」故事，企业合同还得兑现。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Lovable",
+          "url": "https://lovable.dev/blog/series-c"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+        }
+      ]
+    },
+    {
+      "title": "Pathway 种子轮加到 3000 万、估值 5 亿：150M 模型跑 ARC-AGI-1 只要 0.07 美分",
+      "summary": "Palo Alto 的 Pathway 把种子轮补到 3000 万美元、估值 5 亿美元，钱主要买 GB300。同期放出 BDH-CQ：1.5 亿参数，ARC-AGI-1 pass@2 拿到 29.5%，单任务推理成本约 0.0007 美元，官方称比 GPT-5.6 Luna Low 便宜约 11 倍。架构是后 Transformer 的潜空间循环推理，不做思维链。顾问名单里有 Transformer 作者之一 Łukasz Kaiser，他说自己复现过这个分数。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Pathway",
+          "url": "https://pathway.com/blog/pathway-strikes-a-500m-valuation"
+        },
+        {
+          "label": "Pathway BDH-CQ",
+          "url": "https://pathway.com/blog/pathway-150m-model-breaks-arc-agi-1-cost-efficiency-frontier"
+        }
+      ]
+    },
+    {
+      "title": "Google Sheets canvas：一句话把表格变成可读写小应用",
+      "summary": "Google 8 月 13 日给 Sheets 加上 Gemini 驱动的 canvas：自然语言生成看板、座位图、学习追踪器，改画布或改格子双向实时同步，不用公式。英语全球对 AI Pro / Ultra 开放，Workspace Business / Enterprise Standard 和 Plus、教育版 AI Pro 同步铺。本质是把 vibe coding 塞进表格页签，不是再做一个仪表盘插件。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/"
+        },
+        {
+          "label": "Workspace Updates",
+          "url": "https://workspaceupdates.googleblog.com/2026/08/use-google-sheets-canvas-to-visualize-data.html"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT 商业版加 Premium 席：125 美元/月，用量乘五、取消五小时帽",
+      "summary": "OpenAI 给 ChatGPT Business 拆出 Premium 席：月付 125 美元、年付折合 100 美元，用量是 Standard（25 / 20 美元）的 5 倍，并取消进阶功能的五小时窗口。同一工作区可混搭。前 1 万名在 8 月 20 日前加入 waitlist 的客户，每加一席送 100 美元 workspace 积分，最多五席 500 美元。8 月 19 日起新增席位立刻按比例计费。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/premium-seats-chatgpt-business/"
+        },
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/ai-and-ml/2026/08/10/hey-big-spender-openai-has-a-new-sku-just-for-you/5285727"
+        }
+      ]
+    },
+    {
+      "title": "Cohere 开源 North Micro Vision：24 亿参数，按 A4 原分辨率读文档",
+      "summary": "Cohere Labs 放出 24 亿参数视觉语言模型 North-Micro-Vision-Instruct，Apache 2.0。视觉编码器 4 亿加语言底座 20 亿，原生分辨率最高到 1654×2339（A4、200 dpi），专攻 OCR、图表、文档。官方表里 DocVQA 0.921，对上 Ministral 3 3B 的 0.896。没有工具调用、没有推理环，就是本机读扫描件的小模型。权重在 Hugging Face。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/CohereLabs/meet-north-micro-vision-instruct"
+        },
+        {
+          "label": "Hugging Face Model",
+          "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct"
+        }
+      ]
+    },
+    {
+      "title": "Corma 种子轮 6000 万美元：红杉领投，专做防御侧基础模型",
+      "summary": "特拉维夫 / 旧金山的 Corma 从隐身里出来，种子轮 6000 万美元，红杉领投，Khosla、Coatue 跟投。不做通用模型，专训防御侧基础模型，吃日志、流量、审计事件，agent 嵌进现有安全栈。公司称用 OpenAI / Anthropic 模型对打时进攻能打穿、防守接不住；TNW 引仿真数字是进攻成功率 88%、防守拦住 12%。已在 Fortune 100 / 500 落地。2025 年成立。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "SecurityWeek",
+          "url": "https://www.securityweek.com/corma-raises-60-million-for-defensive-cybersecurity-ai-model/"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/corma-60m-seed-sequoia-defensive-cybersecurity-ai"
+        }
+      ]
+    },
+    {
+      "title": "英伟达 + Indosat 在日惹开印尼第一所大学 AI 中心",
+      "summary": "印尼通信数字部、UGM、Indosat、NVIDIA 8 月 13 日在日惹揭牌 NVAITC，挂在国家 AI Center of Excellence 下。算力走 NVIDIA 全栈和 Indosat 主权 GPU 云 GPU Merdeka，起步三个项目：电子鼻筛结核 eNose-TB、小农精准农业 SmartAgri、环太平洋灾害预警 Tech4Disaster。印尼一年新增超 100 万结核病例，农业占就业近 30%。Nemotron 开源模型是配套教材。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
+        },
+        {
+          "label": "TechNode Global",
+          "url": "https://technode.global/2026/08/14/indonesia-opens-first-university-based-ai-research-center-at-ugm-with-nvidia-indosat/"
+        }
+      ]
+    },
+    {
+      "title": "Gemini 可见水印可关：SynthID 和 C2PA 还在",
+      "summary": "The Verge / TechCrunch 周五：Google Labs 副总裁 Josh Woodward 确认，Gemini 和 Flow 设置里加了 Media watermark 开关，关掉后 Nano Banana / Omni / Lyria 生成的图、视频、音乐会去掉右下角 sparkle。看不见的 SynthID 和 C2PA 元数据继续打。Search 也会跟进，但强制可见水印的国家不开这个开关。OpenAI、Meta 本来就不打可见标，Google 这步是在对齐，不是放弃溯源。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic CEO：AI 舆论不是我吓的，是信任危机",
+      "summary": "TechCrunch 周日发：Dario Amodei 回击 All-In 投资人 Gavin Baker，不同意「警告风险导致美国反数据中心」。他说公众对 AI 观感确实差，根子是「根本性的信任危机」——不信公司、政府、科技圈。最准的批评是「大承诺还没兑现」，治癌症说出来不如真治好。政策上他坚持规则要同时管网安 / 生物 / 对齐、约束前沿公司、给开源权重留空间。",
+      "date": "2026-08-16",
+      "sources": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+        }
+      ]
+    }
+  ]
+}

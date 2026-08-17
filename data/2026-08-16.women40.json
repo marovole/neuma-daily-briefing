@@ -1,0 +1,178 @@
+{
+  "id": "women40",
+  "title": "40+ 女性热点",
+  "summary": "这一周不是鸡汤清单，是真事件：无激素潮热新药两边开打，歌后病逝被拿来讲心血管，40岁筛癌和「腹硬当发福」同时在华语圈刷屏。",
+  "items": [
+    {
+      "title": "【健康】单针抗体ABCL635：92人试验四周潮热少83%，股价一天涨34%",
+      "summary": "加拿大AbCellera 8月10日公布II期顶线：92名绝经后女性平均每天约10次中重度潮热，一针皮下600mg，四周频次降83%、安慰剂33%；严重程度降58%对12%。92人全部走完、无人因副作用退出，最常见是头痛、疲劳和注射部位反应。公司称美国约1200万女性有中重度潮热、超600万在求医，12周数据还在后头。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "AbCellera",
+          "url": "https://investors.abcellera.com/news/news-releases/2026/AbCellera-Announces-Positive-Top-Line-Phase-2-Clinical-Trial-Results-for-ABCL635-Demonstrating-Significant-Reduction-in-Frequency-and-Severity-of-Vasomotor-Symptoms-and-a-Favorable-Tolerability-Profile/default.aspx"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/healthcare/articles/abcellera-stock-surges-abcl635-menopause-131637503.html"
+        }
+      ]
+    },
+    {
+      "title": "【健康】英国批Lynkuet扩适应证：474人试验，乳腺癌内分泌治疗潮热有了无激素药",
+      "summary": "英国MHRA 8月12日批准Bayer的elinzanetant（Lynkuet）用于乳腺癌辅助内分泌治疗引起的中重度潮热，称是该适应证英国首个获批方案。OASIS-4在16国90个中心随机474人，第4周比安慰剂少3.5次/天、第12周少3.4次，睡眠量表改善6.1分。资料写绝经前患者最多95%、绝经后约30%会因此潮热；英国每年约5.9万女性新发乳腺癌。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "FirstWord Pharma",
+          "url": "https://firstwordpharma.com/story/7841475"
+        },
+        {
+          "label": "NEJM OASIS-4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40454634/"
+        }
+      ]
+    },
+    {
+      "title": "【生活】46岁Olivia Munn开Instagram系列：手术绝经后还在吃芳香化酶抑制剂",
+      "summary": "她8月13日发视频说自己在「长跑障碍」里：2023年确诊双侧Luminal B乳腺癌后切双乳，2024年4月切子宫和卵巢，直接从「还没到」跳进手术绝经。8月起吃阿那曲唑关掉体内雌激素通路，她说这些药很难熬，以后会单独拍一集讲手术绝经。当年Tyrer-Cuzick评分约37%才查出癌，基因检测却是阴性。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Us Weekly",
+          "url": "https://www.usmagazine.com/celebrity-news/news/olivia-munn-gives-update-on-her-breast-cancer-journey/"
+        },
+        {
+          "label": "Particle",
+          "url": "https://particle.news/story/olivia-munn-launches-instagram-series-on-ongoing-luminal-b-breast-cancer-recovery"
+        }
+      ]
+    },
+    {
+      "title": "【营养】64岁Rosie O'Donnell谈Mounjaro：三周掉12磅吓到以为得癌",
+      "summary": "她8月11日上Amy Poehler播客说，三年前医生为控2型糖尿病开了Mounjaro，完全没提会瘦。去Nobu吃不下，两周后称重发现三周掉了12磅，哭着打电话「我一定得癌了」。她说64岁才「从没这么舒服过」，三年大约减了65磅，也吐槽与其给代言费不如把药价降下来。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "Daily Mail",
+          "url": "https://www.dailymail.co.uk/tvshowbiz/article-16043843/Rosie-ODonnell-opens-dramatic-weight-loss-shedding-12lbs-three-weeks-using-Mounjaro.html"
+        },
+        {
+          "label": "Irish Star",
+          "url": "https://www.irishstar.com/culture/entertainment/rosie-odonnell-cancer-scare-doctors-37540699"
+        }
+      ]
+    },
+    {
+      "title": "【健康】台语歌后陈盈洁72岁病逝，医把更年期说成心血管「加速器」",
+      "summary": "陈盈洁8月12日晚7时在台北过世，晚年中风、失智、肾衰竭。家医许书华随后发文：卵巢衰退对心血管的伤害独立于老化，变化会在末次月经前后各一年里爆发；好看的HDL数字可能是假象。她点名热潮红、失眠、情绪低落可能是心脏警报，并提醒女性腰围尽量守在80厘米内。",
+      "date": "2026-08-15",
+      "sources": [
+        {
+          "label": "中时新闻网",
+          "url": "https://www.chinatimes.com/realtimenews/20260815002546-260418"
+        },
+        {
+          "label": "中央社",
+          "url": "https://www.cna.com.tw/news/amov/202608120336.aspx"
+        }
+      ]
+    },
+    {
+      "title": "【健康】ICU医生薄世宁在广州喊：40岁人人做一次防癌筛查",
+      "summary": "北大三院薄世宁8月12日在广州说，40岁后患癌风险指数级上升，临床绝大多数晚期癌前期没症状。他点名40岁起钼靶加超声查乳癌，早发现5年生存率可大于90%；肠镜、低剂量CT也别拖。他还引用研究：45.2%的癌症死亡可归因于吸烟、超重、加工肉等23种可改变因素。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "中国新闻网/新浪",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-13/doc-inincxkw0136282.shtml"
+        }
+      ]
+    },
+    {
+      "title": "【健康】75岁奶奶腹硬当发福，盆腔里是13厘米卵巢纤维瘤",
+      "summary": "陕西核工业二一五医院本周收治绝经20余年的罗奶奶，下腹发胀发硬一直当老年发胖，检查发现13厘米囊实性包块，确诊良性卵巢纤维瘤。她合并高血压、脑梗，多学科做腹腔镜完整切除，9天出院。院方提醒：绝经不等于没妇科病，腰围异常增粗别拖着。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "环球网/新浪",
+          "url": "https://finance.sina.com.cn/roll/2026-08-14/doc-ininfvzx9525990.shtml"
+        }
+      ]
+    },
+    {
+      "title": "【健康】台湾乳癌筛检率卡在39.1%，协会喊别拿抽血指数当挡箭牌",
+      "summary": "常春月刊8月14日援引乳癌病友协会：公费乳房X光已扩到40–74岁每两年一次，但筛检率仅约39.1%，远低于欧美60%–80%。协会强调肿瘤标记不能替代摄影；国健署数据称两年一次摄影可降41%乳癌死亡，早期五年存活率九成以上、晚期约39.2%。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Yahoo奇摩/常春月刊",
+          "url": "https://tw.news.yahoo.com/%E4%B9%B3%E7%99%8C%E7%AF%A9%E6%AA%A2%E7%8E%87%E5%83%854%E6%88%90-%E6%8A%BD%E8%A1%80%E9%A9%97%E7%99%8C%E7%97%87%E6%8C%87%E6%95%B8%E6%AD%A3%E5%B8%B8%E5%B0%B1%E6%B2%92%E4%BA%8B-%E9%86%AB%E6%8F%AD%E4%B9%B3%E6%88%BFx%E5%85%89%E6%94%9D%E5%BD%B1%E9%87%8D%E8%A6%81%E6%80%A7-001558305.html"
+        },
+        {
+          "label": "优活健康网",
+          "url": "https://www.uho.com.tw/article-70136.html"
+        }
+      ]
+    },
+    {
+      "title": "【生活】TikTok女患者看了四个妇科仍要不来HRT，带丈夫去才被开化验单",
+      "summary": "英国媒体8月14日盯上这条围绝经期视频：她换了四位妇科，被建议饮食运动、SSRI和避孕药，HRT一直没谈拢；她说「也许他们会听我丈夫的」。带上丈夫后医生开了实验室检查和超声。视频在Reddit引发跟帖，不少人说带伴侣看病更被当回事。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Fashion Times",
+          "url": "https://www.fashiontimes.co.uk/womans-tiktok-highlights-perimenopause-healthcare-struggles-1762730"
+        }
+      ]
+    },
+    {
+      "title": "【健康】剑桥+ICR：NICE标准漏掉最多95%十年内会得乳癌的50岁以下女性",
+      "summary": "8月4日《British Journal of Cancer》分析Generations Study里1258名50岁以下女性。现行NICE只靠家族史，只能转诊1.4%的人、覆盖后来得癌者的4.4%；全套BOADICEA能标出26.5%，覆盖34.8%。关键数字：73%十年内得癌的50岁以下女性根本没有乳癌家族史。NICE说欢迎研究但暂不改指南。",
+      "date": "2026-08-04",
+      "sources": [
+        {
+          "label": "University of Cambridge",
+          "url": "https://www.cam.ac.uk/research/news/nice-referral-criteria-miss-up-to-95-of-women-under-50-who-go-on-to-develop-breast-cancer-within-10"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/ckgv652r625o"
+        }
+      ]
+    },
+    {
+      "title": "【健康】英国衰老队列6509人跟了20年：新发心绞痛后骨质疏松风险高62%",
+      "summary": "8月5日BMC Public Health用ELSA第1到11波数据，基线无心绞痛也无骨质疏松的6509人入组。完全校正后，新发心绞痛随后发生骨质疏松的HR=1.621（95% CI 1.081–2.430）。机器学习把随时间变化的心绞痛排进骨质疏松的重要预测因子，多变量模型AUC 0.793。",
+      "date": "2026-08-05",
+      "sources": [
+        {
+          "label": "BMC Public Health",
+          "url": "https://link.springer.com/article/10.1186/s12889-026-28218-y"
+        }
+      ]
+    },
+    {
+      "title": "【营养】台湾减重医把Science 6400人代谢曲线搬上版面：更年期肚子是「脂肪搬家」",
+      "summary": "三立新闻8月10日报道萧捷健引用2021年Science对全球6400多人的能量消耗分析：45–60岁代谢率并没有崩。他给出的对照数字是停经前内脏脂肪约占体脂5%–8%，停经后爬到15%–20%；另有研究称50–70岁女性节食20周平均减10.8公斤，其中32%是肌肉。他还提到大豆异黄酮约50毫克连补6周以上，热潮红频率可降约20%。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "三立新闻网",
+          "url": "https://www.setn.com/news/1887048"
+        }
+      ]
+    },
+    {
+      "title": "【健康】111名绝经后骨质疏松女性：血管内皮功能差，低风险组里仍有55%测得低FMD",
+      "summary": "法国克莱蒙费朗大学医院队列8月6日见刊：111名绝经后骨质疏松女性，平均69.4岁，肱动脉血流介导舒张均值仅3.14%。49.5%被SCORE2/2-OP标成高/极高危；即便分在低/中危的人里，仍有55% FMD偏低。FMD与曾用双膦酸盐呈正相关（r=0.270），和传统骨指标反而对不上。",
+      "date": "2026-08-06",
+      "sources": [
+        {
+          "label": "University of Surrey",
+          "url": "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Postmenopausal-Osteoporosis-Endothelial-Dysfunction-and-Cardiovascular/991133695502346"
+        }
+      ]
+    }
+  ]
+}

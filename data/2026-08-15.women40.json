@@ -1,0 +1,178 @@
+{
+  "id": "women40",
+  "title": "40+ 女性热点",
+  "summary": "这周不是鸡汤周：广州团队把「运动延缓卵巢衰老」写进Nature Aging，早绝经叠加失业被证实放大死亡和痴呆；哈莉·贝瑞满60岁、林志玲晒甜菜根、舒淇喊「40岁后不能不吃」，中美两边都在把更年期从私密话题拽到台前。",
+  "items": [
+    {
+      "title": "【健康】广州团队Nature Aging：运动延缓卵巢衰老，英生物银行15.2万人印证",
+      "summary": "广州医科大学附属脑科医院团队14日在Nature Aging发文：英国生物银行15.2435万人横断面显示，绝经后女性体力活动明显低于未绝经者，美国NHANES 1.2418人同样趋势。小鼠实验里运动通过卵巢脂联素通路推迟卵巢老化，敲除脂联素后保护减弱；受体激动剂AdipoRon还能延长生殖寿命。目前没有获批的「延缓卵巢衰老」药，这篇把运动写成可验证的行为干预。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "Nature Aging 论文",
+          "url": "https://www.nature.com/articles/s43587-026-01177-0"
+        },
+        {
+          "label": "Nature Aging 速览",
+          "url": "https://www.nature.com/articles/s43587-026-01176-1"
+        }
+      ]
+    },
+    {
+      "title": "【健康】早绝经再叠加失业：近2万女性随访10.8年，全因死亡和痴呆被放大",
+      "summary": "北美更年期学会12日在Menopause发表：近2万名48岁前自然绝经女性，按14项社会决定因素分成优/中/差三组，中位随访10.8年。社会劣势显著抬高全因死亡、心血管病和新发痴呆，14项里失业与死亡、痴呆关联最强；癌症没有显著关联。全球约6%女性会早绝经，作者呼吁把就业、住房、医保写进更年期问诊，别只盯激素。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "The Menopause Society",
+          "url": "https://menopause.org/press-releases/social-disadvantage-greatly-amplifies-risk-of-mortality-in-women-with-early-menopause"
+        },
+        {
+          "label": "News-Medical",
+          "url": "https://www.news-medical.net/news/20260812/Social-disadvantage-associated-with-increased-mortality-risk-in-women-with-early-natural-menopause.aspx"
+        }
+      ]
+    },
+    {
+      "title": "【生活】哈莉·贝瑞满60岁，斐济庆生顺手推59美元无激素阴道凝胶",
+      "summary": "奥斯卡影后8月14日满60岁，提前在斐济拍片喊「要像桃子一样多汁」，和Joylux推出FDA许可、无激素的Juicy Like a Peach凝胶，Ulta标价59美元、约30次用量。她说医生多年没提围绝经期，性交痛到像刀片才自己钻进更年期赛道。WWD转述《国际妇女健康杂志》综述：绝经后阴道干涩可高达50%。",
+      "date": "2026-08-14",
+      "sources": [
+        {
+          "label": "TheGrio",
+          "url": "https://thegrio.com/2026/08/03/halle-berry-60-birthday-juicy-like-a-peach/"
+        },
+        {
+          "label": "WWD",
+          "url": "https://wwd.com/shop/shop-beauty/halle-berry-vaginal-gel-menopause-symptoms-where-to-buy-1239091731/"
+        }
+      ]
+    },
+    {
+      "title": "【营养】51岁林志玲晒甜菜根早餐，医引英国75人试验：60岁后喝汁两周能降压",
+      "summary": "中时11日报道，林志玲在脸书分享燕麦、奇亚籽、优格配甜菜根，说「帮助血液循环」。肾内科医师江守山转述英国埃克塞特大学《自由基生物学与医学》交叉试验：75人（39名30岁以下、36名60–70岁）喝含硝酸盐甜菜根汁对比去硝酸盐安慰剂，连续两周每天两次后，只有年长组血压下降，口腔Prevotella减少、Neisseria上升。年轻组没看到降压。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "中时新闻网",
+          "url": "https://www.chinatimes.com/realtimenews/20260811001562-260418"
+        }
+      ]
+    },
+    {
+      "title": "【健康】BRCA别急着切卵巢：334人试验，只切输卵管一年性功能恶化少一半",
+      "summary": "Moffitt的Karen Lu团队写入JAMA Network Open：334名遗传突变携带者（入组均值39.2岁，BRCA1占49.1%）自选手术，165人切卵巢+输卵管、169人先只切输卵管。12个月性功能明显恶化分别是39.2%对18.3%；切卵巢又不做HRT的人，12个月恶化高达73.7%。中位随访73个月无人发生浸润性卵巢癌，但防癌效力还要等3000人的TUBA-WISP II。",
+      "date": "2026-08-13",
+      "sources": [
+        {
+          "label": "Healio",
+          "url": "https://www.healio.com/news/hematology-oncology/20260813/novel-ovarian-cancer-prevention-surgery-benefits-sexual-function-menopausal-symptoms"
+        }
+      ]
+    },
+    {
+      "title": "【健康】卵巢不是被动仓库：小鼠3D图谱发现一生只唤醒约14%卵子",
+      "summary": "巴塞罗那基因组调控中心12日在Nature Aging交出第一张哺乳动物卵巢全生殖寿命3D地图：100多枚完整小鼠卵巢、AI数了超过8.5万个卵细胞。总储备掉约十倍，处于「休眠转生长」窗口的比例却一辈子钉在约14%。人类出生约100万卵，青春期剩约40万，绝经时约1000个、真正排卵约400个。作者说如果弄清大量卵子为何未排卵就损耗，才有机会推迟更年期。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "MedicalXpress",
+          "url": "https://medicalxpress.com/news/2026-08-3d-lifespan-mouse-ovaries-constant.html"
+        },
+        {
+          "label": "Nature Aging",
+          "url": "https://www.nature.com/articles/s43587-026-01178-z"
+        }
+      ]
+    },
+    {
+      "title": "【生活】1000名围绝经女性调查：三分之一不知道它会搞砸心情，七成拖半年才醒悟",
+      "summary": "心理健康连锁LifeStance 11日发布Dynata调查：1000名1960–1990年出生、自认围绝经或绝经的女性，33%不知道围绝经期会带来精神症状，66%说焦虑偏重或极重，54%说抑郁同样严重；74%症状持续六个月以上才怀疑是更年期。去过心理咨询的人里83%觉得有用，47%主张精神健康该写进围绝经期标准诊疗。文中引用2023 Mayo Clinic估算：更年期症状每年让美国少赚18亿美元生产力。",
+      "date": "2026-08-11",
+      "sources": [
+        {
+          "label": "PR Newswire / LifeStance",
+          "url": "https://www.prnewswire.com/news-releases/lifestance-survey-finds-women-want-mental-healthcare-built-into-perimenopause-and-menopause-care-302847433.html"
+        }
+      ]
+    },
+    {
+      "title": "【生活】印度卡纳塔克邦要让ASHA上门抓更年期，Ruthu Thare拟8月21日开跑",
+      "summary": "《印度教徒报》10日报道，卫生部长U.T. Khader宣布全邦公卫行动Ruthu Thare，暂定8月21日启动：第一阶段培训ASHA入户识别绝经女性并填问卷，第二阶段抓围绝经期和手术绝经高风险。委员会主席妇科医生Jyotsna Mirlay说，很多女性因围绝经期大出血被切子宫和双侧卵巢，事后才知道冠心病、骨折风险。女演员Divya Spandana将任妇女健康政策形象大使。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/health-department-to-soon-launch-ruthu-thare-a-state-wide-campaign-to-deal-with-perimenopause-and-menopause/article71328489.ece"
+        }
+      ]
+    },
+    {
+      "title": "【生活】围绝经期Reddit一年翻近四倍：40–44岁女性42%不确定自己到没到",
+      "summary": "Stacker/Ivim 10日盘点：r/perimenopause在2025上半年订阅量相对2024同期几乎翻四倍；Weber Shandwick引用Reddit 2026年4月调查，70%女性觉得论坛让自己更敢跟医生谈。仍在转的Flo Health×Mayo《Menopause》7月14日研究：7640名35岁以上美国女性里34%说不清自己处在哪一生殖阶段，40–44岁高达42%。Pew 6月还发现55%的30–40多岁女性会从网红那儿拿健康信息。",
+      "date": "2026-08-10",
+      "sources": [
+        {
+          "label": "LocalNews8 / Stacker",
+          "url": "https://localnews8.com/stacker-womens-health/2026/08/10/women-are-building-online-communities-to-get-answers-about-whether-theyre-in-perimenopause/"
+        },
+        {
+          "label": "Flo Health（7月14日研究）",
+          "url": "https://flo.health/newsroom/a-perimenopause-guessing-game-flo-health-study-reveals-1-in-3-women-age-35-are-unsure-of-their-reproductive-stage"
+        }
+      ]
+    },
+    {
+      "title": "【生活】舒淇上《毛雪汪》：50岁放话「40岁后不能不吃」，体重锁死50公斤",
+      "summary": "金马影后8月3日做客李雪琴、毛不易的《毛雪汪》，抛出分龄吃法：40岁前少吃，过了40太瘦会「柴」、脸垮，35岁后得留一点肉。她说体重常年锁在50公斤，涨3公斤就启动管控，晚餐卡在下午6点前、睡前5小时不进食。中时4日跟进她IG短发下颌线照，粉丝喊「根本30岁」。",
+      "date": "2026-08-03",
+      "sources": [
+        {
+          "label": "中时新闻网",
+          "url": "https://www.chinatimes.com/realtimenews/20260804001806-260404"
+        },
+        {
+          "label": "新唐人",
+          "url": "https://www.ntdtv.com/gb/2026/08/05/a104121454.html"
+        }
+      ]
+    },
+    {
+      "title": "【健康】协和谭先杰上央视：40岁后单纯补雌激素会加子宫内膜癌，微博冲上话题",
+      "summary": "8月4日央视新闻经北京日报官微放出话题#40岁后不要单纯补充雌激素#：北京协和妇产科主任医师谭先杰说，有子宫的人只补雌激素、没有孕激素对抗，内膜被长期刺激，癌风险是升不是降。他强调要雌孕激素一起用、形成周期性出血，必须医生指导，别当抗衰老保健品乱吃。新浪、中安在线当天同步转载。",
+      "date": "2026-08-04",
+      "sources": [
+        {
+          "label": "新浪财经 / 北京晚报",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-04/doc-inimeefm2005473.shtml"
+        },
+        {
+          "label": "北京日报微博",
+          "url": "https://weibo.com/1617264814/RbRxmD54f"
+        }
+      ]
+    },
+    {
+      "title": "【营养】612名绝经后女性两年RCT：脂质体维D3骨密度比安慰剂多涨约1.7个百分点",
+      "summary": "《欧洲临床营养杂志》7日：50–75岁、T值-1.5到-2.5的612人分成普通维D3 1200IU、微粉化1200IU、脂质体800IU（均加钙1000mg）和安慰剂，各153人跟24个月。脂质体组25(OH)D到38.2 ng/mL，高于普通维D3的28.5；股骨颈和腰椎BMD均升2.8%，安慰剂升1.1%。新发脆性骨折脂质体1例（0.7%）对安慰剂8例（5.2%），但p=0.059未过统计门槛。",
+      "date": "2026-08-07",
+      "sources": [
+        {
+          "label": "European Journal of Clinical Nutrition",
+          "url": "https://www.nature.com/articles/s41430-026-01789-0"
+        }
+      ]
+    },
+    {
+      "title": "【健康】佐力药业灵莲花颗粒获批扩围绝经期焦虑试验，称中国更年期女性约2.1亿",
+      "summary": "8月12日A股公告：独家OTC灵莲花颗粒拿到国家药监局临床试验批件（中药2.3类，受理号CXZL2600050），拟新增「围绝经期综合征伴焦虑状态心肾不交证」。原适应症已是围绝经期心肾不交，核心原料乌灵菌粉。公司称中国更年期女性约2.1亿，并提醒研发周期长、对眼前业绩无重大影响。",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "label": "新浪财经 / 界面",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-12/doc-ininaezp3947571.shtml"
+        }
+      ]
+    }
+  ]
+}
