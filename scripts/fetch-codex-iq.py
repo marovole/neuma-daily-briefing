@@ -34,6 +34,7 @@ def empty_day(date):
             {'id': 'ai', 'title': 'AI / LLM 热点', 'summary': '', 'items': []},
             {'id': 'women40', 'title': '40+ 女性热点', 'summary': '', 'items': []},
             {'id': 'pharma', 'title': '健康医药产业', 'summary': '', 'items': []},
+            {'id': 'explore', 'title': '探险 / 好玩的', 'summary': '', 'items': []},
         ],
     }
 
@@ -128,7 +129,7 @@ def merge_section(day, section):
     if not seen:
         out.append(section)
     # preferred order
-    order = ['ai', 'women40', 'pharma', 'codexiq']
+    order = ['ai', 'women40', 'pharma', 'codexiq', 'explore']
     by = {s['id']: s for s in out if s.get('id')}
     ordered = [by[i] for i in order if i in by]
     for s in out:

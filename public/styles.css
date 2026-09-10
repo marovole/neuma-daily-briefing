@@ -17,6 +17,8 @@
   --women-soft: rgba(163, 77, 122, 0.08);
   --codex: #5b4db8;
   --codex-soft: rgba(91, 77, 184, 0.08);
+  --explore: #b07219;
+  --explore-soft: rgba(176, 114, 25, 0.08);
   --shadow: 0 10px 30px rgba(40, 32, 20, 0.06);
   --radius: 16px;
   --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -163,6 +165,7 @@ body {
 .tab.active[data-id="ai"] { color: var(--ai); border-color: rgba(31,111,139,0.28); background: var(--ai-soft); }
 .tab.active[data-id="pharma"] { color: var(--pharma); border-color: rgba(47,125,74,0.28); background: var(--pharma-soft); }
 .tab.active[data-id="women40"] { color: var(--women); border-color: rgba(163,77,122,0.28); background: var(--women-soft); }
+.tab.active[data-id="explore"] { color: var(--explore); border-color: rgba(176,114,25,0.28); background: var(--explore-soft); }
 
 .tab .count {
   margin-left: 0.35rem;
@@ -260,6 +263,7 @@ body {
 .topic-panel[data-id="ai"] .item-index { color: var(--ai); background: var(--ai-soft); }
 .topic-panel[data-id="pharma"] .item-index { color: var(--pharma); background: var(--pharma-soft); }
 .topic-panel[data-id="women40"] .item-index { color: var(--women); background: var(--women-soft); }
+.topic-panel[data-id="explore"] .item-index { color: var(--explore); background: var(--explore-soft); }
 
 .item-body { min-width: 0; }
 
@@ -371,3 +375,5 @@ body {
 
 .tab.active[data-id="codexiq"] { color: var(--codex); border-color: rgba(91,77,184,0.28); background: var(--codex-soft); }
 .topic-panel[data-id="codexiq"] .item-index { color: var(--codex); background: var(--codex-soft); }
+.tab.active[data-id="explore"] { color: var(--explore); border-color: rgba(176,114,25,0.28); background: var(--explore-soft); }
+.topic-panel[data-id="explore"] .item-index { color: var(--explore); background: var(--explore-soft); }
