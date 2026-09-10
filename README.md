@@ -2,8 +2,8 @@
 
 Live site: https://news.neumabio.xyz
 
-中文 UI 每日简报：四个分页 AI/LLM、40+ 女性、健康医药、Codex IQ。
-Four tabs: AI/LLM, women 40+, pharma, Codex IQ.
+中文 UI 每日简报：五个分页 AI/LLM、40+ 女性、健康医药、Codex IQ、探险。
+Five tabs: AI/LLM, women 40+, pharma, Codex IQ, explore.
 
 ## Run locally
 
@@ -28,7 +28,7 @@ Set UPDATE_TOKEN in the environment. Do not commit tokens or .update_token.
 
 JSON lives under data/:
 - data/YYYY-MM-DD.json : merged day used by the site
-- data/YYYY-MM-DD.ai.json / .women40.json / .pharma.json / .codexiq.json : optional per-tab sources
+- data/YYYY-MM-DD.ai.json / .women40.json / .pharma.json / .codexiq.json / .explore.json : optional per-tab sources
 
 ## Railway
 

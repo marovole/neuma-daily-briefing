@@ -11,12 +11,14 @@ TOKEN = Path('/home/box/sand-data/agents/fb520e9d-5d10-483f-ab42-88fa609421aa/se
 DATA = Path('/workspace/daily-briefing-site/data')
 TZ = ZoneInfo('Asia/Singapore')
 UA = {'User-Agent': 'NeumaBriefing/1.0', 'Accept': 'application/json'}
-ORDER = ['ai', 'women40', 'pharma', 'codexiq']
+# Stable tab order: AI / 40+ women / pharma / Codex IQ, then Ezreal explore.
+ORDER = ['ai', 'women40', 'pharma', 'codexiq', 'explore']
 TITLES = {
     'ai': 'AI / LLM 热点',
     'women40': '40+ 女性热点',
     'pharma': '健康医药产业',
     'codexiq': 'Codex IQ 雷达',
+    'explore': '探险 / 好玩的',
 }
 
 def today():
@@ -107,7 +109,7 @@ def main():
         day = empty_day(date)
 
     extras = []
-    for sid in ('ai', 'pharma', 'women40', 'codexiq'):
+    for sid in ('ai', 'pharma', 'women40', 'codexiq', 'explore'):
         extras.append(section_from_blob(load_json(DATA / f'{date}.{sid}.json'), sid))
 
     # workspace copies written by 6:00 routines

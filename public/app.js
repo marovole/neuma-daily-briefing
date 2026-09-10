@@ -1,10 +1,12 @@
 const TZ = "Asia/Singapore";
-const TAB_ORDER = ["ai", "women40", "pharma", "codexiq"];
+// Stable tab order: AI / 40+ women / pharma / Codex IQ, then Ezreal explore.
+const TAB_ORDER = ["ai", "women40", "pharma", "codexiq", "explore"];
 const TAB_LABELS = {
   ai: "AI / LLM",
   pharma: "健康医药",
   women40: "40+ 女性",
   codexiq: "Codex IQ",
+  explore: "探险",
 };
 
 function $(sel) {
